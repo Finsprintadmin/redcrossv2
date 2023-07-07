@@ -21,7 +21,7 @@ Route::get('/', function () {
     return view('index');
 });
 Route::get('/campaigns', function () {
-    return view('campaigns');
+    return view('sections.campaigns');
 });
 
 //Route::get('/', 'DashboardController@index')->name('index');
