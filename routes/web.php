@@ -1,5 +1,6 @@
 <?php
 
+
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -19,3 +20,8 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('index');
 });
+Route::get('/campaigns', function () {
+    return view('campaigns');
+});
+
+//Route::get('/', 'DashboardController@index')->name('index');
