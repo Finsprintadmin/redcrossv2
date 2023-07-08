@@ -555,6 +555,10 @@
 <!-- Custom JS -->
 <script src="../assets/js/custom.js"></script>
 
+<!-- Date & Time Picker JS -->
+<script src="../assets/libs/flatpickr/flatpickr.min.js"></script>
+<script src="../assets/js/date&time_pickers.js"></script>
+
 </body>
 
 </html>
