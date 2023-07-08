@@ -6,9 +6,9 @@ use Illuminate\Http\Request;
 
 class DashboardController extends Controller
 {
-    public function pledges(){
+    public function Index(){
 
-        return view('pledges');
+        return view('index');
 
     }
 }

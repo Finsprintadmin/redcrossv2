@@ -1,6 +1,7 @@
 <?php
 
-
+use App\Http\Controllers\DashboardController;
+use App\Http\Controllers\SectionsController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -14,14 +15,12 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-//Route::get('/', function () {
-//    return view('welcome');
-//});
-Route::get('/', function () {
-    return view('index');
-});
-Route::get('/campaigns', function () {
-    return view('sections.campaigns');
-});
+Route::get('/', [DashboardController::class, 'Index'])->name('home');
 
-//Route::get('/', 'DashboardController@index')->name('index');
+Route::get('/pledges', [SectionsController::class, 'Pledges'])->name('pledges');
+
+Route::get('/transactions', [SectionsController::class, 'Transactions'])->name('transactions');
+
+Route::get('/donors', [SectionsController::class, 'Donors'])->name('donors');
+
+Route::get('/campaigns', [SectionsController::class, 'Campaigns'])->name('campaigns');

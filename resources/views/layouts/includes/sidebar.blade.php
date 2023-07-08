@@ -28,7 +28,7 @@
 
                 <!-- Start::slide -->
 
-                    <a href="javascript:void(0);" class="side-menu__item">
+                    <a href="{{route('home')}}" class="side-menu__item">
                         <i class="bx bx-file-blank side-menu__icon"></i>
                         <span class="side-menu__label">Dashboard</span>
                     </a>
@@ -39,7 +39,7 @@
                 <!-- End::slide__category -->
 
                 <!-- Start::slide -->
-                    <a href="javascript:void(0);" class="side-menu__item">
+                    <a href="{{route('pledges')}}" class="side-menu__item">
                         <i class="bx bx-box side-menu__icon"></i>
                         <span class="side-menu__label">Pledges</span>
                     </a>
@@ -48,7 +48,7 @@
 
                 <!-- Start::slide -->
 
-                    <a href="javascript:void(0);" class="side-menu__item">
+                    <a href="{{route('transactions')}}" class="side-menu__item">
                         <i class="bx bx-medal side-menu__icon"></i>
                         <span class="side-menu__label">Transactions</span>
                     </a>
@@ -57,7 +57,7 @@
 
                 <!-- Start::slide -->
 
-                    <a href="javascript:void(0);" class="side-menu__item">
+                    <a href="{{route('donors')}}" class="side-menu__item">
                         <i class="bx bx-file side-menu__icon"></i>
                         <span class="side-menu__label">Donors</span>
                     </a>
@@ -66,7 +66,7 @@
 
                 <!-- Start::slide -->
 
-                    <a href="javascript:void(0);" class="side-menu__item">
+                    <a href="{{route('campaigns')}}" class="side-menu__item">
                         <i class="bx bx-party side-menu__icon"></i>
                         <span class="side-menu__label">Campaigns</span>
                     </a>
