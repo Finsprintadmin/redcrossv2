@@ -13,40 +13,40 @@
     <meta name="keywords" content="admin,admin dashboard,admin panel,admin template,bootstrap,clean,dashboard,flat,jquery,modern,responsive,premium admin templates,responsive admin,ui,ui kit.">
 
     <!-- Favicon -->
-    <link rel="icon" href="../assets/images/brand-logos/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="{{asset('assets/images/brand-logos/favicon.ico')}}" type="image/x-icon">
 
     <!-- Choices JS -->
-    <script src="../assets/libs/choices.js/public/assets/scripts/choices.min.js"></script>
+    <script src="{{asset('assets/libs/choices.js/public/assets/scripts/choices.min.js')}}"></script>
 
     <!-- Main Theme Js -->
-    <script src="../assets/js/main.js"></script>
+    <script src="{{asset('assets/js/main.js')}}"></script>
 
     <!-- Bootstrap Css -->
-    <link id="style" href="../assets/libs/bootstrap/css/bootstrap.min.css" rel="stylesheet" >
+    <link id="style" href="{{asset('assets/libs/bootstrap/css/bootstrap.min.css')}}" rel="stylesheet" >
 
     <!-- Style Css -->
-    <link href="../assets/css/styles.min.css" rel="stylesheet" >
+    <link href="{{asset('assets/css/styles.min.css')}}" rel="stylesheet" >
 
     <!-- Icons Css -->
-    <link href="../assets/css/icons.css" rel="stylesheet" >
+    <link href="{{asset('assets/css/icons.css')}}" rel="stylesheet" >
 
     <!-- Node Waves Css -->
-    <link href="../assets/libs/node-waves/waves.min.css" rel="stylesheet" >
+    <link href="{{asset('assets/libs/node-waves/waves.min.css')}}" rel="stylesheet" >
 
     <!-- Simplebar Css -->
-    <link href="../assets/libs/simplebar/simplebar.min.css" rel="stylesheet" >
+    <link href="{{asset('assets/libs/simplebar/simplebar.min.css')}}" rel="stylesheet" >
 
     <!-- Color Picker Css -->
-    <link rel="stylesheet" href="../assets/libs/flatpickr/flatpickr.min.css">
-    <link rel="stylesheet" href="../assets/libs/@simonwep/pickr/themes/nano.min.css">
+    <link rel="stylesheet" href="{{asset('assets/libs/flatpickr/flatpickr.min.css')}}">
+    <link rel="stylesheet" href="{{asset('assets/libs/@simonwep/pickr/themes/nano.min.css')}}">
 
     <!-- Choices Css -->
-    <link rel="stylesheet" href="../assets/libs/choices.js/public/assets/styles/choices.min.css">
+    <link rel="stylesheet" href="{{asset('assets/libs/choices.js/public/assets/styles/choices.min.css')}}">
 
 
-    <link rel="stylesheet" href="../assets/libs/jsvectormap/css/jsvectormap.min.css">
+    <link rel="stylesheet" href="{{asset('assets/libs/jsvectormap/css/jsvectormap.min.css')}}">
 
-    <link rel="stylesheet" href="../assets/libs/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="{{asset('assets/libs/swiper/swiper-bundle.min.css')}}">
 
 </head>
 
@@ -511,53 +511,56 @@
 <div id="responsive-overlay"></div>
 
 <!-- Popper JS -->
-<script src="../assets/libs/@popperjs/core/umd/popper.min.js"></script>
+<script src="{{asset('assets/libs/@popperjs/core/umd/popper.min.js')}}"></script>
 
 <!-- Bootstrap JS -->
-<script src="../assets/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="{{asset('assets/libs/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
 
 <!-- Defaultmenu JS -->
-<script src="../assets/js/defaultmenu.min.js"></script>
+<script src="{{asset('assets/js/defaultmenu.min.js')}}"></script>
 
 <!-- Node Waves JS-->
-<script src="../assets/libs/node-waves/waves.min.js"></script>
+<script src="{{asset('assets/libs/node-waves/waves.min.js')}}"></script>
 
 <!-- Sticky JS -->
-<script src="../assets/js/sticky.js"></script>
+<script src="{{asset('assets/js/sticky.js')}}"></script>
 
 <!-- Simplebar JS -->
-<script src="../assets/libs/simplebar/simplebar.min.js"></script>
-<script src="../assets/js/simplebar.js"></script>
+<script src="{{asset('assets/libs/simplebar/simplebar.min.js')}}"></script>
+<script src="{{asset('assets/js/simplebar.js')}}"></script>
 
 <!-- Color Picker JS -->
-<script src="../assets/libs/@simonwep/pickr/pickr.es5.min.js"></script>
+<script src="{{asset('assets/libs/@simonwep/pickr/pickr.es5.min.js')}}"></script>
 
 
 <!-- JSVector Maps JS -->
-<script src="../assets/libs/jsvectormap/js/jsvectormap.min.js"></script>
+<script src="{{asset('assets/libs/jsvectormap/js/jsvectormap.min.js')}}"></script>
 
 <!-- JSVector Maps MapsJS -->
-<script src="../assets/libs/jsvectormap/maps/world-merc.js"></script>
+<script src="{{asset('assets/libs/jsvectormap/maps/world-merc.js')}}"></script>
 
 <!-- Apex Charts JS -->
-<script src="../assets/libs/apexcharts/apexcharts.min.js"></script>
+<script src="{{asset('assets/libs/apexcharts/apexcharts.min.js')}}"></script>
 
 <!-- Chartjs Chart JS -->
-<script src="../assets/libs/chart.js/chart.min.js"></script>
+<script src="{{asset('assets/libs/chart.js/chart.min.js')}}"></script>
 
 <!-- CRM-Dashboard -->
-<script src="../assets/js/crm-dashboard.js"></script>
+<script src="{{asset('assets/js/crm-dashboard.js')}}"></script>
+
+<!-- Jobs-Dashboard -->
+<script src="{{asset('assets/js/jobs-dashboard.js')}}"></script>
 
 
 <!-- Custom-Switcher JS -->
-<script src="../assets/js/custom-switcher.min.js"></script>
+<script src="{{asset('assets/js/custom-switcher.min.js')}}"></script>
 
 <!-- Custom JS -->
-<script src="../assets/js/custom.js"></script>
+<script src="{{asset('assets/js/custom.js')}}"></script>
 
 <!-- Date & Time Picker JS -->
-<script src="../assets/libs/flatpickr/flatpickr.min.js"></script>
-<script src="../assets/js/date&time_pickers.js"></script>
+<script src="{{asset('assets/libs/flatpickr/flatpickr.min.js')}}"></script>
+<script src="{{asset('assets/js/date&time_pickers.js')}}"></script>
 
 </body>
 
