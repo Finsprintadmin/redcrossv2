@@ -21,6 +21,7 @@
 
             <!-- Start::row-1 -->
             <div class="row">
+
                 <div class="col-xxl-9">
                     <div class="row">
                         <div class="col-xxl-4 col-xl-4 col-lg-12">
@@ -123,6 +124,7 @@
                                     <div class="card-title">
                                         Revenue Analytics
                                     </div>
+
                                     <div class="dropdown">
                                         <a href="javascript:void(0);" class="p-2 fs-12 text-muted" data-bs-toggle="dropdown"
                                            aria-expanded="false">
@@ -146,149 +148,80 @@
                 <div class="col-xxl-3">
                     <div class="row">
                         <div class="col-xl-12">
-                            <div class="card custom-card">
-                                <div class="card-header">
-                                    <div>
-                                        <div class="mb-1">Wallet Value<span class="fs-10 badge bg-success-transparent text-success p-1 ms-2"><i class="ri-arrow-up-s-line align-middle me-1"></i>12.2%</span></div>
-                                        <div class="fs-20 fw-semibold">$132,12933.000</div>
-                                        <small class="text-muted fw-semibold">12 BTC</small>
+
+                            <div class="col-xxl-6 col-xl-6">
+                                <div class="card custom-card overflow-hidden">
+                                    <div class="card-header justify-content-between">
+                                        <div class="card-title">Candidates</div>
+                                        <div class="dropdown">
+                                            <a href="javascript:void(0);" class="p-2 fs-12 text-muted"
+                                               data-bs-toggle="dropdown" aria-expanded="false">
+                                                View All<i class="ri-arrow-down-s-line align-middle ms-1 d-inline-block"></i>
+                                            </a>
+                                            <ul class="dropdown-menu" role="menu">
+                                                <li><a class="dropdown-item" href="javascript:void(0);">Today</a></li>
+                                                <li><a class="dropdown-item" href="javascript:void(0);">This Week</a>
+                                                </li>
+                                                <li><a class="dropdown-item" href="javascript:void(0);">Last Week</a>
+                                                </li>
+                                            </ul>
+                                        </div>
                                     </div>
-                                    <div class="ms-auto">
-                                            <span class="avatar avatar-xxl">
-                                                <img class="buy-sell-image" src="../assets/images/media/media-82.png" alt="">
-                                            </span>
+                                    <div class="card-body p-0">
+                                        <div id="candidates-chart" class="p-3"></div>
+                                        <div class="row row-cols-12 border-top border-block-start-dashed">
+                                            <div class="col">
+                                                <div class="p-3 border-end border-inline-end-dashed">
+                                                    <div class="text-muted fs-12 text-center mb-1">Male Candidates
+                                                    </div>
+                                                    <div class="d-flex justify-content-center align-items-center"> <span
+                                                            class="me-3 fs-26 fw-semibold">1,234</span> <span
+                                                            class="text-success fw-semibold"><i
+                                                                class="ri-arrow-up-s-fill align-middle me-1"></i>0.23%</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col">
+                                                <div class="p-3">
+                                                    <div class="text-muted fs-12 text-center mb-1">Female Candidates
+                                                    </div>
+                                                    <div class="d-flex justify-content-center align-items-center"> <span
+                                                            class="me-3 fs-26 fw-semibold">1,754</span> <span
+                                                            class="text-danger fw-semibold"><i
+                                                                class="ri-arrow-down-s-fill align-middle me-1"></i>0.11%</span> </div>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
+                            </div>
+                                <div class="card custom-card crm-highlight-card">
+                                    <div class="card-body">
+
+                                        <div class="d-flex align-items-center justify-content-between">
+
+                                            <div>
+
+                                                <div class="fw-semibold fs-18 text-fixed-white mb-2">Your target is incomplete</div>
+                                                <span class="d-block fs-12 text-fixed-white"><span class="op-7">You have completed</span> <span class="fw-semibold text-warning">48%</span> <span class="op-7">of the given target, you can also check your status</span>.</span>
+                                                <span class="d-block fw-semibold mt-1"><a class="text-fixed-white" href="javascript:void(0);"><u>Click here</u></a></span>
+                                            </div>
+                                            <div>
+                                                <div id="crm-main"></div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card custom-card crm-highlight-card">
                                 <div class="card-body">
-                                    <ul class="nav nav-tabs tab-style-1 d-sm-flex d-block nav-justified" role="tablist">
-                                        <li class="nav-item me-sm-2 me-0">
-                                            <a class="nav-link active" data-bs-toggle="tab" data-bs-target="#buy-crypto"
-                                               aria-current="page" href="#buy-crypto">Buy</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#sell-crypto"
-                                               href="#sell-crypto">Sell</a>
-                                        </li>
-                                    </ul>
-                                    <div class="tab-content">
-                                        <div class="tab-pane border-0 active p-0" id="buy-crypto" role="tabpanel"
-                                             aria-labelledby="buy-crypto">
-                                            <div class="input-group mb-3 d-sm-flex d-block flex-nowrap">
-                                                <input type="text" class="form-control form-control-sm crypto-buy-sell-input" aria-label="crypto buy select" placeholder="Select Currency">
-                                                <select class="form-control" data-trigger id="choices-single-default">
-                                                    <option value="">BTC</option>
-                                                    <option value="Choice 1">ETH</option>
-                                                    <option value="Choice 2">XRP</option>
-                                                    <option value="Choice 3">DASH</option>
-                                                    <option value="Choice 4">NEO</option>
-                                                    <option value="Choice 5">LTC</option>
-                                                    <option value="Choice 6">BSD</option>
-                                                </select>
-                                            </div>
-                                            <div class="input-group mb-3 d-sm-flex d-block flex-nowrap">
-                                                <input type="text" class="form-control form-control-sm crypto-buy-sell-input" aria-label="crypto buy select" placeholder="36,335.00">
-                                                <select class="form-control" data-trigger id="choices-single-default1">
-                                                    <option value="">USD</option>
-                                                    <option value="Choice 1">AED</option>
-                                                    <option value="Choice 2">AUD</option>
-                                                    <option value="Choice 3">ARS</option>
-                                                    <option value="Choice 4">AZN</option>
-                                                    <option value="Choice 5">BGN</option>
-                                                    <option value="Choice 6">BRL</option>
-                                                </select>
-                                            </div>
-                                            <div>
-                                                <div class="fs-14 py-2"><span class="fw-semibold text-dark">Price:</span><span class="text-muted ms-2 fs-14 d-inline-block">6.003435</span><span class="text-dark fw-semibold float-end">BTC</span></div>
-                                                <div class="fs-14 py-2"><span class="fw-semibold text-dark">Amount:</span><span class="text-muted ms-2 fs-14 d-inline-block">2,34,4543.00</span><span class="text-dark fw-semibold float-end">LTC</span></div>
-                                                <div class="fw-semibold fs-14 py-2">Total: <span class="fs-14 d-inline-block">22.00 BTC</span></div>
-                                                <div class="fs-12 text-success">Additional Charges: 0.32%(0.0001231 BTC)</div>
-                                                <label class="fw-semibold fs-12 mt-4 mb-2">SELECT PAYMENT METHOD :</label>
-                                                <div class="row g-2">
-                                                    <div class="col-xl-6">
-                                                        <div class="p-2 border rounded">
-                                                            <div class="form-check mb-0">
-                                                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" checked>
-                                                                <label class="form-check-label fs-12" for="flexRadioDefault1">
-                                                                    Credit / Debit Cards
-                                                                </label>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-xl-6">
-                                                        <div class="p-2 border rounded">
-                                                            <div class="form-check mb-0">
-                                                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
-                                                                <label class="form-check-label fs-12" for="flexRadioDefault2">
-                                                                    Paypal
-                                                                </label>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="d-grid mt-4 pt-2">
-                                                <button type="button" class="btn btn-primary btn-wave btn-lg">BUY</button>
-                                            </div>
+                                    <div class="d-flex align-items-center justify-content-between">
+                                        <div>
+                                            <div class="fw-semibold fs-18 text-fixed-white mb-2">Your target is incomplete</div>
+                                            <span class="d-block fs-12 text-fixed-white"><span class="op-7">You have completed</span> <span class="fw-semibold text-warning">48%</span> <span class="op-7">of the given target, you can also check your status</span>.</span>
+                                            <span class="d-block fw-semibold mt-1"><a class="text-fixed-white" href="javascript:void(0);"><u>Click here</u></a></span>
                                         </div>
-                                        <div class="tab-pane border-0 p-0" id="sell-crypto" role="tabpanel"
-                                             aria-labelledby="sell-crypto">
-                                            <div class="input-group mb-3 d-sm-flex d-block flex-nowrap">
-                                                <input type="text" class="form-control form-control-sm crypto-buy-sell-input" aria-label="crypto buy select" placeholder="Select Currency">
-                                                <select class="form-control" data-trigger id="choices-single-default2">
-                                                    <option value="">BTC</option>
-                                                    <option value="Choice 1">ETH</option>
-                                                    <option value="Choice 2">XRP</option>
-                                                    <option value="Choice 3">DASH</option>
-                                                    <option value="Choice 4">NEO</option>
-                                                    <option value="Choice 5">LTC</option>
-                                                    <option value="Choice 6">BSD</option>
-                                                </select>
-                                            </div>
-                                            <div class="input-group mb-3 d-sm-flex d-block flex-nowrap">
-                                                <input type="text" class="form-control form-control-sm crypto-buy-sell-input" aria-label="crypto buy select" placeholder="36,335.00">
-                                                <select class="form-control" data-trigger id="choices-single-default3">
-                                                    <option value="">USD</option>
-                                                    <option value="Choice 1">AED</option>
-                                                    <option value="Choice 2">AUD</option>
-                                                    <option value="Choice 3">ARS</option>
-                                                    <option value="Choice 4">AZN</option>
-                                                    <option value="Choice 5">BGN</option>
-                                                    <option value="Choice 6">BRL</option>
-                                                </select>
-                                            </div>
-                                            <div>
-                                                <div class="fs-14 py-2"><span class="fw-semibold text-dark">Price:</span><span class="text-muted ms-2 fs-14">6.003435</span><span class="text-dark fw-semibold float-end">BTC</span></div>
-                                                <div class="fs-14 py-2"><span class="fw-semibold text-dark">Amount:</span><span class="text-muted ms-2 fs-14">2,34,4543.00</span><span class="text-dark fw-semibold float-end">LTC</span></div>
-                                                <div class="fw-semibold fs-14 py-2">Total: <span class="fs-14">22.00 BTC</span></div>
-                                                <div class="fs-12 text-success">Additional Charges: 0.32%(0.0001231 BTC)</div>
-                                                <label class="fw-semibold fs-12 mt-4 mb-2">SELECT PAYMENT METHOD :</label>
-                                                <div class="row g-2">
-                                                    <div class="col-xl-6">
-                                                        <div class="p-2 border rounded">
-                                                            <div class="form-check mb-0">
-                                                                <input class="form-check-input" type="radio" name="sellcrypto" id="sellcrypto1">
-                                                                <label class="form-check-label fs-12" for="sellcrypto1">
-                                                                    Credit / Debit Cards
-                                                                </label>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-xl-6">
-                                                        <div class="p-2 border rounded">
-                                                            <div class="form-check mb-0">
-                                                                <input class="form-check-input" type="radio" name="sellcrypto" id="sellcrypto2" checked>
-                                                                <label class="form-check-label fs-12" for="sellcrypto2">
-                                                                    Paypal
-                                                                </label>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="d-grid mt-4 pt-2">
-                                                <button type="button" class="btn btn-danger btn-wave btn-lg">SELL</button>
-                                            </div>
-                                        </div>
+
                                     </div>
                                 </div>
                             </div>
@@ -521,6 +454,147 @@
                 </div>
             </div>
             <!-- End:: row-3 -->
+
+            <!-- Start::row-1 -->
+            <div class="row">
+                <div class="col-xxl-9 col-xl-12">
+                    <div class="row">
+
+                        <div class="col-xl-9">
+                            <div class="row">
+                                <div class="col-xxl-6 col-lg-6 col-md-6">
+                                    <div class="card custom-card overflow-hidden">
+                                        <div class="card-body">
+                                            <div class="d-flex align-items-top justify-content-between">
+                                                <div>
+                                                        <span class="avatar avatar-md avatar-rounded bg-primary">
+                                                            <i class="ti ti-users fs-16"></i>
+                                                        </span>
+                                                </div>
+                                                <div class="flex-fill ms-3">
+                                                    <div class="d-flex align-items-center justify-content-between flex-wrap">
+                                                        <div>
+                                                            <p class="text-muted mb-0">Total Customers</p>
+                                                            <h4 class="fw-semibold mt-1">1,02,890</h4>
+                                                        </div>
+                                                        <div id="crm-total-customers"></div>
+                                                    </div>
+                                                    <div class="d-flex align-items-center justify-content-between mt-1">
+                                                        <div>
+                                                            <a class="text-primary" href="javascript:void(0);">View All<i class="ti ti-arrow-narrow-right ms-2 fw-semibold d-inline-block"></i></a>
+                                                        </div>
+                                                        <div class="text-end">
+                                                            <p class="mb-0 text-success fw-semibold">+40%</p>
+                                                            <span class="text-muted op-7 fs-11">this month</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xxl-6 col-lg-6 col-md-6">
+                                    <div class="card custom-card overflow-hidden">
+                                        <div class="card-body">
+                                            <div class="d-flex align-items-top justify-content-between">
+                                                <div>
+                                                        <span class="avatar avatar-md avatar-rounded bg-secondary">
+                                                            <i class="ti ti-wallet fs-16"></i>
+                                                        </span>
+                                                </div>
+                                                <div class="flex-fill ms-3">
+                                                    <div class="d-flex align-items-center justify-content-between flex-wrap">
+                                                        <div>
+                                                            <p class="text-muted mb-0">Total Revenue</p>
+                                                            <h4 class="fw-semibold mt-1">$56,562</h4>
+                                                        </div>
+                                                        <div id="crm-total-revenue"></div>
+                                                    </div>
+                                                    <div class="d-flex align-items-center justify-content-between mt-1">
+                                                        <div>
+                                                            <a class="text-secondary" href="javascript:void(0);">View All<i class="ti ti-arrow-narrow-right ms-2 fw-semibold d-inline-block"></i></a>
+                                                        </div>
+                                                        <div class="text-end">
+                                                            <p class="mb-0 text-success fw-semibold">+25%</p>
+                                                            <span class="text-muted op-7 fs-11">this month</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xxl-6 col-lg-6 col-md-6">
+                                    <div class="card custom-card overflow-hidden">
+                                        <div class="card-body">
+                                            <div class="d-flex align-items-top justify-content-between">
+                                                <div>
+                                                        <span class="avatar avatar-md avatar-rounded bg-success">
+                                                            <i class="ti ti-wave-square fs-16"></i>
+                                                        </span>
+                                                </div>
+                                                <div class="flex-fill ms-3">
+                                                    <div class="d-flex align-items-center justify-content-between flex-wrap">
+                                                        <div>
+                                                            <p class="text-muted mb-0">Conversion Ratio</p>
+                                                            <h4 class="fw-semibold mt-1">12.08%</h4>
+                                                        </div>
+                                                        <div id="crm-conversion-ratio"></div>
+                                                    </div>
+                                                    <div class="d-flex align-items-center justify-content-between mt-1">
+                                                        <div>
+                                                            <a class="text-success" href="javascript:void(0);">View All<i class="ti ti-arrow-narrow-right ms-2 fw-semibold d-inline-block"></i></a>
+                                                        </div>
+                                                        <div class="text-end">
+                                                            <p class="mb-0 text-danger fw-semibold">-12%</p>
+                                                            <span class="text-muted op-7 fs-11">this month</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xxl-6 col-lg-6 col-md-6">
+                                    <div class="card custom-card overflow-hidden">
+                                        <div class="card-body">
+                                            <div class="d-flex align-items-top justify-content-between">
+                                                <div>
+                                                        <span class="avatar avatar-md avatar-rounded bg-warning">
+                                                            <i class="ti ti-briefcase fs-16"></i>
+                                                        </span>
+                                                </div>
+                                                <div class="flex-fill ms-3">
+                                                    <div class="d-flex align-items-center justify-content-between flex-wrap">
+                                                        <div>
+                                                            <p class="text-muted mb-0">Total Deals</p>
+                                                            <h4 class="fw-semibold mt-1">2,543</h4>
+                                                        </div>
+                                                        <div id="crm-total-deals"></div>
+                                                    </div>
+                                                    <div class="d-flex align-items-center justify-content-between mt-1">
+                                                        <div>
+                                                            <a class="text-warning" href="javascript:void(0);">View All<i class="ti ti-arrow-narrow-right ms-2 fw-semibold d-inline-block"></i></a>
+                                                        </div>
+                                                        <div class="text-end">
+                                                            <p class="mb-0 text-success fw-semibold">+19%</p>
+                                                            <span class="text-muted op-7 fs-11">this month</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+            <!-- End::row-1 -->
 
         </div>
     </div>

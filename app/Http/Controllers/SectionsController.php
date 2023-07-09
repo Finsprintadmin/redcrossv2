@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Transaction;
 use Illuminate\Http\Request;
 
 class SectionsController extends Controller
@@ -13,8 +14,9 @@ class SectionsController extends Controller
     }
 
     public function Transactions(){
-
-        return view('sections.transactions');
+        $transactions = Transaction::latest()->get();
+        //dd($transactions);
+        return view('sections.transactions', compact('transactions'));
 
     }
 

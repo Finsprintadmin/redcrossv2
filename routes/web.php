@@ -24,3 +24,9 @@ Route::get('/transactions', [SectionsController::class, 'Transactions'])->name('
 Route::get('/donors', [SectionsController::class, 'Donors'])->name('donors');
 
 Route::get('/campaigns', [SectionsController::class, 'Campaigns'])->name('campaigns');
+
+Route::get('/roles', [SettingsController::class, 'Roles'])->name('roles');
+
+Route::get('/users', [SettingsController::class, 'Users'])->name('users');
+
+Route::get('/logs', [SettingsController::class, 'Logs'])->name('logs');

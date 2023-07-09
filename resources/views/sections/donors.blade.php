@@ -43,30 +43,55 @@
                             <div class="card-body">
 
                                 <form class="row gx-3 gy-2 align-items-center mt-0">
-                                    <div class="col-sm-3">
+                                    <div class="col-sm-2">
                                         <label class="visually-hidden"
                                                for="specificSizeInputName">Name</label>
                                         <input type="text" class="form-control" id="specificSizeInputName"
-                                               placeholder="Jane Doe">
+                                               placeholder="Type Here">
                                     </div>
-                                    <div class="col-sm-3">
+
+                                    <div class="col-sm-1">
                                         <label class="visually-hidden"
-                                               for="specificSizeInputGroupUsername">Username</label>
-                                        <div class="input-group">
-                                            <div class="input-group-text">@</div>
-                                            <input type="text" class="form-control"
-                                                   id="specificSizeInputGroupUsername" placeholder="Username">
+                                               for="specificSizeSelect">Status</label>
+                                        <select class="form-select" id="specificSizeSelect">
+                                            <option selected>Status...</option>
+                                            <option value="1">Paid</option>
+                                            <option value="2">Pending</option>
+                                            <option value="3">Failed</option>
+                                        </select>
+                                    </div>
+
+                                    <div class="col-sm-1">
+                                        <label class="visually-hidden"
+                                               for="specificSizeSelect">Currency</label>
+                                        <select class="form-select" id="specificSizeSelect">
+                                            <option selected>Currency...</option>
+                                            <option value="1">ALL</option>
+                                            <option value="2">KES</option>
+                                            <option value="3">USD</option>
+                                        </select>
+                                    </div>
+
+                                    <div class="col-sm-2">
+                                        <div class="card-body">
+                                            <div class="form-group">
+                                                <div class="input-group">
+                                                    <div class="input-group-text text-muted"> <i class="ri-calendar-line"></i> </div>
+                                                    <input type="text" class="form-control" id="humanfrienndlydate" placeholder="From">
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
-                                    <div class="col-sm-3">
-                                        <label class="visually-hidden"
-                                               for="specificSizeSelect">Preference</label>
-                                        <select class="form-select" id="specificSizeSelect">
-                                            <option selected>Choose...</option>
-                                            <option value="1">One</option>
-                                            <option value="2">Two</option>
-                                            <option value="3">Three</option>
-                                        </select>
+
+                                    <div class="col-sm-2">
+                                        <div class="card-body">
+                                            <div class="form-group">
+                                                <div class="input-group">
+                                                    <div class="input-group-text text-muted"> <i class="ri-calendar-line"></i> </div>
+                                                    <input type="text" class="form-control" id="humanfrienndlydate" placeholder="To">
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
 
                                     <div class="col-auto">
@@ -315,6 +340,8 @@
         </div>
         <!--APP-CONTENT CLOSE-->
     </div>
+
+
 
 @endsection
 
