@@ -31,7 +31,7 @@
                                         <div class="d-flex align-items-center">
                                             <div class="me-2">
                                                     <span class="avatar avatar-md avatar-rounded bg-light p-2">
-                                                        <img src="../assets/images/crypto-currencies/regular/Bitcoin.svg" alt="">
+                                                        <img src="../assets/images/crypto-currencies/regular/Ripple.svg" alt="">
                                                     </span>
                                             </div>
                                             <div class="mb-0 fw-semibold text-end">
@@ -45,11 +45,11 @@
                                     <div class="d-flex align-items-end">
                                         <div>
                                             <p class="mb-1 text-center">USD</p>
-                                            <p class="fs-20 mb-0 fw-semibold lh-1 text-primary">$35,876.29</p>
+                                            <p class="fs-20 mb-0 fw-semibold lh-1 text-primary">$876.29</p>
                                         </div>
                                         <div class="ms-auto text-center">
                                             <p class="mb-1">KES</p>
-                                            <p class="fs-20 mb-0 fw-semibold lh-1 text-primary">KES 55,876.29</p>
+                                            <p class="fs-20 mb-0 fw-semibold lh-1 text-primary">KES 5,876.29</p>
                                         </div>
                                     </div>
                                 </div>
@@ -62,11 +62,11 @@
                                         <div class="d-flex align-items-center">
                                             <div class="me-2">
                                                     <span class="avatar avatar-md avatar-rounded bg-light p-2">
-                                                        <img src="../assets/images/crypto-currencies/regular/Ethereum.svg" alt="">
+                                                        <img src="../assets/images/crypto-currencies/regular/Ripple.svg" alt="">
                                                     </span>
                                             </div>
                                             <div class="mb-0 fw-semibold">
-                                                Weekly Donations
+                                                This Week's Donations
                                             </div>
                                         </div>
                                         <div class="ms-auto">
@@ -76,11 +76,11 @@
                                     <div class="d-flex align-items-end">
                                         <div>
                                             <p class="mb-1 text-center">USD</p>
-                                            <p class="fs-20 mb-0 fw-semibold lh-1 text-primary">$35,876.29</p>
+                                            <p class="fs-20 mb-0 fw-semibold lh-1 text-primary">$3,876.29</p>
                                         </div>
                                         <div class="ms-auto text-center">
                                             <p class="mb-1">KES</p>
-                                            <p class="fs-20 mb-0 fw-semibold lh-1 text-primary">KES 55,876.29</p>
+                                            <p class="fs-20 mb-0 fw-semibold lh-1 text-primary">KES 45,876.29</p>
                                         </div>
                                     </div>
                                 </div>
@@ -93,11 +93,11 @@
                                         <div class="d-flex align-items-center">
                                             <div class="me-2">
                                                     <span class="avatar avatar-md avatar-rounded bg-light p-2">
-                                                        <img src="../assets/images/crypto-currencies/regular/Dash.svg" alt="">
+                                                        <img src="../assets/images/crypto-currencies/regular/Ripple.svg" alt="">
                                                     </span>
                                             </div>
                                             <div class="mb-0 fw-semibold">
-                                                Monthly Donations
+                                                This Month's Donations
                                             </div>
                                         </div>
                                         <div class="ms-auto">
@@ -107,11 +107,11 @@
                                     <div class="d-flex align-items-end">
                                         <div>
                                             <p class="mb-1 text-center">USD</p>
-                                            <p class="fs-20 mb-0 fw-semibold lh-1 text-primary">$35,876.29</p>
+                                            <p class="fs-20 mb-0 fw-semibold lh-1 text-primary">$6,876.29</p>
                                         </div>
                                         <div class="ms-auto text-center">
                                             <p class="mb-1">KES</p>
-                                            <p class="fs-20 mb-0 fw-semibold lh-1 text-primary">KES 55,876.29</p>
+                                            <p class="fs-20 mb-0 fw-semibold lh-1 text-primary">KES 75,876.29</p>
                                         </div>
                                     </div>
                                 </div>
@@ -122,7 +122,7 @@
                             <div class="card custom-card">
                                 <div class="card-header justify-content-between">
                                     <div class="card-title">
-                                        Revenue Analytics
+                                        Donations Overview
                                     </div>
 
                                     <div class="dropdown">
@@ -149,52 +149,52 @@
                     <div class="row">
                         <div class="col-xl-12">
 
-                            <div class="col-xxl-6 col-xl-6">
-                                <div class="card custom-card overflow-hidden">
-                                    <div class="card-header justify-content-between">
-                                        <div class="card-title">Candidates</div>
-                                        <div class="dropdown">
-                                            <a href="javascript:void(0);" class="p-2 fs-12 text-muted"
-                                               data-bs-toggle="dropdown" aria-expanded="false">
-                                                View All<i class="ri-arrow-down-s-line align-middle ms-1 d-inline-block"></i>
-                                            </a>
-                                            <ul class="dropdown-menu" role="menu">
-                                                <li><a class="dropdown-item" href="javascript:void(0);">Today</a></li>
-                                                <li><a class="dropdown-item" href="javascript:void(0);">This Week</a>
-                                                </li>
-                                                <li><a class="dropdown-item" href="javascript:void(0);">Last Week</a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <div class="card-body p-0">
-                                        <div id="candidates-chart" class="p-3"></div>
-                                        <div class="row row-cols-12 border-top border-block-start-dashed">
-                                            <div class="col">
-                                                <div class="p-3 border-end border-inline-end-dashed">
-                                                    <div class="text-muted fs-12 text-center mb-1">Male Candidates
-                                                    </div>
-                                                    <div class="d-flex justify-content-center align-items-center"> <span
-                                                            class="me-3 fs-26 fw-semibold">1,234</span> <span
-                                                            class="text-success fw-semibold"><i
-                                                                class="ri-arrow-up-s-fill align-middle me-1"></i>0.23%</span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col">
-                                                <div class="p-3">
-                                                    <div class="text-muted fs-12 text-center mb-1">Female Candidates
-                                                    </div>
-                                                    <div class="d-flex justify-content-center align-items-center"> <span
-                                                            class="me-3 fs-26 fw-semibold">1,754</span> <span
-                                                            class="text-danger fw-semibold"><i
-                                                                class="ri-arrow-down-s-fill align-middle me-1"></i>0.11%</span> </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                            <div class="col-xl-12 col-xl-6">
+                                                                    <div class="card custom-card">
+                                                                        <div class="card-header justify-content-between">
+                                                                            <div class="card-title">
+                                                                                Overall Donations
+                                                                            </div>
+                                                                            <div class="dropdown">
+                                                                                <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-sm btn-light" data-bs-toggle="dropdown">
+                                                                                    <i class="fe fe-more-vertical"></i>
+                                                                                </a>
+                                                                                <ul class="dropdown-menu">
+                                                                                    <li><a class="dropdown-item" href="javascript:void(0);">Week</a></li>
+                                                                                    <li><a class="dropdown-item" href="javascript:void(0);">Month</a></li>
+                                                                                    <li><a class="dropdown-item" href="javascript:void(0);">Year</a></li>
+                                                                                </ul>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="card-body p-0 overflow-hidden">
+                                                                            <div class="leads-source-chart d-flex align-items-center justify-content-center">
+                                                                                <canvas id="leads-source" class="chartjs-chart w-100 p-4"></canvas>
+                                                                                <div class="lead-source-value">
+                                                                                    <span class="d-block fs-14">Total</span>
+                                                                                    <span class="d-block fs-25 fw-bold">4,145</span>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="row row-cols-12 border-top border-block-start-dashed">
+
+                                                                                <div class="col p-0">
+                                                                                    <div class="p-3 text-center border-end border-inline-end-dashed">
+                                                                                        <span class="text-muted fs-12 mb-1 crm-lead-legend laptop d-inline-block">USD
+                                                                                        </span>
+                                                                                        <div><span class="fs-16 fw-semibold">100,153</span>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="col p-0">
+                                                                                    <div class="p-3 text-center">
+                                                                                        <span class="text-muted fs-12 mb-1 crm-lead-legend tablet d-inline-block">KES
+                                                                                        </span>
+                                                                                        <div><span class="fs-16 fw-semibold">5,679,000</span></div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
                                 <div class="card custom-card crm-highlight-card">
                                     <div class="card-body">
 
@@ -202,8 +202,8 @@
 
                                             <div>
 
-                                                <div class="fw-semibold fs-18 text-fixed-white mb-2">Your target is incomplete</div>
-                                                <span class="d-block fs-12 text-fixed-white"><span class="op-7">You have completed</span> <span class="fw-semibold text-warning">48%</span> <span class="op-7">of the given target, you can also check your status</span>.</span>
+                                                <div class="fw-semibold fs-18 text-fixed-white mb-2">Pledges Done Overview</div>
+                                                <span class="d-block fs-12 text-fixed-white"><span class="op-7">You can check the Pledges</span> <span class="fw-semibold text-warning">48%</span> <span class="op-7">which have been done within a certain duration</span>.</span>
                                                 <span class="d-block fw-semibold mt-1"><a class="text-fixed-white" href="javascript:void(0);"><u>Click here</u></a></span>
                                             </div>
                                             <div>
@@ -213,17 +213,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="card custom-card crm-highlight-card">
-                                <div class="card-body">
-                                    <div class="d-flex align-items-center justify-content-between">
-                                        <div>
-                                            <div class="fw-semibold fs-18 text-fixed-white mb-2">Your target is incomplete</div>
-                                            <span class="d-block fs-12 text-fixed-white"><span class="op-7">You have completed</span> <span class="fw-semibold text-warning">48%</span> <span class="op-7">of the given target, you can also check your status</span>.</span>
-                                            <span class="d-block fw-semibold mt-1"><a class="text-fixed-white" href="javascript:void(0);"><u>Click here</u></a></span>
-                                        </div>
 
-                                    </div>
-                                </div>
                             </div>
                         </div>
                     </div>
@@ -238,7 +228,7 @@
                     <div class="card custom-card">
                         <div class="card-header justify-content-between flex-wrap">
                             <div class="card-title mb-2 mb-sm-0">
-                                Crypto currencies Market Value
+                                Recent Donations
                             </div>
                             <div class="btn-group" role="group" aria-label="Basic example">
                                 <button type="button" class="btn btn-primary btn-sm btn-wave">1D</button>
@@ -256,36 +246,36 @@
                                     <tr>
                                         <th scope="col">S.No</th>
                                         <th scope="col">Name</th>
-                                        <th scope="col">Symbol</th>
-                                        <th scope="col">Price</th>
-                                        <th scope="col">Market Cap</th>
-                                        <th scope="col">Price Graph</th>
-                                        <th scope="col">Volume</th>
-                                        <th scope="col">Price Change</th>
+                                        <th scope="col">Campaign</th>
+                                        <th scope="col">Date</th>
+                                        <th scope="col">Amount</th>
+                                        <th scope="col">Method</th>
+                                        <th scope="col">Status</th>
+
                                     </tr>
                                     </thead>
                                     <tbody>
                                     <tr>
                                         <td>1</td>
-                                        <td>Bitcoin</td>
+                                        <td>Mokaya Duncan</td>
                                         <td>
                                             <div class="lh-1 d-flex align-items-center">
                                                         <span class="avatar avatar-xs avatar-rounded">
-                                                            <img src="../assets/images/crypto-currencies/regular/Bitcoin.svg" alt="">
-                                                        </span> - BTC
+                                                            <img src="../assets/images/crypto-currencies/regular/Ripple.svg" alt="">
+                                                        </span> - Where It Matters
                                             </div>
                                         </td>
                                         <td>
-                                            $16,839.10
+                                            July 4, 2023
                                         </td>
                                         <td>
                                             324.01B
                                         </td>
                                         <td>
-                                            <div id="bitcoin-price-graph"></div>
+                                            Mpesa
                                         </td>
                                         <td>
-                                            14,674,311,168
+                                            Paid
                                         </td>
                                         <td>
                                             <span class="text-success">0.30% <i class="ti ti-arrow-big-up-lines ms-1"></i></span>
@@ -293,25 +283,25 @@
                                     </tr>
                                     <tr>
                                         <td>2</td>
-                                        <td>Etherium</td>
+                                        <td>Mokaya Duncan</td>
                                         <td>
                                             <div class="lh-1 d-flex align-items-center">
                                                         <span class="avatar avatar-xs avatar-rounded">
-                                                            <img src="../assets/images/crypto-currencies/regular/Ethereum.svg" alt="">
-                                                        </span> - ETH
+                                                            <img src="../assets/images/crypto-currencies/regular/Ripple.svg" alt="">
+                                                        </span> - Kilifi Floods
                                             </div>
                                         </td>
                                         <td>
-                                            1,217.96
+                                            July 4, 2023
                                         </td>
                                         <td>
                                             $149,316,232,699
                                         </td>
                                         <td>
-                                            <div id="etherium-price-graph"></div>
+                                            Card
                                         </td>
                                         <td>
-                                            $4,758,554,801
+                                            Paid
                                         </td>
                                         <td>
                                             <span class="text-success">0.30% <i class="ti ti-arrow-big-up-lines ms-1"></i></span>
@@ -319,25 +309,25 @@
                                     </tr>
                                     <tr>
                                         <td>3</td>
-                                        <td>Dash</td>
+                                        <td>Mokaya Duncan</td>
                                         <td>
                                             <div class="lh-1 d-flex align-items-center">
                                                         <span class="avatar avatar-xs avatar-rounded">
-                                                            <img src="../assets/images/crypto-currencies/regular/Dash.svg" alt="">
-                                                        </span> - DASH
+                                                            <img src="../assets/images/crypto-currencies/regular/Ripple.svg" alt="">
+                                                        </span> - Kilifi Floods
                                             </div>
                                         </td>
                                         <td>
-                                            $43.49
+                                            July 4, 2023
                                         </td>
                                         <td>
                                             $480,799,847
                                         </td>
                                         <td>
-                                            <div id="dash-price-graph"></div>
+                                            Mpesa
                                         </td>
                                         <td>
-                                            $52,626,563
+                                            Failed
                                         </td>
                                         <td>
                                             <span class="text-success">0.45% <i class="ti ti-arrow-big-up-lines ms-1"></i></span>
@@ -345,25 +335,25 @@
                                     </tr>
                                     <tr>
                                         <td>4</td>
-                                        <td>Ripple</td>
+                                        <td>Mokaya Duncan</td>
                                         <td>
                                             <div class="lh-1 d-flex align-items-center">
                                                         <span class="avatar avatar-xs avatar-rounded">
                                                             <img src="../assets/images/crypto-currencies/regular/Ripple.svg" alt="">
-                                                        </span> - XRP
+                                                        </span> - Where It Matters
                                             </div>
                                         </td>
                                         <td>
-                                            $0.3531
+                                            July 4, 2023
                                         </td>
                                         <td>
                                             $17,791,969,465
                                         </td>
                                         <td>
-                                            <div id="ripple-price-graph"></div>
+                                            Card
                                         </td>
                                         <td>
-                                            $511,598,941
+                                            Paid
                                         </td>
                                         <td>
                                             <span class="text-success">0.97% <i class="ti ti-arrow-big-up-lines ms-1"></i></span>
@@ -371,25 +361,25 @@
                                     </tr>
                                     <tr>
                                         <td>5</td>
-                                        <td>Iota</td>
+                                        <td>Mokaya Duncan</td>
                                         <td>
                                             <div class="lh-1 d-flex align-items-center">
                                                         <span class="avatar avatar-xs avatar-rounded">
-                                                            <img src="../assets/images/crypto-currencies/regular/IOTA.svg" alt="">
-                                                        </span> - IOTA
+                                                            <img src="../assets/images/crypto-currencies/regular/Ripple.svg" alt="">
+                                                        </span> - Where It Matters
                                             </div>
                                         </td>
                                         <td>
-                                            $0.169741
+                                           July 4, 2023
                                         </td>
                                         <td>
                                             $471,800,600
                                         </td>
                                         <td>
-                                            <div id="iota-price-graph"></div>
+                                            Card
                                         </td>
                                         <td>
-                                            $5,524,385
+                                            Pending
                                         </td>
                                         <td>
                                             <span class="text-success">0.93% <i class="ti ti-arrow-big-up-lines ms-1"></i></span>
@@ -397,25 +387,25 @@
                                     </tr>
                                     <tr>
                                         <td>6</td>
-                                        <td>Neo</td>
+                                        <td>Mokaya Duncan</td>
                                         <td>
                                             <div class="lh-1 d-flex align-items-center">
                                                         <span class="avatar avatar-xs avatar-rounded">
-                                                            <img src="../assets/images/crypto-currencies/regular/Neo.svg" alt="">
-                                                        </span> - NEO
+                                                            <img src="../assets/images/crypto-currencies/regular/Ripple.svg" alt="">
+                                                        </span> - Kwale Drought
                                             </div>
                                         </td>
                                         <td>
-                                            $6.43
+                                            July 4, 2023
                                         </td>
                                         <td>
                                             $453,601,667
                                         </td>
                                         <td>
-                                            <div id="neo-price-graph"></div>
+                                            Mpesa
                                         </td>
                                         <td>
-                                            $12,904,320
+                                            Paid
                                         </td>
                                         <td>
                                             <span class="text-danger">0.49% <i class="ti ti-arrow-big-down-lines ms-1"></i></span>
@@ -474,8 +464,8 @@
                                                 <div class="flex-fill ms-3">
                                                     <div class="d-flex align-items-center justify-content-between flex-wrap">
                                                         <div>
-                                                            <p class="text-muted mb-0">Total Customers</p>
-                                                            <h4 class="fw-semibold mt-1">1,02,890</h4>
+                                                            <p class="text-muted mb-0">Total Donors</p>
+                                                            <h4 class="fw-semibold mt-1">102,890</h4>
                                                         </div>
                                                         <div id="crm-total-customers"></div>
                                                     </div>
@@ -505,8 +495,8 @@
                                                 <div class="flex-fill ms-3">
                                                     <div class="d-flex align-items-center justify-content-between flex-wrap">
                                                         <div>
-                                                            <p class="text-muted mb-0">Total Revenue</p>
-                                                            <h4 class="fw-semibold mt-1">$56,562</h4>
+                                                            <p class="text-muted mb-0">Total Campaigns</p>
+                                                            <h4 class="fw-semibold mt-1">56</h4>
                                                         </div>
                                                         <div id="crm-total-revenue"></div>
                                                     </div>
@@ -536,7 +526,7 @@
                                                 <div class="flex-fill ms-3">
                                                     <div class="d-flex align-items-center justify-content-between flex-wrap">
                                                         <div>
-                                                            <p class="text-muted mb-0">Conversion Ratio</p>
+                                                            <p class="text-muted mb-0">Donations Ratio</p>
                                                             <h4 class="fw-semibold mt-1">12.08%</h4>
                                                         </div>
                                                         <div id="crm-conversion-ratio"></div>
@@ -567,7 +557,7 @@
                                                 <div class="flex-fill ms-3">
                                                     <div class="d-flex align-items-center justify-content-between flex-wrap">
                                                         <div>
-                                                            <p class="text-muted mb-0">Total Deals</p>
+                                                            <p class="text-muted mb-0">Total Pledges</p>
                                                             <h4 class="fw-semibold mt-1">2,543</h4>
                                                         </div>
                                                         <div id="crm-total-deals"></div>
