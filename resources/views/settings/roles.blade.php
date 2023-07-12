@@ -114,6 +114,7 @@
                         <div class="card custom-card">
 
                             <div class="card-body">
+
                                 <div class="table-responsive">
                                     <table class="table text-nowrap table-bordered">
                                         <thead>
