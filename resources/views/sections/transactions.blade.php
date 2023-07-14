@@ -115,7 +115,7 @@
 
                             <div class="card-body">
                                 <div class="table-responsive">
-                                    <table class="table text-nowrap table-bordered">
+                                    <table id="myDataTable" class="table text-nowrap table-bordered">
                                         <thead>
                                         <tr>
                                             <th scope="col">ID</th>

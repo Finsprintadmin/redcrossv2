@@ -48,6 +48,8 @@
 
     <link rel="stylesheet" href="{{asset('assets/libs/swiper/swiper-bundle.min.css')}}">
 
+    <link rel="stylesheet" href="{{url('//cdn.datatables.net/1.13.5/css/jquery.dataTables.min.css')}}">
+
 </head>
 
 <body>
@@ -558,9 +560,21 @@
 <!-- Custom JS -->
 <script src="{{asset('assets/js/custom.js')}}"></script>
 
+<!-- Jquery CDN -->
+<script src="{{url('https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js')}}"></script>
+
+
 <!-- Date & Time Picker JS -->
 <script src="{{asset('assets/libs/flatpickr/flatpickr.min.js')}}"></script>
 <script src="{{asset('assets/js/date&time_pickers.js')}}"></script>
+<script src="{{url('//cdn.datatables.net/1.13.5/js/jquery.dataTables.min.js')}}"></script>
+
+<script>
+    $(document).ready( function () {
+        $('#myDataTable').DataTable();
+    } );
+
+</script>
 
 </body>
 
