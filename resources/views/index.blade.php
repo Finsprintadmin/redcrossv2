@@ -34,12 +34,13 @@
                                                         <img src="../assets/images/crypto-currencies/regular/Ripple.svg" alt="">
                                                     </span>
                                             </div>
-                                            <div class="mb-0 fw-semibold text-end">
+                                            <div  class="mb-0 fw-semibold text-end">
                                                 Today's Donations
                                             </div>
                                         </div>
                                         <div class="ms-auto">
-                                            <div id="btc-chart"></div>
+                                            <div id="crm-total-deals"></div>
+
                                         </div>
                                     </div>
                                     <div class="d-flex align-items-end">
@@ -70,7 +71,7 @@
                                             </div>
                                         </div>
                                         <div class="ms-auto">
-                                            <div id="eth-chart"></div>
+                                            <div id="crm-conversion-ratio"></div>
                                         </div>
                                     </div>
                                     <div class="d-flex align-items-end">
@@ -101,7 +102,7 @@
                                             </div>
                                         </div>
                                         <div class="ms-auto">
-                                            <div id="dash-chart"></div>
+                                             <div id="crm-total-revenue"></div>
                                         </div>
                                     </div>
                                     <div class="d-flex align-items-end">
@@ -139,6 +140,7 @@
                                 </div>
                                 <div class="card-body">
                                     <div id="crm-revenue-analytics"></div>
+
                                 </div>
                             </div>
                         </div>
@@ -155,6 +157,7 @@
                                                                             <div class="card-title">
                                                                                 Overall Donations
                                                                             </div>
+                                                                            <div id="crm-total-customers"></div>
                                                                             <div class="dropdown">
                                                                                 <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-sm btn-light" data-bs-toggle="dropdown">
                                                                                     <i class="fe fe-more-vertical"></i>
@@ -167,13 +170,13 @@
                                                                             </div>
                                                                         </div>
                                                                         <div class="card-body p-0 overflow-hidden">
-                                                                            <div class="leads-source-chart d-flex align-items-center justify-content-center">
-                                                                                <canvas id="leads-source" class="chartjs-chart w-100 p-4"></canvas>
-                                                                                <div class="lead-source-value">
-                                                                                    <span class="d-block fs-14">Total</span>
-                                                                                    <span class="d-block fs-25 fw-bold">4,145</span>
-                                                                                </div>
-                                                                            </div>
+                                                                            <div class="col-xl-12">
+                                                                               <div class="card custom-card">
+                                                                                       <div class="card-body">
+                                                                                           <div id="radialbar-multiple"></div>
+                                                                                       </div>
+                                                                                   </div>
+                                                                               </div>
                                                                             <div class="row row-cols-12 border-top border-block-start-dashed">
 
                                                                                 <div class="col p-0">
@@ -200,14 +203,15 @@
 
                                         <div class="d-flex align-items-center justify-content-between">
 
-                                            <div>
+                                            <div >
 
                                                 <div class="fw-semibold fs-18 text-fixed-white mb-2">Pledges Done Overview</div>
-                                                <span class="d-block fs-12 text-fixed-white"><span class="op-7">You can check the Pledges</span> <span class="fw-semibold text-warning">48%</span> <span class="op-7">which have been done within a certain duration</span>.</span>
+                                                <span class="d-block fs-12 text-fixed-white"><span class="op-7">You can check the Pledges</span> <span class="fw-semibold text-warning"></span> <span class="op-7">which have been done within the last 24hrs</span>.</span>
                                                 <span class="d-block fw-semibold mt-1"><a class="text-fixed-white" href="javascript:void(0);"><u>Click here</u></a></span>
                                             </div>
                                             <div>
                                                 <div id="crm-main"></div>
+
                                             </div>
 
                                         </div>
@@ -444,147 +448,6 @@
                 </div>
             </div>
             <!-- End:: row-3 -->
-
-            <!-- Start::row-1 -->
-            <div class="row">
-                <div class="col-xxl-9 col-xl-12">
-                    <div class="row">
-
-                        <div class="col-xl-9">
-                            <div class="row">
-                                <div class="col-xxl-6 col-lg-6 col-md-6">
-                                    <div class="card custom-card overflow-hidden">
-                                        <div class="card-body">
-                                            <div class="d-flex align-items-top justify-content-between">
-                                                <div>
-                                                        <span class="avatar avatar-md avatar-rounded bg-primary">
-                                                            <i class="ti ti-users fs-16"></i>
-                                                        </span>
-                                                </div>
-                                                <div class="flex-fill ms-3">
-                                                    <div class="d-flex align-items-center justify-content-between flex-wrap">
-                                                        <div>
-                                                            <p class="text-muted mb-0">Total Donors</p>
-                                                            <h4 class="fw-semibold mt-1">102,890</h4>
-                                                        </div>
-                                                        <div id="crm-total-customers"></div>
-                                                    </div>
-                                                    <div class="d-flex align-items-center justify-content-between mt-1">
-                                                        <div>
-                                                            <a class="text-primary" href="javascript:void(0);">View All<i class="ti ti-arrow-narrow-right ms-2 fw-semibold d-inline-block"></i></a>
-                                                        </div>
-                                                        <div class="text-end">
-                                                            <p class="mb-0 text-success fw-semibold">+40%</p>
-                                                            <span class="text-muted op-7 fs-11">this month</span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-xxl-6 col-lg-6 col-md-6">
-                                    <div class="card custom-card overflow-hidden">
-                                        <div class="card-body">
-                                            <div class="d-flex align-items-top justify-content-between">
-                                                <div>
-                                                        <span class="avatar avatar-md avatar-rounded bg-secondary">
-                                                            <i class="ti ti-wallet fs-16"></i>
-                                                        </span>
-                                                </div>
-                                                <div class="flex-fill ms-3">
-                                                    <div class="d-flex align-items-center justify-content-between flex-wrap">
-                                                        <div>
-                                                            <p class="text-muted mb-0">Total Campaigns</p>
-                                                            <h4 class="fw-semibold mt-1">56</h4>
-                                                        </div>
-                                                        <div id="crm-total-revenue"></div>
-                                                    </div>
-                                                    <div class="d-flex align-items-center justify-content-between mt-1">
-                                                        <div>
-                                                            <a class="text-secondary" href="javascript:void(0);">View All<i class="ti ti-arrow-narrow-right ms-2 fw-semibold d-inline-block"></i></a>
-                                                        </div>
-                                                        <div class="text-end">
-                                                            <p class="mb-0 text-success fw-semibold">+25%</p>
-                                                            <span class="text-muted op-7 fs-11">this month</span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-xxl-6 col-lg-6 col-md-6">
-                                    <div class="card custom-card overflow-hidden">
-                                        <div class="card-body">
-                                            <div class="d-flex align-items-top justify-content-between">
-                                                <div>
-                                                        <span class="avatar avatar-md avatar-rounded bg-success">
-                                                            <i class="ti ti-wave-square fs-16"></i>
-                                                        </span>
-                                                </div>
-                                                <div class="flex-fill ms-3">
-                                                    <div class="d-flex align-items-center justify-content-between flex-wrap">
-                                                        <div>
-                                                            <p class="text-muted mb-0">Donations Ratio</p>
-                                                            <h4 class="fw-semibold mt-1">12.08%</h4>
-                                                        </div>
-                                                        <div id="crm-conversion-ratio"></div>
-                                                    </div>
-                                                    <div class="d-flex align-items-center justify-content-between mt-1">
-                                                        <div>
-                                                            <a class="text-success" href="javascript:void(0);">View All<i class="ti ti-arrow-narrow-right ms-2 fw-semibold d-inline-block"></i></a>
-                                                        </div>
-                                                        <div class="text-end">
-                                                            <p class="mb-0 text-danger fw-semibold">-12%</p>
-                                                            <span class="text-muted op-7 fs-11">this month</span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-xxl-6 col-lg-6 col-md-6">
-                                    <div class="card custom-card overflow-hidden">
-                                        <div class="card-body">
-                                            <div class="d-flex align-items-top justify-content-between">
-                                                <div>
-                                                        <span class="avatar avatar-md avatar-rounded bg-warning">
-                                                            <i class="ti ti-briefcase fs-16"></i>
-                                                        </span>
-                                                </div>
-                                                <div class="flex-fill ms-3">
-                                                    <div class="d-flex align-items-center justify-content-between flex-wrap">
-                                                        <div>
-                                                            <p class="text-muted mb-0">Total Pledges</p>
-                                                            <h4 class="fw-semibold mt-1">2,543</h4>
-                                                        </div>
-                                                        <div id="crm-total-deals"></div>
-                                                    </div>
-                                                    <div class="d-flex align-items-center justify-content-between mt-1">
-                                                        <div>
-                                                            <a class="text-warning" href="javascript:void(0);">View All<i class="ti ti-arrow-narrow-right ms-2 fw-semibold d-inline-block"></i></a>
-                                                        </div>
-                                                        <div class="text-end">
-                                                            <p class="mb-0 text-success fw-semibold">+19%</p>
-                                                            <span class="text-muted op-7 fs-11">this month</span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-
-            </div>
-            <!-- End::row-1 -->
 
         </div>
     </div>
