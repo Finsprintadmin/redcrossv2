@@ -556,6 +556,8 @@
 <!-- Jobs-Dashboard -->
 <script src="{{asset('assets/js/jobs-dashboard.js')}}"></script>
 
+<!-- Sales-Dashboard JS -->
+<script src="{{asset('assets/js/sales-dashboard.js')}}"></script>
 
 <!-- Custom-Switcher JS -->
 <script src="{{asset('assets/js/custom-switcher.min.js')}}"></script>

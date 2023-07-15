@@ -152,53 +152,53 @@
                         <div class="col-xl-12">
 
                             <div class="col-xl-12 col-xl-6">
-                                                                    <div class="card custom-card">
-                                                                        <div class="card-header justify-content-between">
-                                                                            <div class="card-title">
-                                                                                Overall Donations
-                                                                            </div>
-                                                                            <div id="crm-total-customers"></div>
-                                                                            <div class="dropdown">
-                                                                                <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-sm btn-light" data-bs-toggle="dropdown">
-                                                                                    <i class="fe fe-more-vertical"></i>
-                                                                                </a>
-                                                                                <ul class="dropdown-menu">
-                                                                                    <li><a class="dropdown-item" href="javascript:void(0);">Week</a></li>
-                                                                                    <li><a class="dropdown-item" href="javascript:void(0);">Month</a></li>
-                                                                                    <li><a class="dropdown-item" href="javascript:void(0);">Year</a></li>
-                                                                                </ul>
-                                                                            </div>
-                                                                        </div>
-                                                                        <div class="card-body p-0 overflow-hidden">
-                                                                            <div class="col-xl-12">
-                                                                               <div class="card custom-card">
-                                                                                       <div class="card-body">
-                                                                                           <div id="radialbar-multiple"></div>
-                                                                                       </div>
-                                                                                   </div>
-                                                                               </div>
-                                                                            <div class="row row-cols-12 border-top border-block-start-dashed">
+                                <div class="card custom-card">
+                                    <div class="card-header justify-content-between">
+                                        <div class="card-title">
+                                            Overall Donations
+                                        </div>
+                                        <div id="crm-total-customers"></div>
+                                        <div class="dropdown">
+                                            <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-sm btn-light" data-bs-toggle="dropdown">
+                                                <i class="fe fe-more-vertical"></i>
+                                            </a>
+                                            <ul class="dropdown-menu">
+                                                <li><a class="dropdown-item" href="javascript:void(0);">Week</a></li>
+                                                <li><a class="dropdown-item" href="javascript:void(0);">Month</a></li>
+                                                <li><a class="dropdown-item" href="javascript:void(0);">Year</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="card-body p-0 overflow-hidden">
+                                        <div class="col-xl-12">
+                                            <div class="card custom-card">
+                                                <div class="card-body">
+                                                    <div id="radialbar-multiple"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row row-cols-12 border-top border-block-start-dashed">
 
-                                                                                <div class="col p-0">
-                                                                                    <div class="p-3 text-center border-end border-inline-end-dashed">
-                                                                                        <span class="text-muted fs-12 mb-1 crm-lead-legend laptop d-inline-block">USD
-                                                                                        </span>
-                                                                                        <div><span class="fs-16 fw-semibold">100,153</span>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                </div>
-                                                                                <div class="col p-0">
-                                                                                    <div class="p-3 text-center">
-                                                                                        <span class="text-muted fs-12 mb-1 crm-lead-legend tablet d-inline-block">KES
-                                                                                        </span>
-                                                                                        <div><span class="fs-16 fw-semibold">5,679,000</span></div>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                <div class="card custom-card crm-highlight-card">
+                                            <div class="col p-0">
+                                                <div class="p-3 text-center border-end border-inline-end-dashed">
+                                                    <span class="text-muted fs-12 mb-1 crm-lead-legend laptop d-inline-block">USD
+                                                    </span>
+                                                    <div><span class="fs-16 fw-semibold">100,153</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col p-0">
+                                                <div class="p-3 text-center">
+                                                    <span class="text-muted fs-12 mb-1 crm-lead-legend tablet d-inline-block">KES
+                                                    </span>
+                                                    <div><span class="fs-16 fw-semibold">5,679,000</span></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card custom-card crm-highlight-card">
                                     <div class="card-body">
 
                                         <div class="d-flex align-items-center justify-content-between">
@@ -224,6 +224,412 @@
                 </div>
             </div>
             <!--End::row-1 -->
+
+
+        <!-- Start::row-3 -->
+        <div class="row">
+            <div class="col-xxl-6 col-xl-12 col-md-12">
+                <div class="card custom-card">
+                    <div class="card-header d-sm-flex d-block">
+                        <div class="card-title">Campaign Performance</div>
+                        <div class="tab-menu-heading border-0 p-0 ms-auto mt-sm-0 mt-2">
+                            <div class="tabs-menu-task me-3">
+                                <ul class="nav nav-tabs panel-tabs-task border-0" role="tablist">
+                                    <li><a href="javascript:void(0);" class="me-1 active" data-bs-toggle="tab" data-bs-target="#Active" role="tab" aria-selected="true">Active Campaigns</a></li>
+                                    <li><a href="javascript:void(0);" data-bs-toggle="tab" data-bs-target="#Complete" role="tab" aria-selected="false">Completed Campaigns</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="mt-sm-0 mt-2">
+                            <button type="button" class="btn btn-sm btn-light"><i class="ti ti-plus me-1 fw-semibold align-middle d-inline-block"></i>Add Campaign</button>
+                        </div>
+                    </div>
+                    <div class="card-body p-0">
+                        <div class="tab-content p-0">
+                            <div class="tab-pane active p-0 border-0" id="Active">
+                                <div class="table-responsive">
+                                    <table class="table text-nowrap table-hover">
+                                        <thead>
+                                        <tr>
+                                            <th scope="col" class="text-center">
+                                                            <span>
+                                                                <input class="form-check-input" type="checkbox" id="checkAll" value="" aria-label="...">
+                                                            </span>
+                                            </th>
+                                            <th scope="col">Task details</th>
+                                            <th scope="col">Assigned date</th>
+                                            <th scope="col">Target</th>
+                                            <th scope="col">Assigned to</th>
+                                        </tr>
+                                        </thead>
+                                        <tbody>
+                                        <tr>
+                                            <td class="text-center">
+                                                            <span>
+                                                                <input class="form-check-input" type="checkbox" id="check1" value="" aria-label="...">
+                                                            </span>
+                                            </td>
+                                            <td>Design task page for new template</td>
+                                            <td class="text-muted">12.43pm</td>
+                                            <td><span class="badge bg-primary">Today</span></td>
+                                            <td>
+                                                <div class="avatar-list-stacked mb-0">
+                                                                <span class="avatar avatar-xs">
+                                                                    <img src="../assets/images/faces/2.jpg" alt="img">
+                                                                </span>
+                                                    <span class="avatar avatar-xs">
+                                                                    <img src="../assets/images/faces/8.jpg" alt="img">
+                                                                </span>
+                                                    <span class="avatar avatar-xs">
+                                                                    <img src="../assets/images/faces/2.jpg" alt="img">
+                                                                </span>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center">
+                                                            <span>
+                                                                <input class="form-check-input" type="checkbox" id="check2" value="" aria-label="..." checked>
+                                                            </span>
+                                            </td>
+                                            <td>Solve UI issues in new template</td>
+                                            <td class="text-muted">11.25am</td>
+                                            <td><span class="badge bg-secondary">Tomorrow</span></td>
+                                            <td>
+                                                <div class="avatar-list-stacked mb-0">
+                                                                <span class="avatar avatar-xs">
+                                                                    <img src="../assets/images/faces/6.jpg" alt="img">
+                                                                </span>
+                                                    <span class="avatar avatar-xs">
+                                                                    <img src="../assets/images/faces/9.jpg" alt="img">
+                                                                </span>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center">
+                                                            <span>
+                                                                <input class="form-check-input" type="checkbox" id="check3" value="" aria-label="...">
+                                                            </span>
+                                            </td>
+                                            <td>prepare pre requisites</td>
+                                            <td class="text-muted">9.56am</td>
+                                            <td><span class="badge bg-primary">Today</span></td>
+                                            <td>
+                                                <div class="avatar-list-stacked mb-0">
+                                                                <span class="avatar avatar-xs">
+                                                                    <img src="../assets/images/faces/3.jpg" alt="img">
+                                                                </span>
+                                                    <span class="avatar avatar-xs">
+                                                                    <img src="../assets/images/faces/5.jpg" alt="img">
+                                                                </span>
+                                                    <span class="avatar avatar-xs">
+                                                                    <img src="../assets/images/faces/10.jpg" alt="img">
+                                                                </span>
+                                                    <span class="avatar avatar-xs">
+                                                                    <img src="../assets/images/faces/15.jpg" alt="img">
+                                                                </span>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center">
+                                                            <span>
+                                                                <input class="form-check-input" type="checkbox" id="check4" value="" aria-label="...">
+                                                            </span>
+                                            </td>
+                                            <td>Change total styles od that dashboard</td>
+                                            <td class="text-muted">8.15am</td>
+                                            <td><span class="badge bg-primary">Today</span></td>
+                                            <td>
+                                                <div class="avatar-list-stacked mb-0">
+                                                                <span class="avatar avatar-xs">
+                                                                    <img src="../assets/images/faces/11.jpg" alt="img">
+                                                                </span>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center">
+                                                            <span>
+                                                                <input class="form-check-input" type="checkbox" id="check5" value="" aria-label="...">
+                                                            </span>
+                                            </td>
+                                            <td>Update color theme</td>
+                                            <td class="text-muted">4.20pm</td>
+                                            <td><span class="badge bg-secondary">Tomorrow</span></td>
+                                            <td>
+                                                <div class="avatar-list-stacked mb-0">
+                                                                <span class="avatar avatar-xs">
+                                                                    <img src="../assets/images/faces/13.jpg" alt="img">
+                                                                </span>
+                                                    <span class="avatar avatar-xs">
+                                                                    <img src="../assets/images/faces/16.jpg" alt="img">
+                                                                </span>
+                                                    <span class="avatar avatar-xs">
+                                                                    <img src="../assets/images/faces/8.jpg" alt="img">
+                                                                </span>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center">
+                                                            <span>
+                                                                <input class="form-check-input" type="checkbox" id="check11" value="" aria-label="...">
+                                                            </span>
+                                            </td>
+                                            <td>New dashboard design update</td>
+                                            <td class="text-muted">8.29am</td>
+                                            <td><span class="badge bg-primary">Today</span></td>
+                                            <td>
+                                                <div class="avatar-list-stacked mb-0">
+                                                                <span class="avatar avatar-xs">
+                                                                    <img src="../assets/images/faces/10.jpg" alt="img">
+                                                                </span>
+                                                    <span class="avatar avatar-xs">
+                                                                    <img src="../assets/images/faces/5.jpg" alt="img">
+                                                                </span>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                            <div class="tab-pane p-0 border-0" id="Complete">
+                                <div class="table-responsive">
+                                    <table class="table text-nowrap table-hover">
+                                        <thead>
+                                        <tr>
+                                            <th scope="col" class="text-center">
+                                                            <span>
+                                                                <input class="form-check-input" type="checkbox" id="checkAll1" value="" aria-label="...">
+                                                            </span>
+                                            </th>
+                                            <th scope="col">Task details</th>
+                                            <th scope="col">Assigned date</th>
+                                            <th scope="col">Completed</th>
+                                            <th scope="col">Assigned to</th>
+                                        </tr>
+                                        </thead>
+                                        <tbody>
+                                        <tr>
+                                            <td class="text-center">
+                                                            <span>
+                                                                <input class="form-check-input" type="checkbox" id="check6" value="" aria-label="...">
+                                                            </span>
+                                            </td>
+                                            <td>New landing page ui update</td>
+                                            <td class="text-muted">24 Nov 2022</td>
+                                            <td><span class="badge bg-success">4 hrs ago</span></td>
+                                            <td>
+                                                <div class="avatar-list-stacked mb-0">
+                                                                <span class="avatar avatar-xs">
+                                                                    <img src="../assets/images/faces/5.jpg" alt="img">
+                                                                </span>
+                                                    <span class="avatar avatar-xs">
+                                                                    <img src="../assets/images/faces/9.jpg" alt="img">
+                                                                </span>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center">
+                                                            <span>
+                                                                <input class="form-check-input" type="checkbox" id="check7" value="" aria-label="...">
+                                                            </span>
+                                            </td>
+                                            <td>Job portal dashboard redesign</td>
+                                            <td class="text-muted">30 Nov 2022</td>
+                                            <td><span class="badge bg-success">Today</span></td>
+                                            <td>
+                                                <div class="avatar-list-stacked mb-0">
+                                                                <span class="avatar avatar-xs">
+                                                                    <img src="../assets/images/faces/11.jpg" alt="img">
+                                                                </span>
+                                                    <span class="avatar avatar-xs">
+                                                                    <img src="../assets/images/faces/12.jpg" alt="img">
+                                                                </span>
+                                                    <span class="avatar avatar-xs">
+                                                                    <img src="../assets/images/faces/13.jpg" alt="img">
+                                                                </span>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center">
+                                                            <span>
+                                                                <input class="form-check-input" type="checkbox" id="check8" value="" aria-label="...">
+                                                            </span>
+                                            </td>
+                                            <td>New template layout update</td>
+                                            <td class="text-muted">11 Dec 2022</td>
+                                            <td><span class="badge bg-success">Yesterday</span></td>
+                                            <td>
+                                                <div class="avatar-list-stacked mb-0">
+                                                                <span class="avatar avatar-xs">
+                                                                    <img src="../assets/images/faces/4.jpg" alt="img">
+                                                                </span>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center">
+                                                            <span>
+                                                                <input class="form-check-input" type="checkbox" id="check29" value="" aria-label="...">
+                                                            </span>
+                                            </td>
+                                            <td>All dashboard licenses page update</td>
+                                            <td class="text-muted">6 Dec 2022</td>
+                                            <td><span class="badge bg-success">Yesterday</span></td>
+                                            <td>
+                                                <div class="avatar-list-stacked mb-0">
+                                                                <span class="avatar avatar-xs">
+                                                                    <img src="../assets/images/faces/1.jpg" alt="img">
+                                                                </span>
+                                                    <span class="avatar avatar-xs">
+                                                                    <img src="../assets/images/faces/2.jpg" alt="img">
+                                                                </span>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center">
+                                                            <span>
+                                                                <input class="form-check-input" type="checkbox" id="check19" value="" aria-label="...">
+                                                            </span>
+                                            </td>
+                                            <td>Update color theme of ynex template</td>
+                                            <td class="text-muted">8 Dec 2022</td>
+                                            <td><span class="badge bg-success">Yesterday</span></td>
+                                            <td>
+                                                <div class="avatar-list-stacked mb-0">
+                                                                <span class="avatar avatar-xs">
+                                                                    <img src="../assets/images/faces/5.jpg" alt="img">
+                                                                </span>
+                                                    <span class="avatar avatar-xs">
+                                                                    <img src="../assets/images/faces/3.jpg" alt="img">
+                                                                </span>
+                                                    <span class="avatar avatar-xs">
+                                                                    <img src="../assets/images/faces/11.jpg" alt="img">
+                                                                </span>
+                                                    <span class="avatar avatar-xs">
+                                                                    <img src="../assets/images/faces/12.jpg" alt="img">
+                                                                </span>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center">
+                                                            <span>
+                                                                <input class="form-check-input" type="checkbox" id="check9" value="" aria-label="...">
+                                                            </span>
+                                            </td>
+                                            <td>New pages list noted</td>
+                                            <td class="text-muted">21 Dec 2022</td>
+                                            <td><span class="badge bg-success">Today</span></td>
+                                            <td>
+                                                <div class="avatar-list-stacked mb-0">
+                                                                <span class="avatar avatar-xs">
+                                                                    <img src="../assets/images/faces/1.jpg" alt="img">
+                                                                </span>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-footer border-top-0">
+                        <div class="d-flex flex-wrap align-items-center justify-content-between">
+                            <div>
+                                Showing 5 Entries <i class="bi bi-arrow-right ms-2 fw-semibold"></i>
+                            </div>
+                            <div>
+                                <nav aria-label="Page navigation" class="pagination-style-4">
+                                    <ul class="pagination mb-0">
+                                        <li class="page-item disabled">
+                                            <a class="page-link" href="javascript:void(0);">
+                                                Prev
+                                            </a>
+                                        </li>
+                                        <li class="page-item active"><a class="page-link" href="javascript:void(0);">1</a></li>
+                                        <li class="page-item"><a class="page-link" href="javascript:void(0);">2</a></li>
+                                        <li class="page-item">
+                                            <a class="page-link text-primary" href="javascript:void(0);">
+                                                next
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xxl-6 col-xl-12 col-md-12">
+                <div class="card custom-card">
+                    <div class="card-header justify-content-between">
+                        <div class="card-title">
+                            Top Donor Countries
+                        </div>
+                        <div class="dropdown">
+                            <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-sm btn-light" data-bs-toggle="dropdown">
+                                <i class="fe fe-more-vertical"></i>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="javascript:void(0);">Action</a></li>
+                                <li><a class="dropdown-item" href="javascript:void(0);">Another action</a></li>
+                                <li><a class="dropdown-item" href="javascript:void(0);">Something else here</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="card-body p-0">
+                        <div class="row">
+                            <div class="col-xxl-4 col-xl-12 sales-visitors-countries">
+                                <div class="mt-2">
+                                    <ul class="list-unstyled p-4 my-auto">
+                                        <li class="mb-3">
+                                            <span class="fs-12"><i class="ri-checkbox-blank-circle-fill align-middle me-2 d-inline-block text-primary"></i>Usa</span><span class="fw-semibold float-end">3,201</span>
+                                        </li>
+                                        <li class="mb-3">
+                                            <span class="fs-12"><i class="ri-checkbox-blank-circle-fill align-middle me-2 d-inline-block text-secondary"></i>India</span><span class="fw-semibold float-end">2,345</span>
+                                        </li>
+                                        <li class="mb-3">
+                                            <span class="fs-12"><i class="ri-checkbox-blank-circle-fill align-middle me-2 d-inline-block text-danger"></i>Vatican City</span><span class="fw-semibold float-end">106</span>
+                                        </li>
+                                        <li class="mb-3">
+                                            <span class="fs-12"><i class="ri-checkbox-blank-circle-fill align-middle me-2 d-inline-block text-info"></i>Canada</span><span class="fw-semibold float-end">2,857</span>
+                                        </li>
+                                        <li class="mb-3">
+                                            <span class="fs-12"><i class="ri-checkbox-blank-circle-fill align-middle me-2 d-inline-block text-orange"></i>Mauritius</span><span class="fw-semibold float-end">169</span>
+                                        </li>
+                                        <li class="mb-3">
+                                            <span class="fs-12"><i class="ri-checkbox-blank-circle-fill align-middle me-2 d-inline-block text-warning"></i>Singapore</span><span class="fw-semibold float-end">1,950</span>
+                                        </li>
+                                        <li class="mb-3">
+                                            <span class="fs-12"><i class="ri-checkbox-blank-circle-fill align-middle me-2 d-inline-block text-success"></i>Palau</span><span class="fw-semibold float-end">224</span>
+                                        </li>
+                                        <li class="mb-3">
+                                            <span class="fs-12"><i class="ri-checkbox-blank-circle-fill align-middle me-2 d-inline-block text-pink"></i>Maldives</span><span class="fw-semibold float-end">147</span>
+                                        </li>
+                                        <li class="mb-0">
+                                            <span class="fs-12"><i class="ri-checkbox-blank-circle-fill align-middle me-2 d-inline-block"></i>São Tomé and Príncipe</span><span class="fw-semibold float-end">182</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-xxl-8 col-xl-12 text-center">
+                                <div id="visitors-countries"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End::row-3 -->
 
 
             <!-- Start:: row-3 -->
