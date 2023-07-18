@@ -256,10 +256,10 @@
                                                                 <input class="form-check-input" type="checkbox" id="checkAll" value="" aria-label="...">
                                                             </span>
                                             </th>
-                                            <th scope="col">Task details</th>
-                                            <th scope="col">Assigned date</th>
-                                            <th scope="col">Target</th>
-                                            <th scope="col">Assigned to</th>
+                                            <th scope="col">Campaign Name</th>
+                                            <th scope="col">Start date</th>
+                                            <th scope="col">End Date</th>
+                                            <th scope="col">Action</th>
                                         </tr>
                                         </thead>
                                         <tbody>
@@ -269,129 +269,100 @@
                                                                 <input class="form-check-input" type="checkbox" id="check1" value="" aria-label="...">
                                                             </span>
                                             </td>
-                                            <td>Design task page for new template</td>
-                                            <td class="text-muted">12.43pm</td>
-                                            <td><span class="badge bg-primary">Today</span></td>
+                                            <td>Where it Matters</td>
+                                            <td class="badge bg-success-transparent">24 Nov 2022</td>
                                             <td>
-                                                <div class="avatar-list-stacked mb-0">
-                                                                <span class="avatar avatar-xs">
-                                                                    <img src="../assets/images/faces/2.jpg" alt="img">
-                                                                </span>
-                                                    <span class="avatar avatar-xs">
-                                                                    <img src="../assets/images/faces/8.jpg" alt="img">
-                                                                </span>
-                                                    <span class="avatar avatar-xs">
-                                                                    <img src="../assets/images/faces/2.jpg" alt="img">
-                                                                </span>
+                                                <span class="badge bg-danger">24 Nov 2023</span>
+                                            </td>
+                                            <td>
+                                                <div class="hstack gap-2 fs-15">
+                                                    <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-wave waves-effect waves-light btn-sm btn-success-light"><i class="fe fe-eye"></i></a>
+                                                    <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-wave waves-effect waves-light btn-sm btn-primary-light"><i class="ri-edit-line"></i></a>
+                                                    <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-wave waves-effect waves-light btn-sm btn-danger-light"><i class="ri-delete-bin-line"></i></a>
                                                 </div>
                                             </td>
                                         </tr>
+
                                         <tr>
                                             <td class="text-center">
                                                             <span>
-                                                                <input class="form-check-input" type="checkbox" id="check2" value="" aria-label="..." checked>
+                                                                <input class="form-check-input" type="checkbox" id="check1" value="" aria-label="...">
                                                             </span>
                                             </td>
-                                            <td>Solve UI issues in new template</td>
-                                            <td class="text-muted">11.25am</td>
-                                            <td><span class="badge bg-secondary">Tomorrow</span></td>
+                                            <td>Where it Matters</td>
+                                            <td class="badge bg-success-transparent">24 Nov 2022</td>
                                             <td>
-                                                <div class="avatar-list-stacked mb-0">
-                                                                <span class="avatar avatar-xs">
-                                                                    <img src="../assets/images/faces/6.jpg" alt="img">
-                                                                </span>
-                                                    <span class="avatar avatar-xs">
-                                                                    <img src="../assets/images/faces/9.jpg" alt="img">
-                                                                </span>
+                                                <span class="badge bg-danger">24 Nov 2023</span>
+                                            </td>
+                                            <td>
+                                                <div class="hstack gap-2 fs-15">
+                                                    <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-wave waves-effect waves-light btn-sm btn-success-light"><i class="fe fe-eye"></i></a>
+                                                    <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-wave waves-effect waves-light btn-sm btn-primary-light"><i class="ri-edit-line"></i></a>
+                                                    <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-wave waves-effect waves-light btn-sm btn-danger-light"><i class="ri-delete-bin-line"></i></a>
                                                 </div>
                                             </td>
                                         </tr>
+
                                         <tr>
                                             <td class="text-center">
                                                             <span>
-                                                                <input class="form-check-input" type="checkbox" id="check3" value="" aria-label="...">
+                                                                <input class="form-check-input" type="checkbox" id="check1" value="" aria-label="...">
                                                             </span>
                                             </td>
-                                            <td>prepare pre requisites</td>
-                                            <td class="text-muted">9.56am</td>
-                                            <td><span class="badge bg-primary">Today</span></td>
+                                            <td>Where it Matters</td>
+                                            <td class="badge bg-success-transparent">24 Nov 2022</td>
                                             <td>
-                                                <div class="avatar-list-stacked mb-0">
-                                                                <span class="avatar avatar-xs">
-                                                                    <img src="../assets/images/faces/3.jpg" alt="img">
-                                                                </span>
-                                                    <span class="avatar avatar-xs">
-                                                                    <img src="../assets/images/faces/5.jpg" alt="img">
-                                                                </span>
-                                                    <span class="avatar avatar-xs">
-                                                                    <img src="../assets/images/faces/10.jpg" alt="img">
-                                                                </span>
-                                                    <span class="avatar avatar-xs">
-                                                                    <img src="../assets/images/faces/15.jpg" alt="img">
-                                                                </span>
+                                                <span class="badge bg-danger">24 Nov 2023</span>
+                                            </td>
+                                            <td>
+                                                <div class="hstack gap-2 fs-15">
+                                                    <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-wave waves-effect waves-light btn-sm btn-success-light"><i class="fe fe-eye"></i></a>
+                                                    <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-wave waves-effect waves-light btn-sm btn-primary-light"><i class="ri-edit-line"></i></a>
+                                                    <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-wave waves-effect waves-light btn-sm btn-danger-light"><i class="ri-delete-bin-line"></i></a>
                                                 </div>
                                             </td>
                                         </tr>
+
                                         <tr>
                                             <td class="text-center">
                                                             <span>
-                                                                <input class="form-check-input" type="checkbox" id="check4" value="" aria-label="...">
+                                                                <input class="form-check-input" type="checkbox" id="check1" value="" aria-label="...">
                                                             </span>
                                             </td>
-                                            <td>Change total styles od that dashboard</td>
-                                            <td class="text-muted">8.15am</td>
-                                            <td><span class="badge bg-primary">Today</span></td>
+                                            <td>Where it Matters</td>
+                                            <td class="badge bg-success-transparent">24 Nov 2022</td>
                                             <td>
-                                                <div class="avatar-list-stacked mb-0">
-                                                                <span class="avatar avatar-xs">
-                                                                    <img src="../assets/images/faces/11.jpg" alt="img">
-                                                                </span>
+                                                <span class="badge bg-danger">24 Nov 2023</span>
+                                            </td>
+                                            <td>
+                                                <div class="hstack gap-2 fs-15">
+                                                    <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-wave waves-effect waves-light btn-sm btn-success-light"><i class="fe fe-eye"></i></a>
+                                                    <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-wave waves-effect waves-light btn-sm btn-primary-light"><i class="ri-edit-line"></i></a>
+                                                    <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-wave waves-effect waves-light btn-sm btn-danger-light"><i class="ri-delete-bin-line"></i></a>
                                                 </div>
                                             </td>
                                         </tr>
+
                                         <tr>
                                             <td class="text-center">
                                                             <span>
-                                                                <input class="form-check-input" type="checkbox" id="check5" value="" aria-label="...">
+                                                                <input class="form-check-input" type="checkbox" id="check1" value="" aria-label="...">
                                                             </span>
                                             </td>
-                                            <td>Update color theme</td>
-                                            <td class="text-muted">4.20pm</td>
-                                            <td><span class="badge bg-secondary">Tomorrow</span></td>
+                                            <td>Where it Matters</td>
+                                            <td class="badge bg-success-transparent">24 Nov 2022</td>
                                             <td>
-                                                <div class="avatar-list-stacked mb-0">
-                                                                <span class="avatar avatar-xs">
-                                                                    <img src="../assets/images/faces/13.jpg" alt="img">
-                                                                </span>
-                                                    <span class="avatar avatar-xs">
-                                                                    <img src="../assets/images/faces/16.jpg" alt="img">
-                                                                </span>
-                                                    <span class="avatar avatar-xs">
-                                                                    <img src="../assets/images/faces/8.jpg" alt="img">
-                                                                </span>
+                                                <span class="badge bg-danger">24 Nov 2023</span>
+                                            </td>
+                                            <td>
+                                                <div class="hstack gap-2 fs-15">
+                                                    <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-wave waves-effect waves-light btn-sm btn-success-light"><i class="fe fe-eye"></i></a>
+                                                    <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-wave waves-effect waves-light btn-sm btn-primary-light"><i class="ri-edit-line"></i></a>
+                                                    <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-wave waves-effect waves-light btn-sm btn-danger-light"><i class="ri-delete-bin-line"></i></a>
                                                 </div>
                                             </td>
                                         </tr>
-                                        <tr>
-                                            <td class="text-center">
-                                                            <span>
-                                                                <input class="form-check-input" type="checkbox" id="check11" value="" aria-label="...">
-                                                            </span>
-                                            </td>
-                                            <td>New dashboard design update</td>
-                                            <td class="text-muted">8.29am</td>
-                                            <td><span class="badge bg-primary">Today</span></td>
-                                            <td>
-                                                <div class="avatar-list-stacked mb-0">
-                                                                <span class="avatar avatar-xs">
-                                                                    <img src="../assets/images/faces/10.jpg" alt="img">
-                                                                </span>
-                                                    <span class="avatar avatar-xs">
-                                                                    <img src="../assets/images/faces/5.jpg" alt="img">
-                                                                </span>
-                                                </div>
-                                            </td>
-                                        </tr>
+
                                         </tbody>
                                     </table>
                                 </div>
@@ -406,133 +377,109 @@
                                                                 <input class="form-check-input" type="checkbox" id="checkAll1" value="" aria-label="...">
                                                             </span>
                                             </th>
-                                            <th scope="col">Task details</th>
-                                            <th scope="col">Assigned date</th>
-                                            <th scope="col">Completed</th>
-                                            <th scope="col">Assigned to</th>
+                                            <th scope="col">Campaign Name</th>
+                                            <th scope="col">Start date</th>
+                                            <th scope="col">End Date</th>
+                                            <th scope="col">Action</th>
                                         </tr>
                                         </thead>
                                         <tbody>
                                         <tr>
                                             <td class="text-center">
                                                             <span>
-                                                                <input class="form-check-input" type="checkbox" id="check6" value="" aria-label="...">
+                                                                <input class="form-check-input" type="checkbox" id="check1" value="" aria-label="...">
                                                             </span>
                                             </td>
-                                            <td>New landing page ui update</td>
-                                            <td class="text-muted">24 Nov 2022</td>
-                                            <td><span class="badge bg-success">4 hrs ago</span></td>
+                                            <td>Kilifi Floods</td>
+                                            <td class="badge bg-success-transparent">24 Nov 2022</td>
                                             <td>
-                                                <div class="avatar-list-stacked mb-0">
-                                                                <span class="avatar avatar-xs">
-                                                                    <img src="../assets/images/faces/5.jpg" alt="img">
-                                                                </span>
-                                                    <span class="avatar avatar-xs">
-                                                                    <img src="../assets/images/faces/9.jpg" alt="img">
-                                                                </span>
+                                                <span class="badge bg-danger">24 Nov 2023</span>
+                                            </td>
+                                            <td>
+                                                <div class="hstack gap-2 fs-15">
+                                                    <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-wave waves-effect waves-light btn-sm btn-success-light"><i class="fe fe-eye"></i></a>
+                                                    <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-wave waves-effect waves-light btn-sm btn-primary-light"><i class="ri-edit-line"></i></a>
+                                                    <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-wave waves-effect waves-light btn-sm btn-danger-light"><i class="ri-delete-bin-line"></i></a>
                                                 </div>
                                             </td>
                                         </tr>
+
                                         <tr>
                                             <td class="text-center">
                                                             <span>
-                                                                <input class="form-check-input" type="checkbox" id="check7" value="" aria-label="...">
+                                                                <input class="form-check-input" type="checkbox" id="check1" value="" aria-label="...">
                                                             </span>
                                             </td>
-                                            <td>Job portal dashboard redesign</td>
-                                            <td class="text-muted">30 Nov 2022</td>
-                                            <td><span class="badge bg-success">Today</span></td>
+                                            <td>Kilifi Floods</td>
+                                            <td class="badge bg-success-transparent">24 Nov 2022</td>
                                             <td>
-                                                <div class="avatar-list-stacked mb-0">
-                                                                <span class="avatar avatar-xs">
-                                                                    <img src="../assets/images/faces/11.jpg" alt="img">
-                                                                </span>
-                                                    <span class="avatar avatar-xs">
-                                                                    <img src="../assets/images/faces/12.jpg" alt="img">
-                                                                </span>
-                                                    <span class="avatar avatar-xs">
-                                                                    <img src="../assets/images/faces/13.jpg" alt="img">
-                                                                </span>
+                                                <span class="badge bg-danger">24 Nov 2023</span>
+                                            </td>
+                                            <td>
+                                                <div class="hstack gap-2 fs-15">
+                                                    <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-wave waves-effect waves-light btn-sm btn-success-light"><i class="fe fe-eye"></i></a>
+                                                    <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-wave waves-effect waves-light btn-sm btn-primary-light"><i class="ri-edit-line"></i></a>
+                                                    <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-wave waves-effect waves-light btn-sm btn-danger-light"><i class="ri-delete-bin-line"></i></a>
                                                 </div>
                                             </td>
                                         </tr>
+
                                         <tr>
                                             <td class="text-center">
                                                             <span>
-                                                                <input class="form-check-input" type="checkbox" id="check8" value="" aria-label="...">
+                                                                <input class="form-check-input" type="checkbox" id="check1" value="" aria-label="...">
                                                             </span>
                                             </td>
-                                            <td>New template layout update</td>
-                                            <td class="text-muted">11 Dec 2022</td>
-                                            <td><span class="badge bg-success">Yesterday</span></td>
+                                            <td>Kilifi Floods</td>
+                                            <td class="badge bg-success-transparent">24 Nov 2022</td>
                                             <td>
-                                                <div class="avatar-list-stacked mb-0">
-                                                                <span class="avatar avatar-xs">
-                                                                    <img src="../assets/images/faces/4.jpg" alt="img">
-                                                                </span>
+                                                <span class="badge bg-danger">24 Nov 2023</span>
+                                            </td>
+                                            <td>
+                                                <div class="hstack gap-2 fs-15">
+                                                    <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-wave waves-effect waves-light btn-sm btn-success-light"><i class="fe fe-eye"></i></a>
+                                                    <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-wave waves-effect waves-light btn-sm btn-primary-light"><i class="ri-edit-line"></i></a>
+                                                    <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-wave waves-effect waves-light btn-sm btn-danger-light"><i class="ri-delete-bin-line"></i></a>
                                                 </div>
                                             </td>
                                         </tr>
+
                                         <tr>
                                             <td class="text-center">
                                                             <span>
-                                                                <input class="form-check-input" type="checkbox" id="check29" value="" aria-label="...">
+                                                                <input class="form-check-input" type="checkbox" id="check1" value="" aria-label="...">
                                                             </span>
                                             </td>
-                                            <td>All dashboard licenses page update</td>
-                                            <td class="text-muted">6 Dec 2022</td>
-                                            <td><span class="badge bg-success">Yesterday</span></td>
+                                            <td>Kilifi Floods</td>
+                                            <td class="badge bg-success-transparent">24 Nov 2022</td>
                                             <td>
-                                                <div class="avatar-list-stacked mb-0">
-                                                                <span class="avatar avatar-xs">
-                                                                    <img src="../assets/images/faces/1.jpg" alt="img">
-                                                                </span>
-                                                    <span class="avatar avatar-xs">
-                                                                    <img src="../assets/images/faces/2.jpg" alt="img">
-                                                                </span>
+                                                <span class="badge bg-danger">24 Nov 2023</span>
+                                            </td>
+                                            <td>
+                                                <div class="hstack gap-2 fs-15">
+                                                    <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-wave waves-effect waves-light btn-sm btn-success-light"><i class="fe fe-eye"></i></a>
+                                                    <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-wave waves-effect waves-light btn-sm btn-primary-light"><i class="ri-edit-line"></i></a>
+                                                    <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-wave waves-effect waves-light btn-sm btn-danger-light"><i class="ri-delete-bin-line"></i></a>
                                                 </div>
                                             </td>
                                         </tr>
+
                                         <tr>
                                             <td class="text-center">
                                                             <span>
-                                                                <input class="form-check-input" type="checkbox" id="check19" value="" aria-label="...">
+                                                                <input class="form-check-input" type="checkbox" id="check1" value="" aria-label="...">
                                                             </span>
                                             </td>
-                                            <td>Update color theme of ynex template</td>
-                                            <td class="text-muted">8 Dec 2022</td>
-                                            <td><span class="badge bg-success">Yesterday</span></td>
+                                            <td>Kilifi Floods</td>
+                                            <td class="badge bg-success-transparent">24 Nov 2022</td>
                                             <td>
-                                                <div class="avatar-list-stacked mb-0">
-                                                                <span class="avatar avatar-xs">
-                                                                    <img src="../assets/images/faces/5.jpg" alt="img">
-                                                                </span>
-                                                    <span class="avatar avatar-xs">
-                                                                    <img src="../assets/images/faces/3.jpg" alt="img">
-                                                                </span>
-                                                    <span class="avatar avatar-xs">
-                                                                    <img src="../assets/images/faces/11.jpg" alt="img">
-                                                                </span>
-                                                    <span class="avatar avatar-xs">
-                                                                    <img src="../assets/images/faces/12.jpg" alt="img">
-                                                                </span>
-                                                </div>
+                                                <span class="badge bg-danger">24 Nov 2023</span>
                                             </td>
-                                        </tr>
-                                        <tr>
-                                            <td class="text-center">
-                                                            <span>
-                                                                <input class="form-check-input" type="checkbox" id="check9" value="" aria-label="...">
-                                                            </span>
-                                            </td>
-                                            <td>New pages list noted</td>
-                                            <td class="text-muted">21 Dec 2022</td>
-                                            <td><span class="badge bg-success">Today</span></td>
                                             <td>
-                                                <div class="avatar-list-stacked mb-0">
-                                                                <span class="avatar avatar-xs">
-                                                                    <img src="../assets/images/faces/1.jpg" alt="img">
-                                                                </span>
+                                                <div class="hstack gap-2 fs-15">
+                                                    <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-wave waves-effect waves-light btn-sm btn-success-light"><i class="fe fe-eye"></i></a>
+                                                    <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-wave waves-effect waves-light btn-sm btn-primary-light"><i class="ri-edit-line"></i></a>
+                                                    <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-wave waves-effect waves-light btn-sm btn-danger-light"><i class="ri-delete-bin-line"></i></a>
                                                 </div>
                                             </td>
                                         </tr>
@@ -595,29 +542,27 @@
                                             <span class="fs-12"><i class="ri-checkbox-blank-circle-fill align-middle me-2 d-inline-block text-primary"></i>Usa</span><span class="fw-semibold float-end">3,201</span>
                                         </li>
                                         <li class="mb-3">
-                                            <span class="fs-12"><i class="ri-checkbox-blank-circle-fill align-middle me-2 d-inline-block text-secondary"></i>India</span><span class="fw-semibold float-end">2,345</span>
+                                            <span class="fs-12"><i class="ri-checkbox-blank-circle-fill align-middle me-2 d-inline-block text-secondary"></i>UK</span><span class="fw-semibold float-end">2,345</span>
                                         </li>
                                         <li class="mb-3">
-                                            <span class="fs-12"><i class="ri-checkbox-blank-circle-fill align-middle me-2 d-inline-block text-danger"></i>Vatican City</span><span class="fw-semibold float-end">106</span>
+                                            <span class="fs-12"><i class="ri-checkbox-blank-circle-fill align-middle me-2 d-inline-block text-danger"></i>Kenya</span><span class="fw-semibold float-end">106</span>
                                         </li>
                                         <li class="mb-3">
-                                            <span class="fs-12"><i class="ri-checkbox-blank-circle-fill align-middle me-2 d-inline-block text-info"></i>Canada</span><span class="fw-semibold float-end">2,857</span>
+                                            <span class="fs-12"><i class="ri-checkbox-blank-circle-fill align-middle me-2 d-inline-block text-info"></i>South Africa</span><span class="fw-semibold float-end">2,857</span>
                                         </li>
                                         <li class="mb-3">
-                                            <span class="fs-12"><i class="ri-checkbox-blank-circle-fill align-middle me-2 d-inline-block text-orange"></i>Mauritius</span><span class="fw-semibold float-end">169</span>
+                                            <span class="fs-12"><i class="ri-checkbox-blank-circle-fill align-middle me-2 d-inline-block text-orange"></i>Nigeria</span><span class="fw-semibold float-end">169</span>
                                         </li>
                                         <li class="mb-3">
                                             <span class="fs-12"><i class="ri-checkbox-blank-circle-fill align-middle me-2 d-inline-block text-warning"></i>Singapore</span><span class="fw-semibold float-end">1,950</span>
                                         </li>
                                         <li class="mb-3">
-                                            <span class="fs-12"><i class="ri-checkbox-blank-circle-fill align-middle me-2 d-inline-block text-success"></i>Palau</span><span class="fw-semibold float-end">224</span>
+                                            <span class="fs-12"><i class="ri-checkbox-blank-circle-fill align-middle me-2 d-inline-block text-warning"></i>Malawi</span><span class="fw-semibold float-end">1,950</span>
                                         </li>
                                         <li class="mb-3">
-                                            <span class="fs-12"><i class="ri-checkbox-blank-circle-fill align-middle me-2 d-inline-block text-pink"></i>Maldives</span><span class="fw-semibold float-end">147</span>
+                                            <span class="fs-12"><i class="ri-checkbox-blank-circle-fill align-middle me-2 d-inline-block text-warning"></i>Saudi Arabia</span><span class="fw-semibold float-end">1,950</span>
                                         </li>
-                                        <li class="mb-0">
-                                            <span class="fs-12"><i class="ri-checkbox-blank-circle-fill align-middle me-2 d-inline-block"></i>São Tomé and Príncipe</span><span class="fw-semibold float-end">182</span>
-                                        </li>
+
                                     </ul>
                                 </div>
                             </div>
@@ -661,6 +606,7 @@
                                         <th scope="col">Amount</th>
                                         <th scope="col">Method</th>
                                         <th scope="col">Status</th>
+                                        <th scope="col">Action</th>
 
                                     </tr>
                                     </thead>
@@ -679,16 +625,17 @@
                                             July 4, 2023
                                         </td>
                                         <td>
-                                            324.01B
+                                            KES.324.01
                                         </td>
                                         <td>
-                                            Mpesa
+                                            <span class="badge bg-outline-primary">Card</span>
+                                        </td>
+
+                                        <td>
+                                            <span class="badge rounded-pill bg-outline-success">Paid</span>
                                         </td>
                                         <td>
-                                            Paid
-                                        </td>
-                                        <td>
-                                            <span class="text-success">0.30% <i class="ti ti-arrow-big-up-lines ms-1"></i></span>
+                                            <button class="btn btn-teal-light btn-border-top">View</button>
                                         </td>
                                     </tr>
                                     <tr>
@@ -705,16 +652,16 @@
                                             July 4, 2023
                                         </td>
                                         <td>
-                                            $149,316,232,699
+                                            $149,316
                                         </td>
                                         <td>
-                                            Card
+                                            <span class="badge bg-outline-success">Mpesa</span>
                                         </td>
                                         <td>
-                                            Paid
+                                            <span class="badge rounded-pill bg-outline-warning">Pending</span>
                                         </td>
                                         <td>
-                                            <span class="text-success">0.30% <i class="ti ti-arrow-big-up-lines ms-1"></i></span>
+                                            <button class="btn btn-teal-light btn-border-top">View</button>
                                         </td>
                                     </tr>
                                     <tr>
@@ -731,16 +678,16 @@
                                             July 4, 2023
                                         </td>
                                         <td>
-                                            $480,799,847
+                                            KES.480,799
                                         </td>
                                         <td>
-                                            Mpesa
+                                            <span class="badge bg-outline-success">Mpesa</span>
                                         </td>
                                         <td>
-                                            Failed
+                                            <span class="badge rounded-pill bg-outline-danger">Failed</span>
                                         </td>
                                         <td>
-                                            <span class="text-success">0.45% <i class="ti ti-arrow-big-up-lines ms-1"></i></span>
+                                            <button class="btn btn-teal-light btn-border-top">View</button>
                                         </td>
                                     </tr>
                                     <tr>
@@ -760,13 +707,13 @@
                                             $17,791,969,465
                                         </td>
                                         <td>
-                                            Card
+                                            <span class="badge bg-outline-primary">Card</span>
                                         </td>
                                         <td>
-                                            Paid
+                                            <span class="badge rounded-pill bg-outline-warning">Pending</span>
                                         </td>
                                         <td>
-                                            <span class="text-success">0.97% <i class="ti ti-arrow-big-up-lines ms-1"></i></span>
+                                            <button class="btn btn-teal-light btn-border-top">View</button>
                                         </td>
                                     </tr>
                                     <tr>
@@ -786,13 +733,13 @@
                                             $471,800,600
                                         </td>
                                         <td>
-                                            Card
+                                            <span class="badge bg-outline-primary">Card</span>
                                         </td>
                                         <td>
-                                            Pending
+                                            <span class="badge rounded-pill bg-outline-success">Paid</span>
                                         </td>
                                         <td>
-                                            <span class="text-success">0.93% <i class="ti ti-arrow-big-up-lines ms-1"></i></span>
+                                            <button class="btn btn-teal-light btn-border-top">View</button>
                                         </td>
                                     </tr>
                                     <tr>
@@ -809,16 +756,16 @@
                                             July 4, 2023
                                         </td>
                                         <td>
-                                            $453,601,667
+                                            KES.453,601
                                         </td>
                                         <td>
-                                            Mpesa
+                                            <span class="badge bg-outline-success">Mpesa</span>
                                         </td>
                                         <td>
-                                            Paid
+                                            <span class="badge rounded-pill bg-outline-danger">Failed</span>
                                         </td>
                                         <td>
-                                            <span class="text-danger">0.49% <i class="ti ti-arrow-big-down-lines ms-1"></i></span>
+                                            <button class="btn btn-teal-light btn-border-top">View</button>
                                         </td>
                                     </tr>
                                     </tbody>

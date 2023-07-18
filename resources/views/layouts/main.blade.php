@@ -545,7 +545,7 @@
 <script src="{{asset('assets/libs/apexcharts/apexcharts.min.js')}}"></script>
 
 <!-- Internal Apex Radialbar Charts JS -->
-    <script src="{{asset('assets/js/apexcharts-radialbar.js')}}"></script>
+<script src="{{asset('assets/js/apexcharts-radialbar.js')}}"></script>
 
 <!-- Chartjs Chart JS -->
 <script src="{{asset('assets/libs/chart.js/chart.min.js')}}"></script>
