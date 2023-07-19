@@ -268,7 +268,7 @@ var options = {
     series: [
         {
             type: 'line',
-            name: 'Profit',
+            name: 'USD',
             data: [
                 {
                     x: 'Jan',
@@ -322,7 +322,7 @@ var options = {
         },
         {
             type: 'line',
-            name: 'Revenue',
+            name: 'KES',
             chart: {
                 dropShadow: {
                     enabled: true,
@@ -385,71 +385,7 @@ var options = {
                 }
             ]
         },
-        {
-            type: 'area',
-            name: 'Sales',
-            chart: {
-                dropShadow: {
-                    enabled: true,
-                    enabledOnSeries: undefined,
-                    top: 5,
-                    left: 0,
-                    blur: 3,
-                    color: '#000',
-                    opacity: 0.1
-                }
-            },
-            data: [
-                {
-                    x: 'Jan',
-                    y: 200
-                },
-                {
-                    x: 'Feb',
-                    y: 530
-                },
-                {
-                    x: 'Mar',
-                    y: 110
-                },
-                {
-                    x: 'Apr',
-                    y: 130
-                },
-                {
-                    x: 'May',
-                    y: 480
-                },
-                {
-                    x: 'Jun',
-                    y: 520
-                },
-                {
-                    x: 'Jul',
-                    y: 780
-                },
-                {
-                    x: 'Aug',
-                    y: 435
-                },
-                {
-                    x: 'Sep',
-                    y: 475
-                },
-                {
-                    x: 'Oct',
-                    y: 738
-                },
-                {
-                    x: 'Nov',
-                    y: 454
-                },
-                {
-                    x: 'Dec',
-                    y: 480
-                }
-            ]
-        }
+
     ],
     chart: {
         height: 350,
@@ -508,11 +444,11 @@ var options = {
     },
     legend: {
         show: true,
-        customLegendItems: ['Profit', 'Revenue', 'Sales'],
+        customLegendItems: ['USD', 'KES',],
         inverseOrder: true
     },
     title: {
-        text: 'Revenue Analytics with sales & profit (USD)',
+        text: 'Donations Analytics by Currency',
         align: 'left',
         style: {
             fontSize: '.8125rem',

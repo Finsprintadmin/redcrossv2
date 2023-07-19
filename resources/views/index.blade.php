@@ -155,7 +155,7 @@
                                 <div class="card custom-card">
                                     <div class="card-header justify-content-between">
                                         <div class="card-title">
-                                            Overall Donations
+                                            Overall Quartery Donations
                                         </div>
                                         <div id="crm-total-customers"></div>
                                         <div class="dropdown">

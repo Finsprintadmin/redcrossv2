@@ -42,14 +42,14 @@
                         label: 'Total',
                         formatter: function (w) {
                             // By default this function returns the average of all series. The below is just an example to show the use of custom formatter function
-                            return 249
+                            return 200000
                         }
                     }
                 }
             }
         },
         colors: ["#845adf", "#23b7e5", "#f5b849", "#e6533c"],
-        labels: ['Apples', 'Oranges', 'Bananas', 'Berries'],
+        labels: ['JAN-MAR', 'APR-JUN', 'JUL-SEPT', 'OCT-DEC'],
     };
     var chart = new ApexCharts(document.querySelector("#radialbar-multiple"), options);
     chart.render();
