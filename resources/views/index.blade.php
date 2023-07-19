@@ -228,6 +228,7 @@
 
         <!-- Start::row-3 -->
         <div class="row">
+
             <div class="col-xxl-6 col-xl-12 col-md-12">
                 <div class="card custom-card">
                     <div class="card-header d-sm-flex d-block">
@@ -257,12 +258,13 @@
                                                             </span>
                                             </th>
                                             <th scope="col">Campaign Name</th>
-                                            <th scope="col">Start date</th>
-                                            <th scope="col">End Date</th>
+                                            <th scope="col">Amount</th>
+                                            <th scope="col">Target</th>
                                             <th scope="col">Action</th>
                                         </tr>
                                         </thead>
                                         <tbody>
+
                                         <tr>
                                             <td class="text-center">
                                                             <span>
@@ -270,9 +272,9 @@
                                                             </span>
                                             </td>
                                             <td>Where it Matters</td>
-                                            <td class="badge bg-success-transparent">24 Nov 2022</td>
+                                            <td class="text-muted">KES.150,000</td>
                                             <td>
-                                                <span class="badge bg-danger">24 Nov 2023</span>
+                                                <span class="badge bg-primary">KES.1,000,000</span>
                                             </td>
                                             <td>
                                                 <div class="hstack gap-2 fs-15">
@@ -282,7 +284,6 @@
                                                 </div>
                                             </td>
                                         </tr>
-
                                         <tr>
                                             <td class="text-center">
                                                             <span>
@@ -290,9 +291,9 @@
                                                             </span>
                                             </td>
                                             <td>Where it Matters</td>
-                                            <td class="badge bg-success-transparent">24 Nov 2022</td>
+                                            <td class="text-muted">KES.150,000</td>
                                             <td>
-                                                <span class="badge bg-danger">24 Nov 2023</span>
+                                                <span class="badge bg-primary">KES.1,000,000</span>
                                             </td>
                                             <td>
                                                 <div class="hstack gap-2 fs-15">
@@ -302,7 +303,6 @@
                                                 </div>
                                             </td>
                                         </tr>
-
                                         <tr>
                                             <td class="text-center">
                                                             <span>
@@ -310,9 +310,9 @@
                                                             </span>
                                             </td>
                                             <td>Where it Matters</td>
-                                            <td class="badge bg-success-transparent">24 Nov 2022</td>
+                                            <td class="text-muted">KES.150,000</td>
                                             <td>
-                                                <span class="badge bg-danger">24 Nov 2023</span>
+                                                <span class="badge bg-primary">KES.1,000,000</span>
                                             </td>
                                             <td>
                                                 <div class="hstack gap-2 fs-15">
@@ -322,7 +322,6 @@
                                                 </div>
                                             </td>
                                         </tr>
-
                                         <tr>
                                             <td class="text-center">
                                                             <span>
@@ -330,9 +329,9 @@
                                                             </span>
                                             </td>
                                             <td>Where it Matters</td>
-                                            <td class="badge bg-success-transparent">24 Nov 2022</td>
+                                            <td class="text-muted">KES.150,000</td>
                                             <td>
-                                                <span class="badge bg-danger">24 Nov 2023</span>
+                                                <span class="badge bg-primary">KES.1,000,000</span>
                                             </td>
                                             <td>
                                                 <div class="hstack gap-2 fs-15">
@@ -342,7 +341,6 @@
                                                 </div>
                                             </td>
                                         </tr>
-
                                         <tr>
                                             <td class="text-center">
                                                             <span>
@@ -350,9 +348,9 @@
                                                             </span>
                                             </td>
                                             <td>Where it Matters</td>
-                                            <td class="badge bg-success-transparent">24 Nov 2022</td>
+                                            <td class="text-muted">KES.150,000</td>
                                             <td>
-                                                <span class="badge bg-danger">24 Nov 2023</span>
+                                                <span class="badge bg-primary">KES.1,000,000</span>
                                             </td>
                                             <td>
                                                 <div class="hstack gap-2 fs-15">
@@ -378,8 +376,8 @@
                                                             </span>
                                             </th>
                                             <th scope="col">Campaign Name</th>
-                                            <th scope="col">Start date</th>
-                                            <th scope="col">End Date</th>
+                                            <th scope="col">Amount Collected</th>
+                                            <th scope="col">Target</th>
                                             <th scope="col">Action</th>
                                         </tr>
                                         </thead>
@@ -391,9 +389,85 @@
                                                             </span>
                                             </td>
                                             <td>Kilifi Floods</td>
-                                            <td class="badge bg-success-transparent">24 Nov 2022</td>
+                                            <td class="text-muted">KES.1,250,000</td>
                                             <td>
-                                                <span class="badge bg-danger">24 Nov 2023</span>
+                                                <span class="badge bg-primary">KES.2,000,000</span>
+                                            </td>
+                                            <td>
+                                                <div class="hstack gap-2 fs-15">
+                                                    <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-wave waves-effect waves-light btn-sm btn-success-light"><i class="fe fe-eye"></i></a>
+                                                    <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-wave waves-effect waves-light btn-sm btn-primary-light"><i class="ri-edit-line"></i></a>
+                                                    <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-wave waves-effect waves-light btn-sm btn-danger-light"><i class="ri-delete-bin-line"></i></a>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center">
+                                                            <span>
+                                                                <input class="form-check-input" type="checkbox" id="check1" value="" aria-label="...">
+                                                            </span>
+                                            </td>
+                                            <td>Kilifi Floods</td>
+                                            <td class="text-muted">KES.1,250,000</td>
+                                            <td>
+                                                <span class="badge bg-primary">KES.2,000,000</span>
+                                            </td>
+                                            <td>
+                                                <div class="hstack gap-2 fs-15">
+                                                    <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-wave waves-effect waves-light btn-sm btn-success-light"><i class="fe fe-eye"></i></a>
+                                                    <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-wave waves-effect waves-light btn-sm btn-primary-light"><i class="ri-edit-line"></i></a>
+                                                    <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-wave waves-effect waves-light btn-sm btn-danger-light"><i class="ri-delete-bin-line"></i></a>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center">
+                                                            <span>
+                                                                <input class="form-check-input" type="checkbox" id="check1" value="" aria-label="...">
+                                                            </span>
+                                            </td>
+                                            <td>Kilifi Floods</td>
+                                            <td class="text-muted">KES.1,250,000</td>
+                                            <td>
+                                                <span class="badge bg-primary">KES.2,000,000</span>
+                                            </td>
+                                            <td>
+                                                <div class="hstack gap-2 fs-15">
+                                                    <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-wave waves-effect waves-light btn-sm btn-success-light"><i class="fe fe-eye"></i></a>
+                                                    <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-wave waves-effect waves-light btn-sm btn-primary-light"><i class="ri-edit-line"></i></a>
+                                                    <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-wave waves-effect waves-light btn-sm btn-danger-light"><i class="ri-delete-bin-line"></i></a>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center">
+                                                            <span>
+                                                                <input class="form-check-input" type="checkbox" id="check1" value="" aria-label="...">
+                                                            </span>
+                                            </td>
+                                            <td>Kilifi Floods</td>
+                                            <td class="text-muted">KES.1,250,000</td>
+                                            <td>
+                                                <span class="badge bg-primary">KES.2,000,000</span>
+                                            </td>
+                                            <td>
+                                                <div class="hstack gap-2 fs-15">
+                                                    <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-wave waves-effect waves-light btn-sm btn-success-light"><i class="fe fe-eye"></i></a>
+                                                    <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-wave waves-effect waves-light btn-sm btn-primary-light"><i class="ri-edit-line"></i></a>
+                                                    <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-wave waves-effect waves-light btn-sm btn-danger-light"><i class="ri-delete-bin-line"></i></a>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center">
+                                                            <span>
+                                                                <input class="form-check-input" type="checkbox" id="check1" value="" aria-label="...">
+                                                            </span>
+                                            </td>
+                                            <td>Kilifi Floods</td>
+                                            <td class="text-muted">KES.1,250,000</td>
+                                            <td>
+                                                <span class="badge bg-primary">KES.2,000,000</span>
                                             </td>
                                             <td>
                                                 <div class="hstack gap-2 fs-15">
@@ -404,85 +478,6 @@
                                             </td>
                                         </tr>
 
-                                        <tr>
-                                            <td class="text-center">
-                                                            <span>
-                                                                <input class="form-check-input" type="checkbox" id="check1" value="" aria-label="...">
-                                                            </span>
-                                            </td>
-                                            <td>Kilifi Floods</td>
-                                            <td class="badge bg-success-transparent">24 Nov 2022</td>
-                                            <td>
-                                                <span class="badge bg-danger">24 Nov 2023</span>
-                                            </td>
-                                            <td>
-                                                <div class="hstack gap-2 fs-15">
-                                                    <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-wave waves-effect waves-light btn-sm btn-success-light"><i class="fe fe-eye"></i></a>
-                                                    <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-wave waves-effect waves-light btn-sm btn-primary-light"><i class="ri-edit-line"></i></a>
-                                                    <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-wave waves-effect waves-light btn-sm btn-danger-light"><i class="ri-delete-bin-line"></i></a>
-                                                </div>
-                                            </td>
-                                        </tr>
-
-                                        <tr>
-                                            <td class="text-center">
-                                                            <span>
-                                                                <input class="form-check-input" type="checkbox" id="check1" value="" aria-label="...">
-                                                            </span>
-                                            </td>
-                                            <td>Kilifi Floods</td>
-                                            <td class="badge bg-success-transparent">24 Nov 2022</td>
-                                            <td>
-                                                <span class="badge bg-danger">24 Nov 2023</span>
-                                            </td>
-                                            <td>
-                                                <div class="hstack gap-2 fs-15">
-                                                    <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-wave waves-effect waves-light btn-sm btn-success-light"><i class="fe fe-eye"></i></a>
-                                                    <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-wave waves-effect waves-light btn-sm btn-primary-light"><i class="ri-edit-line"></i></a>
-                                                    <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-wave waves-effect waves-light btn-sm btn-danger-light"><i class="ri-delete-bin-line"></i></a>
-                                                </div>
-                                            </td>
-                                        </tr>
-
-                                        <tr>
-                                            <td class="text-center">
-                                                            <span>
-                                                                <input class="form-check-input" type="checkbox" id="check1" value="" aria-label="...">
-                                                            </span>
-                                            </td>
-                                            <td>Kilifi Floods</td>
-                                            <td class="badge bg-success-transparent">24 Nov 2022</td>
-                                            <td>
-                                                <span class="badge bg-danger">24 Nov 2023</span>
-                                            </td>
-                                            <td>
-                                                <div class="hstack gap-2 fs-15">
-                                                    <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-wave waves-effect waves-light btn-sm btn-success-light"><i class="fe fe-eye"></i></a>
-                                                    <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-wave waves-effect waves-light btn-sm btn-primary-light"><i class="ri-edit-line"></i></a>
-                                                    <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-wave waves-effect waves-light btn-sm btn-danger-light"><i class="ri-delete-bin-line"></i></a>
-                                                </div>
-                                            </td>
-                                        </tr>
-
-                                        <tr>
-                                            <td class="text-center">
-                                                            <span>
-                                                                <input class="form-check-input" type="checkbox" id="check1" value="" aria-label="...">
-                                                            </span>
-                                            </td>
-                                            <td>Kilifi Floods</td>
-                                            <td class="badge bg-success-transparent">24 Nov 2022</td>
-                                            <td>
-                                                <span class="badge bg-danger">24 Nov 2023</span>
-                                            </td>
-                                            <td>
-                                                <div class="hstack gap-2 fs-15">
-                                                    <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-wave waves-effect waves-light btn-sm btn-success-light"><i class="fe fe-eye"></i></a>
-                                                    <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-wave waves-effect waves-light btn-sm btn-primary-light"><i class="ri-edit-line"></i></a>
-                                                    <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-wave waves-effect waves-light btn-sm btn-danger-light"><i class="ri-delete-bin-line"></i></a>
-                                                </div>
-                                            </td>
-                                        </tr>
                                         </tbody>
                                     </table>
                                 </div>
@@ -516,58 +511,133 @@
                     </div>
                 </div>
             </div>
-            <div class="col-xxl-6 col-xl-12 col-md-12">
-                <div class="card custom-card">
-                    <div class="card-header justify-content-between">
-                        <div class="card-title">
-                            Top Donor Countries
-                        </div>
-                        <div class="dropdown">
-                            <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-sm btn-light" data-bs-toggle="dropdown">
-                                <i class="fe fe-more-vertical"></i>
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="javascript:void(0);">Action</a></li>
-                                <li><a class="dropdown-item" href="javascript:void(0);">Another action</a></li>
-                                <li><a class="dropdown-item" href="javascript:void(0);">Something else here</a></li>
-                            </ul>
-                        </div>
+            <div class="col-xxl-6 col-xl-8 col-lg-10 col-md-12 col-sm-12">
+                <div class="mb-3 d-flex align-items-center justify-content-between">
+                    <h6 class="fw-semibold mb-0">Today's Donations Overview :</h6>
+                    <div>
+                        <button class="btn btn-sm btn-primary-light btn-wave waves-effect waves-light">View All</button>
                     </div>
-                    <div class="card-body p-0">
-                        <div class="row">
-                            <div class="col-xxl-4 col-xl-12 sales-visitors-countries">
-                                <div class="mt-2">
-                                    <ul class="list-unstyled p-4 my-auto">
-                                        <li class="mb-3">
-                                            <span class="fs-12"><i class="ri-checkbox-blank-circle-fill align-middle me-2 d-inline-block text-primary"></i>Usa</span><span class="fw-semibold float-end">3,201</span>
-                                        </li>
-                                        <li class="mb-3">
-                                            <span class="fs-12"><i class="ri-checkbox-blank-circle-fill align-middle me-2 d-inline-block text-secondary"></i>UK</span><span class="fw-semibold float-end">2,345</span>
-                                        </li>
-                                        <li class="mb-3">
-                                            <span class="fs-12"><i class="ri-checkbox-blank-circle-fill align-middle me-2 d-inline-block text-danger"></i>Kenya</span><span class="fw-semibold float-end">106</span>
-                                        </li>
-                                        <li class="mb-3">
-                                            <span class="fs-12"><i class="ri-checkbox-blank-circle-fill align-middle me-2 d-inline-block text-info"></i>South Africa</span><span class="fw-semibold float-end">2,857</span>
-                                        </li>
-                                        <li class="mb-3">
-                                            <span class="fs-12"><i class="ri-checkbox-blank-circle-fill align-middle me-2 d-inline-block text-orange"></i>Nigeria</span><span class="fw-semibold float-end">169</span>
-                                        </li>
-                                        <li class="mb-3">
-                                            <span class="fs-12"><i class="ri-checkbox-blank-circle-fill align-middle me-2 d-inline-block text-warning"></i>Singapore</span><span class="fw-semibold float-end">1,950</span>
-                                        </li>
-                                        <li class="mb-3">
-                                            <span class="fs-12"><i class="ri-checkbox-blank-circle-fill align-middle me-2 d-inline-block text-warning"></i>Malawi</span><span class="fw-semibold float-end">1,950</span>
-                                        </li>
-                                        <li class="mb-3">
-                                            <span class="fs-12"><i class="ri-checkbox-blank-circle-fill align-middle me-2 d-inline-block text-warning"></i>Saudi Arabia</span><span class="fw-semibold float-end">1,950</span>
-                                        </li>
-
-                                    </ul>
+                </div>
+                <div class="swiper pagination-dynamic text-start" id="nft-collections-slide">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="card custom-card">
+                                <div class="card-body">
+                                    <div class="row g-2">
+                                        <div class="col-6">
+                                            <img src="{{asset('assets/images/nft-images/6.png')}}" alt="" class="nft-featuredcollect-image">
+                                        </div>
+                                        <div class="col-6">
+                                            <img src="{{asset('assets/images/nft-images/7.png')}}" alt="" class="nft-featuredcollect-image">
+                                        </div>
+                                        <div class="col-6">
+                                            <img src="{{asset('assets/images/nft-images/8.png')}}" alt="" class="nft-featuredcollect-image">
+                                        </div>
+                                        <div class="col-6">
+                                            <img src="{{asset('assets/images/nft-images/9.png')}}" alt="" class="nft-featuredcollect-image">
+                                        </div>
+                                    </div>
                                 </div>
+                                <div class="card-footer">
+                                    <div class="d-flex align-items-center justify-content-between">
+                                        <div>
+                                            <div class="text-muted fs-12 d-flex align-items-center">Currency :
+                                                <span class="fw-semibold text-success fs-15 mb-0 ms-1">USD</span>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex align-items-center">
+                                            <div class="me-2 lh-1">
+                                                        <span class="avatar avatar-rounded bg-light p-1 avatar-xs">
+                                                            $
+                                                        </span>
+                                            </div>
+                                            <div>
+                                                <span class="fw-semibold">10000</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
                             </div>
-                            <div class="col-xxl-8 col-xl-12 text-center">
-                                <div id="visitors-countries"></div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card custom-card">
+                                <div class="card-body">
+                                    <div class="row g-2">
+                                        <div class="col-6">
+                                            <img src="{{asset('assets/images/nft-images/11.png')}}" alt="" class="nft-featuredcollect-image">
+                                        </div>
+                                        <div class="col-6">
+                                            <img src="{{asset('assets/images/nft-images/12.png')}}" alt="" class="nft-featuredcollect-image">
+                                        </div>
+                                        <div class="col-6">
+                                            <img src="{{asset('assets/images/nft-images/13.png')}}" alt="" class="nft-featuredcollect-image">
+                                        </div>
+                                        <div class="col-6">
+                                            <img src="{{asset('assets/images/nft-images/14.png')}}" alt="" class="nft-featuredcollect-image">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-footer">
+                                    <div class="d-flex align-items-center justify-content-between">
+                                        <div>
+                                            <div class="text-muted fs-12 d-flex align-items-center">Currency :
+                                                <span class="fw-semibold text-info fs-15 mb-0 ms-1">KES</span>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex align-items-center">
+                                            <div class="me-2 lh-1">
+                                                        <span class="avatar avatar-rounded bg-light p-1 avatar-xs">
+                                                            KES
+                                                        </span>
+                                            </div>
+                                            <div>
+                                                <span class="fw-semibold">50000</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card custom-card">
+                                <div class="card-body">
+                                    <div class="row g-2">
+                                        <div class="col-6">
+                                            <img src="{{asset('assets/images/nft-images/10.png')}}" alt="" class="nft-featuredcollect-image">
+                                        </div>
+                                        <div class="col-6">
+                                            <img src="{{asset('assets/images/nft-images/15.png')}}" alt="" class="nft-featuredcollect-image">
+                                        </div>
+                                        <div class="col-6">
+                                            <img src="{{asset('assets/images/nft-images/17.png')}}" alt="" class="nft-featuredcollect-image">
+                                        </div>
+                                        <div class="col-6">
+                                            <img src="{{asset('assets/images/nft-images/16.png')}}" alt="" class="nft-featuredcollect-image">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-footer">
+                                    <div class="d-flex align-items-center justify-content-between">
+                                        <div>
+                                            <div class="text-muted fs-12 d-flex align-items-center">Currency :
+                                                <span class="fw-semibold text-success fs-15 mb-0 ms-1">USD</span>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex align-items-center">
+                                            <div class="me-2 lh-1">
+                                                        <span class="avatar avatar-rounded bg-light p-1 avatar-xs">
+                                                            $
+                                                        </span>
+                                            </div>
+                                            <div>
+                                                <span class="fw-semibold">6000</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
                             </div>
                         </div>
                     </div>
@@ -575,6 +645,326 @@
             </div>
         </div>
         <!-- End::row-3 -->
+
+        <!-- Start::row-2 -->
+        <div class="row">
+            <div class="col-xl-4">
+                <div class="card custom-card overflow-hidden">
+                    <div class="card-header">
+                        <div class="card-title">
+                            Top Donor Countries
+                        </div>
+                    </div>
+                    <div class="card-body p-0">
+                        <div class="table-responsive">
+                            <table class="table text-nowrap">
+                                <thead>
+                                <tr>
+                                    <th scope="col">Country</th>
+                                    <th scope="col">USD</th>
+                                    <th scope="col">KES</th>
+                                    <th scope="col">Action</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <th scope="row">
+                                        <div class="d-flex align-items-center">
+                                            <div class="me-2 lh-1">
+                                                            <span class="avatar avatar-xs avatar-rounded">
+                                                                <img src="{{asset('assets/images/flags/us_flag.jpg')}}" alt="">
+                                                            </span>
+                                            </div>
+                                            <div>
+                                                            <span class="fw-semibold">
+                                                                U.S.A
+                                                            </span>
+                                            </div>
+                                        </div>
+                                    </th>
+                                    <td>21,000</td>
+                                    <td>78299</td>
+                                    <td>
+                                        <button type="button" class="btn btn-success-light btn-wave btn-sm">View</button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">
+                                        <div class="d-flex align-items-center">
+                                            <div class="me-2 lh-1">
+                                                            <span class="avatar avatar-xs avatar-rounded">
+                                                                <img src="{{asset('assets/images/flags/us_flag.jpg')}}" alt="">
+                                                            </span>
+                                            </div>
+                                            <div>
+                                                            <span class="fw-semibold">
+                                                                Kenya
+                                                            </span>
+                                            </div>
+                                        </div>
+                                    </th>
+                                    <td>21,000</td>
+                                    <td>78299</td>
+                                    <td>
+                                        <button type="button" class="btn btn-success-light btn-wave btn-sm">View</button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">
+                                        <div class="d-flex align-items-center">
+                                            <div class="me-2 lh-1">
+                                                            <span class="avatar avatar-xs avatar-rounded">
+                                                                <img src="{{asset('assets/images/flags/us_flag.jpg')}}" alt="">
+                                                            </span>
+                                            </div>
+                                            <div>
+                                                            <span class="fw-semibold">
+                                                                South Africa
+                                                            </span>
+                                            </div>
+                                        </div>
+                                    </th>
+                                    <td>21,000</td>
+                                    <td>78299</td>
+                                    <td>
+                                        <button type="button" class="btn btn-success-light btn-wave btn-sm">View</button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">
+                                        <div class="d-flex align-items-center">
+                                            <div class="me-2 lh-1">
+                                                            <span class="avatar avatar-xs avatar-rounded">
+                                                                <img src="{{asset('assets/images/flags/us_flag.jpg')}}" alt="">
+                                                            </span>
+                                            </div>
+                                            <div>
+                                                            <span class="fw-semibold">
+                                                                Nigeria
+                                                            </span>
+                                            </div>
+                                        </div>
+                                    </th>
+                                    <td>21,000</td>
+                                    <td>78299</td>
+                                    <td>
+                                        <button type="button" class="btn btn-success-light btn-wave btn-sm">View</button>
+                                    </td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="card-footer border-top-0">
+                        <div class="d-flex flex-wrap align-items-center justify-content-between">
+                            <div>
+                                Showing 4 Entries <i class="bi bi-arrow-right ms-2 fw-semibold"></i>
+                            </div>
+                            <div>
+                                <nav aria-label="Page navigation" class="pagination-style-4">
+                                    <ul class="pagination mb-0">
+                                        <li class="page-item disabled">
+                                            <a class="page-link" href="javascript:void(0);">
+                                                Prev
+                                            </a>
+                                        </li>
+                                        <li class="page-item active"><a class="page-link" href="javascript:void(0);">1</a></li>
+                                        <li class="page-item"><a class="page-link" href="javascript:void(0);">2</a></li>
+                                        <li class="page-item">
+                                            <a class="page-link text-primary" href="javascript:void(0);">
+                                                next
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-4">
+                <div class="card custom-card">
+                    <div class="card-header">
+                        <div class="card-title">
+                            Donations by Payment Methods
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <div class="progress progress-lg mb-4">
+                            <div class="progress-bar bg-success" role="progressbar" style="width: 52%" aria-valuenow="52" aria-valuemin="0" aria-valuemax="100">52%</div>
+                            <div class="progress-bar bg-secondary" role="progressbar" style="width: 12%" aria-valuenow="12" aria-valuemin="0" aria-valuemax="100">12%</div>
+                            <div class="progress-bar bg-warning" role="progressbar" style="width: 16%" aria-valuenow="16" aria-valuemin="0" aria-valuemax="100">16%</div>
+                            <div class="progress-bar bg-primary" role="progressbar" style="width: 20%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">20%</div>
+
+                        </div>
+                        <ul class="list-group">
+                            <li class="list-group-item">
+                                Mpesa
+                                <span class="badge float-end bg-success-transparent">1,982</span>
+                            </li>
+                            <li class="list-group-item">
+                                Card
+                                <span class="badge float-end bg-secondary-transparent">214</span>
+                            </li>
+                            <li class="list-group-item">
+                                Airtel Money
+                                <span class="badge float-end bg-warning-transparent">262</span>
+                            </li>
+                            <li class="list-group-item">
+                                Tcash
+                                <span class="badge float-end bg-primary-transparent">395</span>
+                            </li>
+
+                        </ul>
+                    </div>
+                    <div class="card-footer border-top-0">
+                        <div class="d-flex flex-wrap align-items-center justify-content-between">
+                            <div>
+                                Showing 4 Entries <i class="bi bi-arrow-right ms-2 fw-semibold"></i>
+                            </div>
+                            <div>
+                                <nav aria-label="Page navigation" class="pagination-style-4">
+                                    <ul class="pagination mb-0">
+                                        <li class="page-item disabled">
+                                            <a class="page-link" href="javascript:void(0);">
+                                                Prev
+                                            </a>
+                                        </li>
+                                        <li class="page-item active"><a class="page-link" href="javascript:void(0);">1</a></li>
+                                        <li class="page-item"><a class="page-link" href="javascript:void(0);">2</a></li>
+                                        <li class="page-item">
+                                            <a class="page-link text-primary" href="javascript:void(0);">
+                                                next
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-4">
+                <div class="card custom-card overflow-hidden">
+                    <div class="card-header">
+                        <div class="card-title">
+                            Top Donor Counties
+                        </div>
+                    </div>
+                    <div class="card-body p-0">
+                        <div class="table-responsive">
+                            <table class="table text-nowrap">
+                                <thead>
+                                <tr>
+                                    <th scope="col">Country</th>
+                                    <th scope="col">USD</th>
+                                    <th scope="col">KES</th>
+                                    <th scope="col">Action</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <th scope="row">
+                                        <div class="d-flex align-items-center">
+
+                                            <div>
+                                                            <span class="fw-semibold">
+                                                               Nairobi
+                                                            </span>
+                                            </div>
+                                        </div>
+                                    </th>
+                                    <td>21,000</td>
+                                    <td>78299</td>
+                                    <td>
+                                        <button type="button" class="btn btn-success-light btn-wave btn-sm">View</button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">
+                                        <div class="d-flex align-items-center">
+
+                                            <div>
+                                                            <span class="fw-semibold">
+                                                                Nakuru
+                                                            </span>
+                                            </div>
+                                        </div>
+                                    </th>
+                                    <td>21,000</td>
+                                    <td>78299</td>
+                                    <td>
+                                        <button type="button" class="btn btn-success-light btn-wave btn-sm">View</button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">
+                                        <div class="d-flex align-items-center">
+
+                                            <div>
+                                                            <span class="fw-semibold">
+                                                                Machakos
+                                                            </span>
+                                            </div>
+                                        </div>
+                                    </th>
+                                    <td>21,000</td>
+                                    <td>78299</td>
+                                    <td>
+                                        <button type="button" class="btn btn-success-light btn-wave btn-sm">View</button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">
+                                        <div class="d-flex align-items-center">
+
+                                            <div>
+                                                            <span class="fw-semibold">
+                                                              Kisumu
+                                                            </span>
+                                            </div>
+                                        </div>
+                                    </th>
+                                    <td>21,000</td>
+                                    <td>78299</td>
+                                    <td>
+                                        <button type="button" class="btn btn-success-light btn-wave btn-sm">View</button>
+                                    </td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="card-footer border-top-0">
+                        <div class="d-flex flex-wrap align-items-center justify-content-between">
+                            <div>
+                                Showing 4 Entries <i class="bi bi-arrow-right ms-2 fw-semibold"></i>
+                            </div>
+                            <div>
+                                <nav aria-label="Page navigation" class="pagination-style-4">
+                                    <ul class="pagination mb-0">
+                                        <li class="page-item disabled">
+                                            <a class="page-link" href="javascript:void(0);">
+                                                Prev
+                                            </a>
+                                        </li>
+                                        <li class="page-item active"><a class="page-link" href="javascript:void(0);">1</a></li>
+                                        <li class="page-item"><a class="page-link" href="javascript:void(0);">2</a></li>
+                                        <li class="page-item">
+                                            <a class="page-link text-primary" href="javascript:void(0);">
+                                                next
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- End::row-2 -->
 
 
             <!-- Start:: row-3 -->

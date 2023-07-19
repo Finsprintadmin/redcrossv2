@@ -108,221 +108,104 @@
                 </div>
                 <!-- End:: row-5 -->
 
-                <!-- Start:: row-11 -->
+                <!-- Start::row-3 -->
                 <div class="row">
                     <div class="col-xl-12">
                         <div class="card custom-card">
+                            <div class="card-header justify-content-between">
+                                <div class="card-title">
+                                    Pledges
+                                </div>
+                                <div class="d-flex flex-wrap">
+                                    <div class="me-3 my-1">
+                                        <input class="form-control form-control-sm" type="text" placeholder="Search Here" aria-label=".form-control-sm example">
+                                    </div>
+                                    <div class="dropdown m-1">
+                                        <a href="javascript:void(0);" class="btn btn-primary btn-sm btn-wave waves-effect waves-light" data-bs-toggle="dropdown" aria-expanded="false">
+                                            Sort By<i class="ri-arrow-down-s-line align-middle ms-1 d-inline-block"></i>
+                                        </a>
+                                        <ul class="dropdown-menu" role="menu">
+                                            <li><a class="dropdown-item" href="javascript:void(0);">Local</a></li>
+                                            <li><a class="dropdown-item" href="javascript:void(0);">International</a></li>
 
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
                             <div class="card-body">
                                 <div class="table-responsive">
                                     <table class="table text-nowrap table-bordered">
                                         <thead>
                                         <tr>
-                                            <th scope="col"><input class="form-check-input" type="checkbox" id="checkboxNoLabel" value="" aria-label="..."></th>
-                                            <th scope="col">Team Head</th>
-                                            <th scope="col">Category</th>
-                                            <th scope="col">Role</th>
-                                            <th scope="col">Gmail</th>
-                                            <th scope="col">Team</th>
-                                            <th scope="col">Work Progress</th>
-                                            <th scope="col">Revenue</th>
+                                            <th scope="col">ID.</th>
+                                            <th scope="col">Donor Id</th>
+                                            <th scope="col">Campaign Id</th>
+                                            <th scope="col">Frequency</th>
+                                            <th scope="col">Amount</th>
+                                            <th scope="col">Created at</th>
                                             <th scope="col">Action</th>
                                         </tr>
                                         </thead>
                                         <tbody>
                                         <tr>
-                                            <th scope="row"><input class="form-check-input" type="checkbox" id="checkboxNoLabel1" value="" aria-label="..."></th>
                                             <td>
-                                                <div class="d-flex align-items-center">
-                                                        <span class="avatar avatar-xs me-2 online avatar-rounded">
-                                                            <img src="../assets/images/faces/3.jpg" alt="img">
-                                                        </span>Mayor Kelly
-                                                </div>
+                                                1
                                             </td>
-                                            <td>Manufacturer</td>
-                                            <td><span class="badge bg-primary-transparent">Team Lead</span></td>
-                                            <td>mayorkrlly@gmail.com</td>
                                             <td>
-                                                <div class="avatar-list-stacked">
-                                                        <span class="avatar avatar-sm avatar-rounded">
-                                                            <img src="../assets/images/faces/2.jpg" alt="img">
-                                                        </span>
-                                                    <span class="avatar avatar-sm avatar-rounded">
-                                                            <img src="../assets/images/faces/8.jpg" alt="img">
-                                                        </span>
-                                                    <span class="avatar avatar-sm avatar-rounded">
-                                                            <img src="../assets/images/faces/2.jpg" alt="img">
-                                                        </span>
-                                                    <a class="avatar avatar-sm bg-primary text-fixed-white avatar-rounded" href="javascript:void(0);">
-                                                        +4
-                                                    </a>
+                                                <div class="d-flex align-items-center lh-1">
+
+                                                    <div>D123456</div>
                                                 </div>
                                             </td>
                                             <td>
-                                                <div class="progress progress-xs">
-                                                    <div class="progress-bar bg-primary" role="progressbar" style="width: 52%" aria-valuenow="52" aria-valuemin="0" aria-valuemax="100">
-                                                    </div>
-                                                </div>
+                                                C123456
                                             </td>
-                                            <td>$10,984.29</td>
+                                            <td >
+                                                Weekly
+                                            </td>
+                                            <td >
+                                                $5000
+                                            </td>
+                                            <td class="badge bg-info-transparent">
+                                                29-05-2023
+                                            </td>
+
                                             <td>
-                                                <div class="hstack gap-2 fs-15">
-                                                    <a href="javascript:void(0);"
-                                                       class="btn btn-icon btn-sm btn-success-transparent rounded-pill"><i
-                                                            class="ri-download-2-line"></i></a>
-                                                    <a href="javascript:void(0);"
-                                                       class="btn btn-icon btn-sm btn-info-transparent rounded-pill"><i
-                                                            class="ri-edit-line"></i></a>
-                                                    <a href="javascript:void(0);"
-                                                       class="btn btn-icon btn-sm btn-danger-transparent rounded-pill"><i
-                                                            class="ri-delete-bin-line"></i></a>
+                                                <div class="hstack gap-2 fs-1">
+                                                    <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-wave waves-effect waves-light btn-sm btn-success-light"><i class="fe fe-eye"></i></a>
+                                                    <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-sm btn-info-light btn-wave waves-effect waves-light"><i class="ri-edit-line"></i></a>
+                                                    <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-sm btn-danger-light btn-wave waves-effect waves-light"><i class="ri-delete-bin-line"></i></a>
                                                 </div>
                                             </td>
                                         </tr>
                                         <tr>
-                                            <th scope="row"><input class="form-check-input" type="checkbox" id="checkboxNoLabel2" value="" aria-label="..."></th>
                                             <td>
-                                                <div class="d-flex align-items-center">
-                                                        <span class="avatar avatar-xs me-2 online avatar-rounded">
-                                                            <img src="../assets/images/faces/12.jpg" alt="img">
-                                                        </span>Andrew Garfield
-                                                </div>
+                                                2
                                             </td>
-                                            <td>Managing Director</td>
-                                            <td><span class="badge bg-warning-transparent">Director</span></td>
-                                            <td>andrewgarfield@gmail.com</td>
                                             <td>
-                                                <div class="avatar-list-stacked">
-                                                        <span class="avatar avatar-sm avatar-rounded">
-                                                            <img src="../assets/images/faces/1.jpg" alt="img">
-                                                        </span>
-                                                    <span class="avatar avatar-sm avatar-rounded">
-                                                            <img src="../assets/images/faces/5.jpg" alt="img">
-                                                        </span>
-                                                    <span class="avatar avatar-sm avatar-rounded">
-                                                            <img src="../assets/images/faces/11.jpg" alt="img">
-                                                        </span>
-                                                    <span class="avatar avatar-sm avatar-rounded">
-                                                            <img src="../assets/images/faces/15.jpg" alt="img">
-                                                        </span>
-                                                    <a class="avatar avatar-sm bg-primary text-fixed-white avatar-rounded" href="javascript:void(0);">
-                                                        +4
-                                                    </a>
+                                                <div class="d-flex align-items-center lh-1">
+
+                                                    <div>D123456</div>
                                                 </div>
                                             </td>
                                             <td>
-                                                <div class="progress progress-xs">
-                                                    <div class="progress-bar bg-primary" role="progressbar" style="width: 91%" aria-valuenow="91" aria-valuemin="0" aria-valuemax="100">
-                                                    </div>
-                                                </div>
+                                                C123456
                                             </td>
-                                            <td>$1.4billion</td>
-                                            <td>
-                                                <div class="hstack gap-2 fs-15">
-                                                    <a href="javascript:void(0);"
-                                                       class="btn btn-icon btn-sm btn-success-transparent rounded-pill"><i
-                                                            class="ri-download-2-line"></i></a>
-                                                    <a href="javascript:void(0);"
-                                                       class="btn btn-icon btn-sm btn-info-transparent rounded-pill"><i
-                                                            class="ri-edit-line"></i></a>
-                                                    <a href="javascript:void(0);"
-                                                       class="btn btn-icon btn-sm btn-danger-transparent rounded-pill"><i
-                                                            class="ri-delete-bin-line"></i></a>
-                                                </div>
+                                            <td >
+                                                Weekly
                                             </td>
-                                        </tr>
-                                        <tr>
-                                            <th scope="row"><input class="form-check-input" type="checkbox" id="checkboxNoLabel3" value="" aria-label="..."></th>
-                                            <td>
-                                                <div class="d-flex align-items-center">
-                                                        <span class="avatar avatar-xs me-2 online avatar-rounded">
-                                                            <img src="../assets/images/faces/14.jpg" alt="img">
-                                                        </span>Simon Cowel
-                                                </div>
+                                            <td >
+                                                $5000
                                             </td>
-                                            <td>Service Manager</td>
-                                            <td><span class="badge bg-success-transparent">Manager</span></td>
-                                            <td>simoncowel234@gmail.com</td>
-                                            <td>
-                                                <div class="avatar-list-stacked">
-                                                        <span class="avatar avatar-sm avatar-rounded">
-                                                            <img src="../assets/images/faces/6.jpg" alt="img">
-                                                        </span>
-                                                    <span class="avatar avatar-sm avatar-rounded">
-                                                            <img src="../assets/images/faces/16.jpg" alt="img">
-                                                        </span>
-                                                    <a class="avatar avatar-sm bg-primary text-fixed-white avatar-rounded" href="javascript:void(0);">
-                                                        +10
-                                                    </a>
-                                                </div>
+                                            <td class="badge bg-info-transparent">
+                                                29-05-2023
                                             </td>
+
                                             <td>
-                                                <div class="progress progress-xs">
-                                                    <div class="progress-bar bg-primary" role="progressbar" style="width: 45%" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100">
-                                                    </div>
-                                                </div>
-                                            </td>
-                                            <td>$7,123.21</td>
-                                            <td>
-                                                <div class="hstack gap-2 fs-15">
-                                                    <a href="javascript:void(0);"
-                                                       class="btn btn-icon btn-sm btn-success-transparent rounded-pill"><i
-                                                            class="ri-download-2-line"></i></a>
-                                                    <a href="javascript:void(0);"
-                                                       class="btn btn-icon btn-sm btn-info-transparent rounded-pill"><i
-                                                            class="ri-edit-line"></i></a>
-                                                    <a href="javascript:void(0);"
-                                                       class="btn btn-icon btn-sm btn-danger-transparent rounded-pill"><i
-                                                            class="ri-delete-bin-line"></i></a>
-                                                </div>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <th scope="row"><input class="form-check-input" type="checkbox" id="checkboxNoLabel13" value="" aria-label="..."></th>
-                                            <td>
-                                                <div class="d-flex align-items-center">
-                                                        <span class="avatar avatar-xs me-2 online avatar-rounded">
-                                                            <img src="../assets/images/faces/5.jpg" alt="img">
-                                                        </span>Mirinda Hers
-                                                </div>
-                                            </td>
-                                            <td>Recruiter</td>
-                                            <td><span class="badge bg-danger-transparent">Employee</span></td>
-                                            <td>mirindahers@gmail.com</td>
-                                            <td>
-                                                <div class="avatar-list-stacked">
-                                                        <span class="avatar avatar-sm avatar-rounded">
-                                                            <img src="../assets/images/faces/3.jpg" alt="img">
-                                                        </span>
-                                                    <span class="avatar avatar-sm avatar-rounded">
-                                                            <img src="../assets/images/faces/10.jpg" alt="img">
-                                                        </span>
-                                                    <span class="avatar avatar-sm avatar-rounded">
-                                                            <img src="../assets/images/faces/14.jpg" alt="img">
-                                                        </span>
-                                                    <a class="avatar avatar-sm bg-primary text-fixed-white avatar-rounded" href="javascript:void(0);">
-                                                        +6
-                                                    </a>
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <div class="progress progress-xs">
-                                                    <div class="progress-bar bg-primary" role="progressbar" style="width: 21%" aria-valuenow="21" aria-valuemin="0" aria-valuemax="100">
-                                                    </div>
-                                                </div>
-                                            </td>
-                                            <td>$2,325.45</td>
-                                            <td>
-                                                <div class="hstack gap-2 fs-15">
-                                                    <a href="javascript:void(0);"
-                                                       class="btn btn-icon btn-sm btn-success-transparent rounded-pill"><i
-                                                            class="ri-download-2-line"></i></a>
-                                                    <a href="javascript:void(0);"
-                                                       class="btn btn-icon btn-sm btn-info-transparent rounded-pill"><i
-                                                            class="ri-edit-line"></i></a>
-                                                    <a href="javascript:void(0);"
-                                                       class="btn btn-icon btn-sm btn-danger-transparent rounded-pill"><i
-                                                            class="ri-delete-bin-line"></i></a>
+                                                <div class="hstack gap-2 fs-1">
+                                                    <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-wave waves-effect waves-light btn-sm btn-success-light"><i class="fe fe-eye"></i></a>
+                                                    <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-sm btn-info-light btn-wave waves-effect waves-light"><i class="ri-edit-line"></i></a>
+                                                    <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-sm btn-danger-light btn-wave waves-effect waves-light"><i class="ri-delete-bin-line"></i></a>
                                                 </div>
                                             </td>
                                         </tr>
@@ -330,10 +213,35 @@
                                     </table>
                                 </div>
                             </div>
+                            <div class="card-footer">
+                                <div class="d-flex flex-wrap align-items-center">
+                                    <div>
+                                        Showing 6 Entries <i class="bi bi-arrow-right ms-2 fw-semibold"></i>
+                                    </div>
+                                    <div class="ms-auto">
+                                        <nav aria-label="Page navigation" class="pagination-style-4">
+                                            <ul class="pagination mb-0">
+                                                <li class="page-item disabled">
+                                                    <a class="page-link" href="javascript:void(0);">
+                                                        Prev
+                                                    </a>
+                                                </li>
+                                                <li class="page-item active"><a class="page-link" href="javascript:void(0);">1</a></li>
+                                                <li class="page-item"><a class="page-link" href="javascript:void(0);">2</a></li>
+                                                <li class="page-item">
+                                                    <a class="page-link text-primary" href="javascript:void(0);">
+                                                        next
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </nav>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <!-- End:: row-11 -->
+                <!-- End::row-3 -->
 
 
             </div>

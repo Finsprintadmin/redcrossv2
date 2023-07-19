@@ -559,6 +559,12 @@
 <!-- Sales-Dashboard JS -->
 <script src="{{asset('assets/js/sales-dashboard.js')}}"></script>
 
+<!-- Swiper JS -->
+<script src="{{asset('assets/libs/swiper/swiper-bundle.min.js')}}"></script>
+
+<!-- NFT-Dashboard JS -->
+<script src="{{asset('assets/js/nft-dashboard.js')}}"></script>
+
 <!-- Custom-Switcher JS -->
 <script src="{{asset('assets/js/custom-switcher.min.js')}}"></script>
 
