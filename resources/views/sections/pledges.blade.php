@@ -108,140 +108,229 @@
                 </div>
                 <!-- End:: row-5 -->
 
-                <!-- Start::row-3 -->
+                <!-- Start:: row-4 -->
                 <div class="row">
                     <div class="col-xl-12">
                         <div class="card custom-card">
-                            <div class="card-header justify-content-between">
-                                <div class="card-title">
-                                    Pledges
-                                </div>
-                                <div class="d-flex flex-wrap">
-                                    <div class="me-3 my-1">
-                                        <input class="form-control form-control-sm" type="text" placeholder="Search Here" aria-label=".form-control-sm example">
-                                    </div>
-                                    <div class="dropdown m-1">
-                                        <a href="javascript:void(0);" class="btn btn-primary btn-sm btn-wave waves-effect waves-light" data-bs-toggle="dropdown" aria-expanded="false">
-                                            Sort By<i class="ri-arrow-down-s-line align-middle ms-1 d-inline-block"></i>
-                                        </a>
-                                        <ul class="dropdown-menu" role="menu">
-                                            <li><a class="dropdown-item" href="javascript:void(0);">Local</a></li>
-                                            <li><a class="dropdown-item" href="javascript:void(0);">International</a></li>
-
-                                        </ul>
-                                    </div>
-                                </div>
+                            <div class="card-header">
+                                <div class="card-title">Pledges</div>
                             </div>
                             <div class="card-body">
-                                <div class="table-responsive">
-                                    <table class="table text-nowrap table-bordered">
-                                        <thead>
-                                        <tr>
-                                            <th scope="col">ID.</th>
-                                            <th scope="col">Donor Id</th>
-                                            <th scope="col">Campaign Id</th>
-                                            <th scope="col">Frequency</th>
-                                            <th scope="col">Amount</th>
-                                            <th scope="col">Created at</th>
-                                            <th scope="col">Action</th>
-                                        </tr>
-                                        </thead>
-                                        <tbody>
-                                        <tr>
-                                            <td>
-                                                1
-                                            </td>
-                                            <td>
-                                                <div class="d-flex align-items-center lh-1">
-
-                                                    <div>D123456</div>
-                                                </div>
-                                            </td>
-                                            <td>
-                                                C123456
-                                            </td>
-                                            <td >
-                                                Weekly
-                                            </td>
-                                            <td >
-                                                $5000
-                                            </td>
-                                            <td class="badge bg-info-transparent">
-                                                29-05-2023
-                                            </td>
-
-                                            <td>
-                                                <div class="hstack gap-2 fs-1">
-                                                    <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-wave waves-effect waves-light btn-sm btn-success-light"><i class="fe fe-eye"></i></a>
-                                                    <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-sm btn-info-light btn-wave waves-effect waves-light"><i class="ri-edit-line"></i></a>
-                                                    <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-sm btn-danger-light btn-wave waves-effect waves-light"><i class="ri-delete-bin-line"></i></a>
-                                                </div>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                2
-                                            </td>
-                                            <td>
-                                                <div class="d-flex align-items-center lh-1">
-
-                                                    <div>D123456</div>
-                                                </div>
-                                            </td>
-                                            <td>
-                                                C123456
-                                            </td>
-                                            <td >
-                                                Weekly
-                                            </td>
-                                            <td >
-                                                $5000
-                                            </td>
-                                            <td class="badge bg-info-transparent">
-                                                29-05-2023
-                                            </td>
-
-                                            <td>
-                                                <div class="hstack gap-2 fs-1">
-                                                    <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-wave waves-effect waves-light btn-sm btn-success-light"><i class="fe fe-eye"></i></a>
-                                                    <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-sm btn-info-light btn-wave waves-effect waves-light"><i class="ri-edit-line"></i></a>
-                                                    <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-sm btn-danger-light btn-wave waves-effect waves-light"><i class="ri-delete-bin-line"></i></a>
-                                                </div>
-                                            </td>
-                                        </tr>
-                                        </tbody>
-                                    </table>
-                                </div>
-                            </div>
-                            <div class="card-footer">
-                                <div class="d-flex flex-wrap align-items-center">
-                                    <div>
-                                        Showing 6 Entries <i class="bi bi-arrow-right ms-2 fw-semibold"></i>
-                                    </div>
-                                    <div class="ms-auto">
-                                        <nav aria-label="Page navigation" class="pagination-style-4">
-                                            <ul class="pagination mb-0">
-                                                <li class="page-item disabled">
-                                                    <a class="page-link" href="javascript:void(0);">
-                                                        Prev
-                                                    </a>
-                                                </li>
-                                                <li class="page-item active"><a class="page-link" href="javascript:void(0);">1</a></li>
-                                                <li class="page-item"><a class="page-link" href="javascript:void(0);">2</a></li>
-                                                <li class="page-item">
-                                                    <a class="page-link text-primary" href="javascript:void(0);">
-                                                        next
-                                                    </a>
-                                                </li>
-                                            </ul>
-                                        </nav>
-                                    </div>
-                                </div>
+                                <table id="file-export" class="table table-bordered text-nowrap" style="width:100%">
+                                    <thead>
+                                    <tr>
+                                        <th scope="col">Donor ID</th>
+                                        <th scope="col">Campaign ID</th>
+                                        <th scope="col">Frequency</th>
+                                        <th scope="col">Amount</th>
+                                        <th scope="col">Created At</th>
+                                        <th scope="col">Action</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                    <tr>
+                                        <td>DG54546Q</td>
+                                        <td>CP495985</td>
+                                        <td>Weekly</td>
+                                        <td>KES. 2800</td>
+                                        <td>2011-04-25</td>
+                                        <td>
+                                            <div class="hstack gap-2 fs-1">
+                                                <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-wave waves-effect waves-light btn-sm btn-success-light"><i class="fe fe-eye"></i></a>
+                                                <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-sm btn-info-light btn-wave waves-effect waves-light"><i class="ri-edit-line"></i></a>
+                                                <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-sm btn-danger-light btn-wave waves-effect waves-light"><i class="ri-delete-bin-line"></i></a>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>DG57046Q</td>
+                                        <td>CP498785</td>
+                                        <td>Monthly</td>
+                                        <td>$ 2800</td>
+                                        <td>2015-04-25</td>
+                                        <td>
+                                            <div class="hstack gap-2 fs-1">
+                                                <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-wave waves-effect waves-light btn-sm btn-success-light"><i class="fe fe-eye"></i></a>
+                                                <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-sm btn-info-light btn-wave waves-effect waves-light"><i class="ri-edit-line"></i></a>
+                                                <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-sm btn-danger-light btn-wave waves-effect waves-light"><i class="ri-delete-bin-line"></i></a>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>DG54577Q</td>
+                                        <td>CP466985</td>
+                                        <td>Daily</td>
+                                        <td>KES. 4000</td>
+                                        <td>2021-04-29</td>
+                                        <td>
+                                            <div class="hstack gap-2 fs-1">
+                                                <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-wave waves-effect waves-light btn-sm btn-success-light"><i class="fe fe-eye"></i></a>
+                                                <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-sm btn-info-light btn-wave waves-effect waves-light"><i class="ri-edit-line"></i></a>
+                                                <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-sm btn-danger-light btn-wave waves-effect waves-light"><i class="ri-delete-bin-line"></i></a>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>DG54546Q</td>
+                                        <td>CP495985</td>
+                                        <td>Monthly</td>
+                                        <td>USD. 2850</td>
+                                        <td>2018-04-25</td>
+                                        <td>
+                                            <div class="hstack gap-2 fs-1">
+                                                <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-wave waves-effect waves-light btn-sm btn-success-light"><i class="fe fe-eye"></i></a>
+                                                <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-sm btn-info-light btn-wave waves-effect waves-light"><i class="ri-edit-line"></i></a>
+                                                <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-sm btn-danger-light btn-wave waves-effect waves-light"><i class="ri-delete-bin-line"></i></a>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>DG54546Q</td>
+                                        <td>CP495985</td>
+                                        <td>Daily</td>
+                                        <td>USD. 7800</td>
+                                        <td>2011-04-25</td>
+                                        <td>
+                                            <div class="hstack gap-2 fs-1">
+                                                <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-wave waves-effect waves-light btn-sm btn-success-light"><i class="fe fe-eye"></i></a>
+                                                <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-sm btn-info-light btn-wave waves-effect waves-light"><i class="ri-edit-line"></i></a>
+                                                <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-sm btn-danger-light btn-wave waves-effect waves-light"><i class="ri-delete-bin-line"></i></a>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>DG54546Q</td>
+                                        <td>CP495985</td>
+                                        <td>Yearly</td>
+                                        <td>KES.48840</td>
+                                        <td>2011-04-25</td>
+                                        <td>
+                                            <div class="hstack gap-2 fs-1">
+                                                <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-wave waves-effect waves-light btn-sm btn-success-light"><i class="fe fe-eye"></i></a>
+                                                <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-sm btn-info-light btn-wave waves-effect waves-light"><i class="ri-edit-line"></i></a>
+                                                <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-sm btn-danger-light btn-wave waves-effect waves-light"><i class="ri-delete-bin-line"></i></a>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>DG54546Q</td>
+                                        <td>CP495985</td>
+                                        <td>Weekly</td>
+                                        <td>KES. 2800</td>
+                                        <td>2011-04-25</td>
+                                        <td>
+                                            <div class="hstack gap-2 fs-1">
+                                                <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-wave waves-effect waves-light btn-sm btn-success-light"><i class="fe fe-eye"></i></a>
+                                                <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-sm btn-info-light btn-wave waves-effect waves-light"><i class="ri-edit-line"></i></a>
+                                                <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-sm btn-danger-light btn-wave waves-effect waves-light"><i class="ri-delete-bin-line"></i></a>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>DG54546Q</td>
+                                        <td>CP495985</td>
+                                        <td>Weekly</td>
+                                        <td>KES. 2800</td>
+                                        <td>2011-04-25</td>
+                                        <td>
+                                            <div class="hstack gap-2 fs-1">
+                                                <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-wave waves-effect waves-light btn-sm btn-success-light"><i class="fe fe-eye"></i></a>
+                                                <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-sm btn-info-light btn-wave waves-effect waves-light"><i class="ri-edit-line"></i></a>
+                                                <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-sm btn-danger-light btn-wave waves-effect waves-light"><i class="ri-delete-bin-line"></i></a>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>DG54546Q</td>
+                                        <td>CP495985</td>
+                                        <td>Weekly</td>
+                                        <td>KES. 2800</td>
+                                        <td>2011-04-25</td>
+                                        <td>
+                                            <div class="hstack gap-2 fs-1">
+                                                <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-wave waves-effect waves-light btn-sm btn-success-light"><i class="fe fe-eye"></i></a>
+                                                <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-sm btn-info-light btn-wave waves-effect waves-light"><i class="ri-edit-line"></i></a>
+                                                <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-sm btn-danger-light btn-wave waves-effect waves-light"><i class="ri-delete-bin-line"></i></a>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>DG54546Q</td>
+                                        <td>CP495985</td>
+                                        <td>Weekly</td>
+                                        <td>KES. 2800</td>
+                                        <td>2011-04-25</td>
+                                        <td>
+                                            <div class="hstack gap-2 fs-1">
+                                                <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-wave waves-effect waves-light btn-sm btn-success-light"><i class="fe fe-eye"></i></a>
+                                                <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-sm btn-info-light btn-wave waves-effect waves-light"><i class="ri-edit-line"></i></a>
+                                                <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-sm btn-danger-light btn-wave waves-effect waves-light"><i class="ri-delete-bin-line"></i></a>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>DG54546Q</td>
+                                        <td>CP495985</td>
+                                        <td>Weekly</td>
+                                        <td>KES. 2800</td>
+                                        <td>2011-04-25</td>
+                                        <td>
+                                            <div class="hstack gap-2 fs-1">
+                                                <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-wave waves-effect waves-light btn-sm btn-success-light"><i class="fe fe-eye"></i></a>
+                                                <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-sm btn-info-light btn-wave waves-effect waves-light"><i class="ri-edit-line"></i></a>
+                                                <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-sm btn-danger-light btn-wave waves-effect waves-light"><i class="ri-delete-bin-line"></i></a>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>DG54546Q</td>
+                                        <td>CP495985</td>
+                                        <td>Weekly</td>
+                                        <td>KES. 2800</td>
+                                        <td>2011-04-25</td>
+                                        <td>
+                                            <div class="hstack gap-2 fs-1">
+                                                <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-wave waves-effect waves-light btn-sm btn-success-light"><i class="fe fe-eye"></i></a>
+                                                <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-sm btn-info-light btn-wave waves-effect waves-light"><i class="ri-edit-line"></i></a>
+                                                <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-sm btn-danger-light btn-wave waves-effect waves-light"><i class="ri-delete-bin-line"></i></a>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>DG54546Q</td>
+                                        <td>CP495985</td>
+                                        <td>Weekly</td>
+                                        <td>KES. 2800</td>
+                                        <td>2011-04-25</td>
+                                        <td>
+                                            <div class="hstack gap-2 fs-1">
+                                                <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-wave waves-effect waves-light btn-sm btn-success-light"><i class="fe fe-eye"></i></a>
+                                                <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-sm btn-info-light btn-wave waves-effect waves-light"><i class="ri-edit-line"></i></a>
+                                                <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-sm btn-danger-light btn-wave waves-effect waves-light"><i class="ri-delete-bin-line"></i></a>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>DG54546Q</td>
+                                        <td>CP495985</td>
+                                        <td>Weekly</td>
+                                        <td>KES. 2800</td>
+                                        <td>2011-04-25</td>
+                                        <td>
+                                            <div class="hstack gap-2 fs-1">
+                                                <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-wave waves-effect waves-light btn-sm btn-success-light"><i class="fe fe-eye"></i></a>
+                                                <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-sm btn-info-light btn-wave waves-effect waves-light"><i class="ri-edit-line"></i></a>
+                                                <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-sm btn-danger-light btn-wave waves-effect waves-light"><i class="ri-delete-bin-line"></i></a>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    </tbody>
+                                </table>
                             </div>
                         </div>
                     </div>
                 </div>
-                <!-- End::row-3 -->
+                <!-- End:: row-4 -->
 
 
             </div>

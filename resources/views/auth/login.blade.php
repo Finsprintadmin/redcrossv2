@@ -85,7 +85,7 @@
 
                     </form>
                     <div class="text-center">
-                        <p class="fs-12 text-muted mt-4">Forget password ?<a href="sign-up-cover.html" class="text-primary">Reset</a></p>
+                        <p class="fs-12 text-muted mt-4">You do not have an Account?<a href="{{route('register')}}" class="text-primary">Register</a></p>
                     </div>
                 </div>
             </div>

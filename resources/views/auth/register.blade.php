@@ -104,7 +104,7 @@
 
                     </form>
                     <div class="text-center">
-                        <p class="fs-12 text-muted mt-4">Already have an account? <a href="sign-in-cover.html" class="text-primary">Sign In</a></p>
+                        <p class="fs-12 text-muted mt-4">Already have an account? <a href="{{ route('login') }}" class="text-primary">Sign In</a></p>
                     </div>
                 </div>
             </div>

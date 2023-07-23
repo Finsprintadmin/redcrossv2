@@ -38,9 +38,7 @@ Route::get('/users', [SettingsController::class, 'Users'])->name('users');
 
 Route::get('/logs', [SettingsController::class, 'Logs'])->name('logs');
 
-Route::get('/reg', [SettingsController::class, 'Reg'])->name('reg');
 
-Route::get('/signin', [SettingsController::class, 'Signin'])->name('signin');
 
 Route::get('/dashboard', function () {
     return view('dashboard');
