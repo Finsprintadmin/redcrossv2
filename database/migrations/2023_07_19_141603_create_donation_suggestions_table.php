@@ -16,7 +16,7 @@ return new class extends Migration
             $table->bigInteger('donor_type_id');
             $table->bigInteger('campaign_id');
             $table->bigInteger('currencies_id');
-            $table->string('amount');
+            $table->double('amount', 10,2);
             $table->timestamps();
         });
     }

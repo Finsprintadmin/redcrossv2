@@ -21,4 +21,15 @@ class SettingsController extends Controller
         return view('settings.users', compact('users'));
 
     }
+
+    public function Signin(){
+        return view('auth.sign_in');
+
+    }
+
+    public function Reg(){
+        return view('auth.sign_up');
+
+    }
+
 }

@@ -46,7 +46,7 @@ class User extends Authenticatable
 
     use HasFactory;
 
-    protected $table = "user";
+    //protected $table = "user";
 
 
 }

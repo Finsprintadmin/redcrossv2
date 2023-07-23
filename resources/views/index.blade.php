@@ -975,14 +975,7 @@
                             <div class="card-title mb-2 mb-sm-0">
                                 Recent Donations
                             </div>
-                            <div class="btn-group" role="group" aria-label="Basic example">
-                                <button type="button" class="btn btn-primary btn-sm btn-wave">1D</button>
-                                <button type="button" class="btn btn-primary-light btn-sm btn-wave">1W</button>
-                                <button type="button" class="btn btn-primary-light btn-sm btn-wave">1M</button>
-                                <button type="button" class="btn btn-primary-light btn-sm btn-wave">3M</button>
-                                <button type="button" class="btn btn-primary-light btn-sm btn-wave">6M</button>
-                                <button type="button" class="btn btn-primary-light btn-sm btn-wave">1Y</button>
-                            </div>
+
                         </div>
                         <div class="card-body">
                             <div class="table-responsive">
