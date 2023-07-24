@@ -119,10 +119,10 @@
                             <div class="text-fixed-white text-center p-5 d-flex align-items-center justify-content-center">
                                 <div>
                                     <div class="mb-5">
-                                        <img src="../assets/images/authentication/2.png" class="authentication-image" alt="">
+                                        <img src="{{asset('assets/images/authentication/krc_slider_1.png')}}" class="authentication-image" alt="">
                                     </div>
-                                    <h6 class="fw-semibold">Sign Up</h6>
-                                    <p class="fw-normal fs-14 op-7"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa eligendi expedita aliquam quaerat nulla voluptas facilis. Porro rem voluptates possimus, ad, autem quae culpa architecto, quam labore blanditiis at ratione.</p>
+                                    <h6 class="fw-semibold">Blood Donation Drive</h6>
+                                    <p class="fw-normal fs-14 op-7"> At Kenya Red Cross, we believe in the power of compassion and community support to make a difference in people's lives. Our Blood Donation Drives aim to address the critical need for blood in hospitals and medical facilities across the country. </p>
                                 </div>
                             </div>
                         </div>
@@ -130,10 +130,10 @@
                             <div class="text-fixed-white text-center p-5 d-flex align-items-center justify-content-center">
                                 <div>
                                     <div class="mb-5">
-                                        <img src="../assets/images/authentication/3.png" class="authentication-image" alt="">
+                                        <img src="{{asset('assets/images/authentication/krc_slider_2.png')}}" class="authentication-image" alt="">
                                     </div>
-                                    <h6 class="fw-semibold">Sign Up</h6>
-                                    <p class="fw-normal fs-14 op-7"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa eligendi expedita aliquam quaerat nulla voluptas facilis. Porro rem voluptates possimus, ad, autem quae culpa architecto, quam labore blanditiis at ratione.</p>
+                                    <h6 class="fw-semibold">Clean Water Projects</h6>
+                                    <p class="fw-normal fs-14 op-7"> Kenya Red Cross is committed to quenching the thirst of communities in need and nurturing lives through our Clean Water Projects. </p>
                                 </div>
                             </div>
                         </div>
@@ -141,10 +141,10 @@
                             <div class="text-fixed-white text-center p-5 d-flex align-items-center justify-content-center">
                                 <div>
                                     <div class="mb-5">
-                                        <img src="../assets/images/authentication/2.png" class="authentication-image" alt="">
+                                        <img src="{{asset('assets/images/authentication/krc_slider_3.png')}}" class="authentication-image" alt="">
                                     </div>
-                                    <h6 class="fw-semibold">Sign Up</h6>
-                                    <p class="fw-normal fs-14 op-7"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa eligendi expedita aliquam quaerat nulla voluptas facilis. Porro rem voluptates possimus, ad, autem quae culpa architecto, quam labore blanditiis at ratione.</p>
+                                    <h6 class="fw-semibold">Kenya Red Cross' Rapid Response</h6>
+                                    <p class="fw-normal fs-14 op-7"> Despite the daunting challenges, Kenya Red Cross swiftly activated its emergency response team, comprising highly trained personnel in search and rescue operations.</p>
                                 </div>
                             </div>
                         </div>
