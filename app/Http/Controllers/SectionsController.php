@@ -31,4 +31,9 @@ class SectionsController extends Controller
         return view('sections.campaigns');
 
     }
+
+    public function AddCampaign(){
+
+        return view('sections.modal.add_campaign');
+    }
 }

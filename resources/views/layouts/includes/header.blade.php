@@ -8,16 +8,16 @@
         <div class="header-content-left">
 
             <!-- Start::header-element -->
-            <div class="header-element">
-                <div class="horizontal-logo">
-                    <a href="index.html" class="header-logo">
-                        <img src="../assets/images/brand-logos/desktop-logo.png" alt="logo" class="desktop-logo">
-                        <img src="../assets/images/brand-logos/toggle-logo.png" alt="logo" class="toggle-logo">
-                        <img src="../assets/images/brand-logos/desktop-dark.png" alt="logo" class="desktop-dark">
-                        <img src="../assets/images/brand-logos/toggle-dark.png" alt="logo" class="toggle-dark">
-                    </a>
-                </div>
-            </div>
+{{--            <div class="header-element">--}}
+{{--                <div class="horizontal-logo">--}}
+{{--                    <a href="index.html" class="header-logo">--}}
+{{--                        <img src="../assets/images/brand-logos/desktop-logo.png" alt="logo" class="desktop-logo">--}}
+{{--                        <img src="../assets/images/brand-logos/toggle-logo.png" alt="logo" class="toggle-logo">--}}
+{{--                        <img src="../assets/images/brand-logos/desktop-dark.png" alt="logo" class="desktop-dark">--}}
+{{--                        <img src="../assets/images/brand-logos/toggle-dark.png" alt="logo" class="toggle-dark">--}}
+{{--                    </a>--}}
+{{--                </div>--}}
+{{--            </div>--}}
             <!-- End::header-element -->
 
             <!-- Start::header-element -->
@@ -41,7 +41,7 @@
                 <a href="#" class="header-link dropdown-toggle" id="mainHeaderProfile" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">
                     <div class="d-flex align-items-center">
                         <div class="me-sm-2 me-0">
-                            <img src="../assets/images/faces/9.jpg" alt="img" width="32" height="32" class="rounded-circle">
+                            <img src="{{asset('assets/images/faces/9.jpg')}}" alt="img" width="32" height="32" class="rounded-circle">
                         </div>
                         <div class="d-sm-block d-none">
                             <p class="fw-semibold mb-0 lh-1">{{ Auth::user()->name }}</p>

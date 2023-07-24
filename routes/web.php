@@ -38,6 +38,8 @@ Route::get('/users', [SettingsController::class, 'Users'])->name('users');
 
 Route::get('/logs', [SettingsController::class, 'Logs'])->name('logs');
 
+Route::get('/campaign/add', [SectionsController::class, 'AddCampaign'])->name('add_campaign');
+
 
 
 Route::get('/dashboard', function () {

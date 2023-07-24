@@ -242,9 +242,10 @@
                             </div>
                         </div>
                         <div class="mt-sm-0 mt-2">
-                            <button type="button" class="btn btn-sm btn-light"><i class="ti ti-plus me-1 fw-semibold align-middle d-inline-block"></i>Add Campaign</button>
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModalScrollable5"><button type="button" class="btn btn-sm btn-light"><i class="ti ti-plus me-1 fw-semibold align-middle d-inline-block"></i>Add Campaign</button></a>
                         </div>
                     </div>
+
                     <div class="card-body p-0">
                         <div class="tab-content p-0">
                             <div class="tab-pane active p-0 border-0" id="Active">
@@ -661,8 +662,8 @@
                                 <thead>
                                 <tr>
                                     <th scope="col">Country</th>
-                                    <th scope="col">USD</th>
-                                    <th scope="col">KES</th>
+                                    <th scope="col">Amount</th>
+                                    <th scope="col">Amount</th>
                                     <th scope="col">Action</th>
                                 </tr>
                                 </thead>
@@ -682,10 +683,10 @@
                                             </div>
                                         </div>
                                     </th>
-                                    <td>21,000</td>
-                                    <td>78299</td>
+                                    <td>USD.21000</td>
+                                    <td>KES.5555</td>
                                     <td>
-                                        <button type="button" class="btn btn-success-light btn-wave btn-sm">View</button>
+                                        <button type="button" class="btn btn-danger-light btn-sm btn-border-top">View</button>
                                     </td>
                                 </tr>
                                 <tr>
@@ -703,10 +704,10 @@
                                             </div>
                                         </div>
                                     </th>
-                                    <td>21,000</td>
-                                    <td>78299</td>
+                                    <td>USD.21000</td>
+                                    <td>KES.5555</td>
                                     <td>
-                                        <button type="button" class="btn btn-success-light btn-wave btn-sm">View</button>
+                                        <button type="button" class="btn btn-danger-light btn-sm btn-border-top">View</button>
                                     </td>
                                 </tr>
                                 <tr>
@@ -724,10 +725,10 @@
                                             </div>
                                         </div>
                                     </th>
-                                    <td>21,000</td>
-                                    <td>78299</td>
+                                    <td>USD.21000</td>
+                                    <td>KES.5555</td>
                                     <td>
-                                        <button type="button" class="btn btn-success-light btn-wave btn-sm">View</button>
+                                        <button type="button" class="btn btn-danger-light btn-sm btn-border-top">View</button>
                                     </td>
                                 </tr>
                                 <tr>
@@ -745,10 +746,10 @@
                                             </div>
                                         </div>
                                     </th>
-                                    <td>21,000</td>
-                                    <td>78299</td>
+                                    <td>USD.21000</td>
+                                    <td>KES.5555</td>
                                     <td>
-                                        <button type="button" class="btn btn-success-light btn-wave btn-sm">View</button>
+                                        <button type="button" class="btn btn-danger-light btn-sm btn-border-top">View</button>
                                     </td>
                                 </tr>
                                 </tbody>
@@ -800,19 +801,19 @@
                         <ul class="list-group">
                             <li class="list-group-item">
                                 Mpesa
-                                <span class="badge float-end bg-success-transparent">1,982</span>
+                                <span class="badge float-end bg-success-transparent">KES.100,982</span>
                             </li>
                             <li class="list-group-item">
                                 Card
-                                <span class="badge float-end bg-secondary-transparent">214</span>
+                                <span class="badge float-end bg-secondary-transparent">USD.90214</span>
                             </li>
                             <li class="list-group-item">
                                 Airtel Money
-                                <span class="badge float-end bg-warning-transparent">262</span>
+                                <span class="badge float-end bg-warning-transparent">KES.20262</span>
                             </li>
                             <li class="list-group-item">
                                 Tcash
-                                <span class="badge float-end bg-primary-transparent">395</span>
+                                <span class="badge float-end bg-primary-transparent">KES.80395</span>
                             </li>
 
                         </ul>
@@ -857,8 +858,8 @@
                                 <thead>
                                 <tr>
                                     <th scope="col">Country</th>
-                                    <th scope="col">USD</th>
-                                    <th scope="col">KES</th>
+                                    <th scope="col">Amount</th>
+                                    <th scope="col">Amount</th>
                                     <th scope="col">Action</th>
                                 </tr>
                                 </thead>
@@ -874,10 +875,10 @@
                                             </div>
                                         </div>
                                     </th>
-                                    <td>21,000</td>
-                                    <td>78299</td>
+                                    <td>USD.21000</td>
+                                    <td>KES.5555</td>
                                     <td>
-                                        <button type="button" class="btn btn-success-light btn-wave btn-sm">View</button>
+                                        <button type="button" class="btn btn-danger-light btn-sm btn-border-top">View</button>
                                     </td>
                                 </tr>
                                 <tr>
@@ -891,10 +892,10 @@
                                             </div>
                                         </div>
                                     </th>
-                                    <td>21,000</td>
-                                    <td>78299</td>
+                                    <td>USD.21000</td>
+                                    <td>KES.5555</td>
                                     <td>
-                                        <button type="button" class="btn btn-success-light btn-wave btn-sm">View</button>
+                                        <button type="button" class="btn btn-danger-light btn-sm btn-border-top">View</button>
                                     </td>
                                 </tr>
                                 <tr>
@@ -908,10 +909,10 @@
                                             </div>
                                         </div>
                                     </th>
-                                    <td>21,000</td>
-                                    <td>78299</td>
+                                    <td>USD.21000</td>
+                                    <td>KES.5555</td>
                                     <td>
-                                        <button type="button" class="btn btn-success-light btn-wave btn-sm">View</button>
+                                        <button type="button" class="btn btn-danger-light btn-sm btn-border-top">View</button>
                                     </td>
                                 </tr>
                                 <tr>
@@ -925,10 +926,10 @@
                                             </div>
                                         </div>
                                     </th>
-                                    <td>21,000</td>
-                                    <td>78299</td>
+                                    <td>USD.21000</td>
+                                    <td>KES.5555</td>
                                     <td>
-                                        <button type="button" class="btn btn-success-light btn-wave btn-sm">View</button>
+                                        <button type="button" class="btn btn-danger-light btn-sm btn-border-top">View</button>
                                     </td>
                                 </tr>
                                 </tbody>
@@ -1018,7 +1019,7 @@
                                             <span class="badge rounded-pill bg-outline-success">Paid</span>
                                         </td>
                                         <td>
-                                            <button class="btn btn-teal-light btn-border-top">View</button>
+                                            <button class="btn btn-danger-light btn-sm btn-border-top">View</button>
                                         </td>
                                     </tr>
                                     <tr>
@@ -1044,7 +1045,7 @@
                                             <span class="badge rounded-pill bg-outline-warning">Pending</span>
                                         </td>
                                         <td>
-                                            <button class="btn btn-teal-light btn-border-top">View</button>
+                                            <button class="btn btn-danger-light btn-sm btn-border-top">View</button>
                                         </td>
                                     </tr>
                                     <tr>
@@ -1070,7 +1071,7 @@
                                             <span class="badge rounded-pill bg-outline-danger">Failed</span>
                                         </td>
                                         <td>
-                                            <button class="btn btn-teal-light btn-border-top">View</button>
+                                            <button class="btn btn-danger-light btn-sm btn-border-top">View</button>
                                         </td>
                                     </tr>
                                     <tr>
@@ -1096,7 +1097,7 @@
                                             <span class="badge rounded-pill bg-outline-warning">Pending</span>
                                         </td>
                                         <td>
-                                            <button class="btn btn-teal-light btn-border-top">View</button>
+                                            <button class="btn btn-danger-light btn-sm btn-border-top">View</button>
                                         </td>
                                     </tr>
                                     <tr>
@@ -1122,7 +1123,7 @@
                                             <span class="badge rounded-pill bg-outline-success">Paid</span>
                                         </td>
                                         <td>
-                                            <button class="btn btn-teal-light btn-border-top">View</button>
+                                            <button class="btn btn-danger-light btn-sm btn-border-top">View</button>
                                         </td>
                                     </tr>
                                     <tr>
@@ -1148,38 +1149,14 @@
                                             <span class="badge rounded-pill bg-outline-danger">Failed</span>
                                         </td>
                                         <td>
-                                            <button class="btn btn-teal-light btn-border-top">View</button>
+                                            <button class="btn btn-danger-light btn-sm btn-border-top">View</button>
                                         </td>
                                     </tr>
                                     </tbody>
                                 </table>
                             </div>
                         </div>
-                        <div class="card-footer">
-                            <div class="d-flex align-items-center">
-                                <div>
-                                    Showing 6 Entries <i class="bi bi-arrow-right ms-2 fw-semibold"></i>
-                                </div>
-                                <div class="ms-auto">
-                                    <nav aria-label="Page navigation" class="pagination-style-4">
-                                        <ul class="pagination mb-0">
-                                            <li class="page-item disabled">
-                                                <a class="page-link" href="javascript:void(0);">
-                                                    Prev
-                                                </a>
-                                            </li>
-                                            <li class="page-item active"><a class="page-link" href="javascript:void(0);">1</a></li>
-                                            <li class="page-item"><a class="page-link" href="javascript:void(0);">2</a></li>
-                                            <li class="page-item">
-                                                <a class="page-link text-primary" href="javascript:void(0);">
-                                                    next
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </nav>
-                                </div>
-                            </div>
-                        </div>
+
                     </div>
                 </div>
             </div>
@@ -1188,5 +1165,7 @@
         </div>
     </div>
     <!-- End::app-content -->
+
+{{--    @include('sections.modal.add_campaign')--}}
 
 @endsection
