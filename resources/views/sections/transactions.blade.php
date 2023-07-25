@@ -77,7 +77,7 @@
                                             <div class="form-group">
                                                 <div class="input-group">
                                                     <div class="input-group-text text-muted"> <i class="ri-calendar-line"></i> </div>
-                                                    <input type="text" class="form-control" id="humanfrienndlydate" placeholder="From">
+                                                    <input type="date" class="form-control" name="start_date" id="humanfrienndlydate" placeholder="From">
                                                 </div>
                                             </div>
                                         </div>
@@ -88,7 +88,7 @@
                                             <div class="form-group">
                                                 <div class="input-group">
                                                     <div class="input-group-text text-muted"> <i class="ri-calendar-line"></i> </div>
-                                                    <input type="text" class="form-control" id="humanfrienndlydate" placeholder="To">
+                                                    <input type="date" class="form-control" name="end_date" id="humanfrienndlydate" placeholder="To">
                                                 </div>
                                             </div>
                                         </div>
@@ -119,28 +119,33 @@
                                         <thead>
                                         <tr>
                                             <th scope="col">ID</th>
-                                            <th scope="col">TXN</th>
-                                            <th scope="col">STATUS</th>
-                                            <th scope="col">AMOUNT</th>
-                                            <th scope="col">DATE TIME</th>
-                                            <th scope="col">NAME</th>
-                                            <th scope="col">PAYMENT METHOD</th>
-                                            <th scope="col">REGION</th>
-                                            <th scope="col">DONOR TYPE</th>
+                                            <th scope="col">campaign_id</th>
+                                            <th scope="col">donor_id</th>
+                                            <th scope="col">currency_id</th>
+                                            <th scope="col">payment_method_id</th>
+                                            <th scope="col">pledge_id</th>
+                                            <th scope="col">first_name</th>
+                                            <th scope="col">payment_reference</th>
+                                            <th scope="col">amount</th>
+                                            <th scope="col">gateway</th>
+                                            <th scope="col">payment_date</th>
+                                            <th scope="col">status</th>
                                         </tr>
                                         </thead>
                                         <tbody>
                                         @foreach($transactions as $transaction)
                                             <tr>
-                                                <td>{{$transaction->donation_id}}</td>
-                                                <td>{{$transaction->krc_reference}}</td>
-                                                <td>{{$transaction->donation_status}}</td>
-                                                <td>{{$transaction->currency == 1 ? 'KES: ': 'USD: '}}{{$transaction->amount}}</td>
-                                                <td>{{$transaction->start_date}}</td>
-                                                <td>{{$transaction->first_name}} {{$transaction->last_name}}</td>
-                                                <td>{{$transaction->payment_method == 1 ? 'Mpesa ': 'Card '}}</td>
-                                                <td>{{$transaction->region}}</td>
-                                                <td>{{$transaction->donor_type == 1 ? 'Individual ': 'Corporate '}}</td>
+                                                <td>{{$transaction->campaign_id}}</td>
+                                                <td>{{$transaction->donor_id}}</td>
+                                                <td>{{$transaction->currency_id}}</td>
+                                                <td>{{$transaction->payment_method_id }}</td>
+                                                <td>{{$transaction->pledge_id}}</td>
+                                                <td>{{$transaction->first_name}}</td>
+                                                <td>{{$transaction->payment_reference }}</td>
+                                                <td>{{$transaction->amount}}</td>
+                                                <td>{{$transaction->gateway}}</td>
+                                                <td>{{$transaction->payment_date}}</td>
+                                                <td>{{$transaction->status}}</td>
 
                                             </tr>
                                         @endforeach

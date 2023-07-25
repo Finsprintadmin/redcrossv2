@@ -6,6 +6,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\SectionsController;
 use App\Http\Controllers\SettingsController;
+use Carbon\Carbon;
 
 /*
 |--------------------------------------------------------------------------
@@ -40,7 +41,20 @@ Route::get('/logs', [SettingsController::class, 'Logs'])->name('logs');
 
 Route::get('/campaign/add', [SectionsController::class, 'AddCampaign'])->name('add_campaign');
 
+Route::get('/campaign/view', [SectionsController::class, 'ViewCampaign'])->name('view_campaign');
 
+//Route for Searching through data between two dates
+//Route::get('/', function () {
+//    if (request()->start_date || request()->end_date) {
+//        $start_date = Carbon::parse(request()->start_date)->toDateTimeString();
+//        $end_date = Carbon::parse(request()->end_date)->toDateTimeString();
+//        $data = App\Models\Transaction::whereBetween('created_at',[$start_date,$end_date])->get();
+//    } else {
+//        $data = App\Models\Transaction::latest()->get();
+//    }
+//
+//    return view('sections.transactions', compact('data'));
+//});
 
 Route::get('/dashboard', function () {
     return view('dashboard');

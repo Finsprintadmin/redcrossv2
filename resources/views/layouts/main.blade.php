@@ -514,6 +514,10 @@
 </div>
 <div id="responsive-overlay"></div>
 
+<!-- Simplebar JS -->
+<script src="{{asset('assets/libs/simplebar/simplebar.min.js')}}"></script>
+<script src="{{asset('assets/js/simplebar.js')}}"></script>
+
 <!-- Popper JS -->
 <script src="{{asset('assets/libs/@popperjs/core/umd/popper.min.js')}}"></script>
 
@@ -529,9 +533,13 @@
 <!-- Sticky JS -->
 <script src="{{asset('assets/js/sticky.js')}}"></script>
 
-<!-- Simplebar JS -->
-<script src="{{asset('assets/libs/simplebar/simplebar.min.js')}}"></script>
-<script src="{{asset('assets/js/simplebar.js')}}"></script>
+<!-- Internal File Manager JS -->
+<script src="{{asset('assets/js/file-manager.js')}}"></script>
+
+
+
+<!-- Index JS -->
+<script src="../assets/js/widgets.js"></script>
 
 <!-- Color Picker JS -->
 <script src="{{asset('assets/libs/@simonwep/pickr/pickr.es5.min.js')}}"></script>
