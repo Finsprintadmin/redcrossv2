@@ -536,14 +536,11 @@
 <!-- Internal File Manager JS -->
 <script src="{{asset('assets/js/file-manager.js')}}"></script>
 
-
-
 <!-- Index JS -->
-<script src="../assets/js/widgets.js"></script>
+<script src="{{asset('assets/js/widgets.js')}}"></script>
 
 <!-- Color Picker JS -->
 <script src="{{asset('assets/libs/@simonwep/pickr/pickr.es5.min.js')}}"></script>
-
 
 <!-- JSVector Maps JS -->
 <script src="{{asset('assets/libs/jsvectormap/js/jsvectormap.min.js')}}"></script>
