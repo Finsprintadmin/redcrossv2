@@ -242,7 +242,10 @@
                             </div>
                         </div>
                         <div class="mt-sm-0 mt-2">
-                            <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModalScrollable5"><button type="button" class="btn btn-sm btn-light"><i class="ti ti-plus me-1 fw-semibold align-middle d-inline-block"></i>Add Campaign</button></a>
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModalScrollable5"><button class="btn btn-sm btn-primary d-flex align-items-center justify-content-center btn-wave waves-light"
+                                                                                                                 data-bs-toggle="modal" data-bs-target="#create-folder">
+                                    <i class="ri-add-circle-line align-middle me-1"></i>Add Campaign
+                                </button></a>
                         </div>
                     </div>
 

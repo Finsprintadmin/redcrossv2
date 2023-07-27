@@ -6,6 +6,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\SectionsController;
 use App\Http\Controllers\SettingsController;
+use App\Http\Controllers\CampaignsController;
 use Carbon\Carbon;
 
 /*
@@ -40,6 +41,12 @@ Route::get('/users', [SettingsController::class, 'Users'])->name('users');
 Route::get('/logs', [SettingsController::class, 'Logs'])->name('logs');
 
 Route::get('/campaign/add', [SectionsController::class, 'AddCampaign'])->name('add_campaign');
+
+Route::get('/campaign/create', [CampaignsController::class, 'Create'])->name('create_campaign');
+
+Route::post('/campaign/save', [CampaignsController::class, 'Store'])->name('save_campaign');
+
+//Route::get('/campaign/show', [CampaignsController::class, 'Show'])->name('show_campaign');
 
 Route::get('/campaign/view', [SectionsController::class, 'ViewCampaign'])->name('view_campaign');
 

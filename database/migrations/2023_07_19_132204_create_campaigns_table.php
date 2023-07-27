@@ -17,8 +17,8 @@ return new class extends Migration
             $table->string('description')->nullable();
             $table->date('start_date');
             $table->date('end_date');
-            $table->boolean('status');
-            $table->binary('image');
+            $table->boolean('status')->nullable();
+            $table->binary('image')->nullable();
             $table->timestamps();
         });
     }

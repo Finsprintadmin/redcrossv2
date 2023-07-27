@@ -39,6 +39,6 @@ class SectionsController extends Controller
 
 public function ViewCampaign(){
 
-        return view('sections.view.campaign');
+        return view('sections.campaign.view_campaign');
 }
 }
