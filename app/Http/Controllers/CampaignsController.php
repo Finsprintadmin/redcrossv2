@@ -16,5 +16,9 @@ class CampaignsController extends Controller
         $campaign->save();
         return redirect()->route('show_campaign');
     }
+    public function Show(){
+        $campaigns = Campaign::all();
+        return view('sections.campaigns',compact('campaigns'));
+    }
 
 }
