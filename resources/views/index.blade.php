@@ -662,140 +662,6 @@
         <!-- Start::row-2 -->
         <div class="row">
             <div class="col-xl-4">
-                <div class="card custom-card overflow-hidden">
-                    <div class="card-header">
-                        <div class="card-title">
-                            Top Donor Countries
-                        </div>
-                    </div>
-                    <div class="card-body p-0">
-                        <div class="table-responsive">
-                            <table class="table text-nowrap">
-                                <thead>
-                                <tr>
-                                    <th scope="col">Country</th>
-                                    <th scope="col">Amount</th>
-                                    <th scope="col">Amount</th>
-                                    <th scope="col">Action</th>
-                                </tr>
-                                </thead>
-                                <tbody>
-                                <tr>
-                                    <th scope="row">
-                                        <div class="d-flex align-items-center">
-                                            <div class="me-2 lh-1">
-                                                            <span class="avatar avatar-xs avatar-rounded">
-                                                                <img src="{{asset('assets/images/flags/us_flag.jpg')}}" alt="">
-                                                            </span>
-                                            </div>
-                                            <div>
-                                                            <span class="fw-semibold">
-                                                                U.S.A
-                                                            </span>
-                                            </div>
-                                        </div>
-                                    </th>
-                                    <td>USD.21000</td>
-                                    <td>KES.5555</td>
-                                    <td>
-                                        <button type="button" class="btn btn-danger-light btn-sm btn-border-top">View</button>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">
-                                        <div class="d-flex align-items-center">
-                                            <div class="me-2 lh-1">
-                                                            <span class="avatar avatar-xs avatar-rounded">
-                                                                <img src="{{asset('assets/images/flags/us_flag.jpg')}}" alt="">
-                                                            </span>
-                                            </div>
-                                            <div>
-                                                            <span class="fw-semibold">
-                                                                Kenya
-                                                            </span>
-                                            </div>
-                                        </div>
-                                    </th>
-                                    <td>USD.21000</td>
-                                    <td>KES.5555</td>
-                                    <td>
-                                        <button type="button" class="btn btn-danger-light btn-sm btn-border-top">View</button>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">
-                                        <div class="d-flex align-items-center">
-                                            <div class="me-2 lh-1">
-                                                            <span class="avatar avatar-xs avatar-rounded">
-                                                                <img src="{{asset('assets/images/flags/us_flag.jpg')}}" alt="">
-                                                            </span>
-                                            </div>
-                                            <div>
-                                                            <span class="fw-semibold">
-                                                                South Africa
-                                                            </span>
-                                            </div>
-                                        </div>
-                                    </th>
-                                    <td>USD.21000</td>
-                                    <td>KES.5555</td>
-                                    <td>
-                                        <button type="button" class="btn btn-danger-light btn-sm btn-border-top">View</button>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">
-                                        <div class="d-flex align-items-center">
-                                            <div class="me-2 lh-1">
-                                                            <span class="avatar avatar-xs avatar-rounded">
-                                                                <img src="{{asset('assets/images/flags/us_flag.jpg')}}" alt="">
-                                                            </span>
-                                            </div>
-                                            <div>
-                                                            <span class="fw-semibold">
-                                                                Nigeria
-                                                            </span>
-                                            </div>
-                                        </div>
-                                    </th>
-                                    <td>USD.21000</td>
-                                    <td>KES.5555</td>
-                                    <td>
-                                        <button type="button" class="btn btn-danger-light btn-sm btn-border-top">View</button>
-                                    </td>
-                                </tr>
-                                </tbody>
-                            </table>
-                        </div>
-                    </div>
-                    <div class="card-footer border-top-0">
-                        <div class="d-flex flex-wrap align-items-center justify-content-between">
-                            <div>
-                                Showing 4 Entries <i class="bi bi-arrow-right ms-2 fw-semibold"></i>
-                            </div>
-                            <div>
-                                <nav aria-label="Page navigation" class="pagination-style-4">
-                                    <ul class="pagination mb-0">
-                                        <li class="page-item disabled">
-                                            <a class="page-link" href="javascript:void(0);">
-                                                Prev
-                                            </a>
-                                        </li>
-                                        <li class="page-item active"><a class="page-link" href="javascript:void(0);">1</a></li>
-                                        <li class="page-item"><a class="page-link" href="javascript:void(0);">2</a></li>
-                                        <li class="page-item">
-                                            <a class="page-link text-primary" href="javascript:void(0);">
-                                                next
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </nav>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xl-4">
                 <div class="card custom-card">
                     <div class="card-header">
                         <div class="card-title">
@@ -853,6 +719,18 @@
                                     </ul>
                                 </nav>
                             </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-4">
+                <div class="col-xl-12">
+                    <div class="card custom-card">
+                        <div class="card-header">
+                            <div class="card-title">Top Donor Countries</div>
+                        </div>
+                        <div class="card-body">
+                            <div id="marker-map"></div>
                         </div>
                     </div>
                 </div>

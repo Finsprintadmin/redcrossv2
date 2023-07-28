@@ -46,9 +46,11 @@ Route::get('/campaign/create', [CampaignsController::class, 'Create'])->name('cr
 
 Route::post('/campaign/save', [CampaignsController::class, 'Store'])->name('save_campaign');
 
-Route::get('/campaign/show', [CampaignsController::class, 'Show'])->name('show_campaign');
+Route::get('/campaign/show', [CampaignsController::class, 'Show'])->name('all_campaigns');
 
-Route::get('/campaign/view', [SectionsController::class, 'ViewCampaign'])->name('view_campaign');
+Route::get('/campaign/view', [SectionsController::class, 'ViewCampaign'])->name('show_campaign');
+
+Route::get('/campaign/edit', [CampaignsController::class, 'edit'])->name('update_campaign');
 
 //Route for Searching through data between two dates
 //Route::get('/', function () {

@@ -66,7 +66,7 @@
 
                 <!-- Start::slide -->
 
-                    <a href="{{route('campaigns')}}" class="side-menu__item">
+                    <a href="{{route('all_campaigns')}}" class="side-menu__item">
                         <i class="bx bx-party side-menu__icon"></i>
                         <span class="side-menu__label">Campaigns</span>
                     </a>

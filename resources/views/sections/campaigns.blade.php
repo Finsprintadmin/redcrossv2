@@ -13,8 +13,8 @@
                     <h1 class="page-title fw-semibold fs-18 mb-0">Campaigns</h1>
                     <div class="ms-md-1 ms-0">
                         <nav>
-                            <div class="btn-group">
-                                <button type="button" class="btn btn-primary btn-sm btn-wave">Add Campaign</button>
+                            <a class="btn-group">
+                                <a href="{{route('create_campaign')}}" <button type="button" class="btn btn-primary btn-sm btn-wave">Add Campaign</button></a>
 
                             </div>
                         </nav>
@@ -40,7 +40,7 @@
                                                     <p class="fs-16 mb-5 text-fixed-white op-7">
                                                         {{$campaign -> description}}
                                                     </p>
-                                                    <button class="btn btn-secondary btn-wave">View Campaign</button>
+                                                    <a href="{{route('show_campaign')}}" ><button class="btn btn-secondary btn-wave">View Campaign</button></a>
                                                 </div>
                                             </div>
                                         </div>
@@ -72,7 +72,10 @@
                                             <span class="text-dark fs-15 fw-semibold mb-2">Actions</span>
                                         </h6>
                                         <div class="text-center">
-                                            <button class="btn btn-secondary-light btn-wave">Edit</button>
+                                            <a href="{{route('update_campaign')}}">
+                                                <button class="btn btn-secondary-light btn-wave">Edit</button>
+                                            </a>
+
                                             <button class="btn btn-primary-light btn-wave">End</button>
                                         </div>
 

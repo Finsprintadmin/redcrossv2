@@ -548,6 +548,14 @@
 <!-- JSVector Maps MapsJS -->
 <script src="{{asset('assets/libs/jsvectormap/maps/world-merc.js')}}"></script>
 
+<!-- JSVector Maps MapsJS -->
+<script src="{{asset('assets/libs/jsvectormap/maps/world-merc.js')}}"></script>
+<script src="{{asset('assets/js/us-merc-en.js')}}"></script>
+<script src="{{asset('assets/js/russia.js')}}"></script>
+<script src="{{asset('assets/js/spain.js')}}"></script>
+<script src="{{asset('assets/js/canada.js')}}"></script>
+<script src="{{asset('assets/js/jsvectormap.js')}}"></script>
+
 <!-- Apex Charts JS -->
 <script src="{{asset('assets/libs/apexcharts/apexcharts.min.js')}}"></script>
 
