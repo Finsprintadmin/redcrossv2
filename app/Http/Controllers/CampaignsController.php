@@ -17,5 +17,4 @@ class CampaignsController extends Controller
         return redirect()->route('show_campaign');
     }
 
-
 }
