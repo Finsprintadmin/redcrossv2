@@ -15,7 +15,7 @@
 
                         </div>
                         <div class="card-body">
-                            <form class="row g-3 mt-0" method="post" action="{{route('edit_campaign')}}">
+                            <form class="row g-3 mt-0" method="POST" action="{{route('update_campaign',$campaign->id)}}">
                                 @csrf
                                 <div class="col-md-12">
                                     <label class="form-label">Name</label>

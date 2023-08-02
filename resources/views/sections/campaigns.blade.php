@@ -40,7 +40,7 @@
                                                     <p class="fs-16 mb-5 text-fixed-white op-7">
                                                         {{$campaign -> description}}
                                                     </p>
-                                                    <a href="{{route('show_campaign')}}" ><button class="btn btn-secondary btn-wave">View Campaign</button></a>
+                                                    <a href="{{route('show_single_campaign',$campaign->id)}}" ><button class="btn btn-secondary btn-wave">View Campaign</button></a>
                                                 </div>
                                             </div>
                                         </div>
@@ -72,7 +72,7 @@
                                             <span class="text-dark fs-15 fw-semibold mb-2">Actions</span>
                                         </h6>
                                         <div class="text-center">
-                                            <a href="{{route('update_campaign')}}">
+                                            <a href="{{route('edit_campaign', $campaign->id)}}">
                                                 <button class="btn btn-secondary-light btn-wave">Edit</button>
                                             </a>
 

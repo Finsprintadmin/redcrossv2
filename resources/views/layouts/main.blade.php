@@ -514,6 +514,12 @@
 </div>
 <div id="responsive-overlay"></div>
 
+<!-- Internal To-Do-List JS -->
+<script src="../assets/js/todolist.js"></script>
+
+<!-- Used For Sessions By Device Chart -->
+<script src="{{asset('assets/libs/moment/moment.js')}}"></script>
+
 <!-- Simplebar JS -->
 <script src="{{asset('assets/libs/simplebar/simplebar.min.js')}}"></script>
 <script src="{{asset('assets/js/simplebar.js')}}"></script>
@@ -555,6 +561,8 @@
 <script src="{{asset('assets/js/spain.js')}}"></script>
 <script src="{{asset('assets/js/canada.js')}}"></script>
 <script src="{{asset('assets/js/jsvectormap.js')}}"></script>
+
+
 
 <!-- Apex Charts JS -->
 <script src="{{asset('assets/libs/apexcharts/apexcharts.min.js')}}"></script>

@@ -25,7 +25,6 @@ Route::group(['middleware' => 'auth'], function () {
 });
 
 
-
 Route::get('/pledges', [SectionsController::class, 'Pledges'])->name('pledges');
 
 Route::get('/transactions', [SectionsController::class, 'Transactions'])->name('transactions');
@@ -40,17 +39,23 @@ Route::get('/users', [SettingsController::class, 'Users'])->name('users');
 
 Route::get('/logs', [SettingsController::class, 'Logs'])->name('logs');
 
-Route::get('/campaign/add', [SectionsController::class, 'AddCampaign'])->name('add_campaign');
+//Route::get('/campaign/add', [SectionsController::class, 'AddCampaign'])->name('add_campaign');
 
 Route::get('/campaign/create', [CampaignsController::class, 'Create'])->name('create_campaign');
+
+Route::get('/campaign/modal/create', [CampaignsController::class, 'CreateCampaignModal'])->name('create_campaign_modal');
 
 Route::post('/campaign/save', [CampaignsController::class, 'Store'])->name('save_campaign');
 
 Route::get('/campaign/show', [CampaignsController::class, 'Show'])->name('all_campaigns');
 
-Route::get('/campaign/view', [SectionsController::class, 'ViewCampaign'])->name('show_campaign');
+Route::get('/campaign/view/{id}', [CampaignsController::class, 'ViewCampaign'])->name('show_single_campaign');
 
-Route::get('/campaign/edit', [CampaignsController::class, 'edit'])->name('update_campaign');
+Route::get('/campaign/edit/{id}', [CampaignsController::class, 'edit'])->name('edit_campaign');
+
+Route::post('/campaign/update/{id}', [CampaignsController::class, 'update'])->name('update_campaign');
+
+Route::get('/campaign/performance/{id}', [CampaignsController::class, 'CampaignPerformance'])->name('single_campaign_performance');
 
 //Route for Searching through data between two dates
 //Route::get('/', function () {

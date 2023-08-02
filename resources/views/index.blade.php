@@ -214,8 +214,8 @@
 
                                             <div >
 
-                                                <div class="fw-semibold fs-18 text-fixed-white mb-2">Pledges Done Overview</div>
-                                                <span class="d-block fs-12 text-fixed-white"><span class="op-7">You can check the Pledges</span> <span class="fw-semibold text-warning"></span> <span class="op-7">which have been done within the last 24hrs</span>.</span>
+                                                <div class="fw-semibold fs-18 text-fixed-white mb-2">Pledge Conversion</div>
+                                                <span class="d-block fs-12 text-fixed-white"><span class="op-7">Check the percentage of Pledges</span> <span class="fw-semibold text-warning"></span> <span class="op-7">which have been converted within the last 24hrs</span>.</span>
                                                 <span class="d-block fw-semibold mt-1"><a class="text-fixed-white" href="javascript:void(0);"><u>Click here</u></a></span>
                                             </div>
                                             <div>
@@ -258,6 +258,7 @@
                         </div>
                     </div>
 
+
                     <div class="card-body p-0">
                         <div class="tab-content p-0">
                             <div class="tab-pane active p-0 border-0" id="Active">
@@ -271,108 +272,35 @@
                                                             </span>
                                             </th>
                                             <th scope="col">Campaign Name</th>
-                                            <th scope="col">Amount</th>
-                                            <th scope="col">Target</th>
+                                            <th scope="col">Amount (KES)</th>
+                                            <th scope="col">Amount (USD)</th>
                                             <th scope="col">Action</th>
                                         </tr>
                                         </thead>
                                         <tbody>
+{{--                                            @foreach ($campaigns as $campaign)--}}
+                                        <tr>
+                                            <td class="text-center">
+                                                            <span>
+                                                                <input class="form-check-input" type="checkbox" id="check1" value="" aria-label="...">
+                                                            </span>
+                                            </td>
+{{--                                            <td>{{$campaign->name}}</td>--}}
 
-                                        <tr>
-                                            <td class="text-center">
-                                                            <span>
-                                                                <input class="form-check-input" type="checkbox" id="check1" value="" aria-label="...">
-                                                            </span>
+                                            <td>
+                                                <span class="badge bg-dark">KES.1,000,000</span>
                                             </td>
-                                            <td>Where it Matters</td>
-                                            <td class="text-muted">KES.150,000</td>
                                             <td>
                                                 <span class="badge bg-primary">KES.1,000,000</span>
                                             </td>
                                             <td>
                                                 <div class="hstack gap-2 fs-15">
-                                                    <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-wave waves-effect waves-light btn-sm btn-success-light"><i class="fe fe-eye"></i></a>
-                                                    <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-wave waves-effect waves-light btn-sm btn-primary-light"><i class="ri-edit-line"></i></a>
-                                                    <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-wave waves-effect waves-light btn-sm btn-danger-light"><i class="ri-delete-bin-line"></i></a>
+{{--                                                    <a aria-label="anchor" href="{{route('show_single_campaign',$campaign->id)}}"  class="btn btn-icon btn-wave waves-effect waves-light btn-sm btn-success-light"><i class="fe fe-eye"></i></a>--}}
+
                                                 </div>
                                             </td>
                                         </tr>
-                                        <tr>
-                                            <td class="text-center">
-                                                            <span>
-                                                                <input class="form-check-input" type="checkbox" id="check1" value="" aria-label="...">
-                                                            </span>
-                                            </td>
-                                            <td>Where it Matters</td>
-                                            <td class="text-muted">KES.150,000</td>
-                                            <td>
-                                                <span class="badge bg-primary">KES.1,000,000</span>
-                                            </td>
-                                            <td>
-                                                <div class="hstack gap-2 fs-15">
-                                                    <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-wave waves-effect waves-light btn-sm btn-success-light"><i class="fe fe-eye"></i></a>
-                                                    <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-wave waves-effect waves-light btn-sm btn-primary-light"><i class="ri-edit-line"></i></a>
-                                                    <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-wave waves-effect waves-light btn-sm btn-danger-light"><i class="ri-delete-bin-line"></i></a>
-                                                </div>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td class="text-center">
-                                                            <span>
-                                                                <input class="form-check-input" type="checkbox" id="check1" value="" aria-label="...">
-                                                            </span>
-                                            </td>
-                                            <td>Where it Matters</td>
-                                            <td class="text-muted">KES.150,000</td>
-                                            <td>
-                                                <span class="badge bg-primary">KES.1,000,000</span>
-                                            </td>
-                                            <td>
-                                                <div class="hstack gap-2 fs-15">
-                                                    <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-wave waves-effect waves-light btn-sm btn-success-light"><i class="fe fe-eye"></i></a>
-                                                    <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-wave waves-effect waves-light btn-sm btn-primary-light"><i class="ri-edit-line"></i></a>
-                                                    <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-wave waves-effect waves-light btn-sm btn-danger-light"><i class="ri-delete-bin-line"></i></a>
-                                                </div>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td class="text-center">
-                                                            <span>
-                                                                <input class="form-check-input" type="checkbox" id="check1" value="" aria-label="...">
-                                                            </span>
-                                            </td>
-                                            <td>Where it Matters</td>
-                                            <td class="text-muted">KES.150,000</td>
-                                            <td>
-                                                <span class="badge bg-primary">KES.1,000,000</span>
-                                            </td>
-                                            <td>
-                                                <div class="hstack gap-2 fs-15">
-                                                    <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-wave waves-effect waves-light btn-sm btn-success-light"><i class="fe fe-eye"></i></a>
-                                                    <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-wave waves-effect waves-light btn-sm btn-primary-light"><i class="ri-edit-line"></i></a>
-                                                    <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-wave waves-effect waves-light btn-sm btn-danger-light"><i class="ri-delete-bin-line"></i></a>
-                                                </div>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td class="text-center">
-                                                            <span>
-                                                                <input class="form-check-input" type="checkbox" id="check1" value="" aria-label="...">
-                                                            </span>
-                                            </td>
-                                            <td>Where it Matters</td>
-                                            <td class="text-muted">KES.150,000</td>
-                                            <td>
-                                                <span class="badge bg-primary">KES.1,000,000</span>
-                                            </td>
-                                            <td>
-                                                <div class="hstack gap-2 fs-15">
-                                                    <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-wave waves-effect waves-light btn-sm btn-success-light"><i class="fe fe-eye"></i></a>
-                                                    <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-wave waves-effect waves-light btn-sm btn-primary-light"><i class="ri-edit-line"></i></a>
-                                                    <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-wave waves-effect waves-light btn-sm btn-danger-light"><i class="ri-delete-bin-line"></i></a>
-                                                </div>
-                                            </td>
-                                        </tr>
+{{--                                            @endforeach--}}
 
                                         </tbody>
                                     </table>
@@ -389,107 +317,35 @@
                                                             </span>
                                             </th>
                                             <th scope="col">Campaign Name</th>
-                                            <th scope="col">Amount Collected</th>
-                                            <th scope="col">Target</th>
+                                            <th scope="col">Amount(KES)</th>
+                                            <th scope="col">Amount(USD)</th>
                                             <th scope="col">Action</th>
                                         </tr>
                                         </thead>
                                         <tbody>
+{{--                                        @foreach ($campaigns as $campaign)--}}
                                         <tr>
                                             <td class="text-center">
                                                             <span>
                                                                 <input class="form-check-input" type="checkbox" id="check1" value="" aria-label="...">
                                                             </span>
                                             </td>
-                                            <td>Kilifi Floods</td>
-                                            <td class="text-muted">KES.1,250,000</td>
+{{--                                            <td>{{$campaign->name}}</td>--}}
+
+                                            <td>
+                                                <span class="badge bg-dark">KES.2,000,000</span>
+                                            </td>
                                             <td>
                                                 <span class="badge bg-primary">KES.2,000,000</span>
                                             </td>
                                             <td>
                                                 <div class="hstack gap-2 fs-15">
-                                                    <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-wave waves-effect waves-light btn-sm btn-success-light"><i class="fe fe-eye"></i></a>
-                                                    <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-wave waves-effect waves-light btn-sm btn-primary-light"><i class="ri-edit-line"></i></a>
-                                                    <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-wave waves-effect waves-light btn-sm btn-danger-light"><i class="ri-delete-bin-line"></i></a>
+{{--                                                    <a aria-label="anchor" href="{{route('show_single_campaign',$campaign->id)}}"  class="btn btn-icon btn-wave waves-effect waves-light btn-sm btn-success-light"><i class="fe fe-eye"></i></a>--}}
+
                                                 </div>
                                             </td>
                                         </tr>
-                                        <tr>
-                                            <td class="text-center">
-                                                            <span>
-                                                                <input class="form-check-input" type="checkbox" id="check1" value="" aria-label="...">
-                                                            </span>
-                                            </td>
-                                            <td>Kilifi Floods</td>
-                                            <td class="text-muted">KES.1,250,000</td>
-                                            <td>
-                                                <span class="badge bg-primary">KES.2,000,000</span>
-                                            </td>
-                                            <td>
-                                                <div class="hstack gap-2 fs-15">
-                                                    <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-wave waves-effect waves-light btn-sm btn-success-light"><i class="fe fe-eye"></i></a>
-                                                    <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-wave waves-effect waves-light btn-sm btn-primary-light"><i class="ri-edit-line"></i></a>
-                                                    <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-wave waves-effect waves-light btn-sm btn-danger-light"><i class="ri-delete-bin-line"></i></a>
-                                                </div>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td class="text-center">
-                                                            <span>
-                                                                <input class="form-check-input" type="checkbox" id="check1" value="" aria-label="...">
-                                                            </span>
-                                            </td>
-                                            <td>Kilifi Floods</td>
-                                            <td class="text-muted">KES.1,250,000</td>
-                                            <td>
-                                                <span class="badge bg-primary">KES.2,000,000</span>
-                                            </td>
-                                            <td>
-                                                <div class="hstack gap-2 fs-15">
-                                                    <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-wave waves-effect waves-light btn-sm btn-success-light"><i class="fe fe-eye"></i></a>
-                                                    <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-wave waves-effect waves-light btn-sm btn-primary-light"><i class="ri-edit-line"></i></a>
-                                                    <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-wave waves-effect waves-light btn-sm btn-danger-light"><i class="ri-delete-bin-line"></i></a>
-                                                </div>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td class="text-center">
-                                                            <span>
-                                                                <input class="form-check-input" type="checkbox" id="check1" value="" aria-label="...">
-                                                            </span>
-                                            </td>
-                                            <td>Kilifi Floods</td>
-                                            <td class="text-muted">KES.1,250,000</td>
-                                            <td>
-                                                <span class="badge bg-primary">KES.2,000,000</span>
-                                            </td>
-                                            <td>
-                                                <div class="hstack gap-2 fs-15">
-                                                    <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-wave waves-effect waves-light btn-sm btn-success-light"><i class="fe fe-eye"></i></a>
-                                                    <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-wave waves-effect waves-light btn-sm btn-primary-light"><i class="ri-edit-line"></i></a>
-                                                    <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-wave waves-effect waves-light btn-sm btn-danger-light"><i class="ri-delete-bin-line"></i></a>
-                                                </div>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td class="text-center">
-                                                            <span>
-                                                                <input class="form-check-input" type="checkbox" id="check1" value="" aria-label="...">
-                                                            </span>
-                                            </td>
-                                            <td>Kilifi Floods</td>
-                                            <td class="text-muted">KES.1,250,000</td>
-                                            <td>
-                                                <span class="badge bg-primary">KES.2,000,000</span>
-                                            </td>
-                                            <td>
-                                                <div class="hstack gap-2 fs-15">
-                                                    <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-wave waves-effect waves-light btn-sm btn-success-light"><i class="fe fe-eye"></i></a>
-                                                    <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-wave waves-effect waves-light btn-sm btn-primary-light"><i class="ri-edit-line"></i></a>
-                                                    <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-wave waves-effect waves-light btn-sm btn-danger-light"><i class="ri-delete-bin-line"></i></a>
-                                                </div>
-                                            </td>
-                                        </tr>
+{{--                                        @endforeach--}}
 
                                         </tbody>
                                     </table>
@@ -662,68 +518,6 @@
         <!-- Start::row-2 -->
         <div class="row">
             <div class="col-xl-4">
-                <div class="card custom-card">
-                    <div class="card-header">
-                        <div class="card-title">
-                            Donations by Payment Methods
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="progress progress-lg mb-4">
-                            <div class="progress-bar bg-success" role="progressbar" style="width: 52%" aria-valuenow="52" aria-valuemin="0" aria-valuemax="100">52%</div>
-                            <div class="progress-bar bg-secondary" role="progressbar" style="width: 12%" aria-valuenow="12" aria-valuemin="0" aria-valuemax="100">12%</div>
-                            <div class="progress-bar bg-warning" role="progressbar" style="width: 16%" aria-valuenow="16" aria-valuemin="0" aria-valuemax="100">16%</div>
-                            <div class="progress-bar bg-primary" role="progressbar" style="width: 20%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">20%</div>
-
-                        </div>
-                        <ul class="list-group">
-                            <li class="list-group-item">
-                                Mpesa
-                                <span class="badge float-end bg-success-transparent">KES.100,982</span>
-                            </li>
-                            <li class="list-group-item">
-                                Card
-                                <span class="badge float-end bg-secondary-transparent">USD.90214</span>
-                            </li>
-                            <li class="list-group-item">
-                                Airtel Money
-                                <span class="badge float-end bg-warning-transparent">KES.20262</span>
-                            </li>
-                            <li class="list-group-item">
-                                Tcash
-                                <span class="badge float-end bg-primary-transparent">KES.80395</span>
-                            </li>
-
-                        </ul>
-                    </div>
-                    <div class="card-footer border-top-0">
-                        <div class="d-flex flex-wrap align-items-center justify-content-between">
-                            <div>
-                                Showing 4 Entries <i class="bi bi-arrow-right ms-2 fw-semibold"></i>
-                            </div>
-                            <div>
-                                <nav aria-label="Page navigation" class="pagination-style-4">
-                                    <ul class="pagination mb-0">
-                                        <li class="page-item disabled">
-                                            <a class="page-link" href="javascript:void(0);">
-                                                Prev
-                                            </a>
-                                        </li>
-                                        <li class="page-item active"><a class="page-link" href="javascript:void(0);">1</a></li>
-                                        <li class="page-item"><a class="page-link" href="javascript:void(0);">2</a></li>
-                                        <li class="page-item">
-                                            <a class="page-link text-primary" href="javascript:void(0);">
-                                                next
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </nav>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xl-4">
                 <div class="col-xl-12">
                     <div class="card custom-card">
                         <div class="card-header">
@@ -736,130 +530,185 @@
                 </div>
             </div>
             <div class="col-xl-4">
-                <div class="card custom-card overflow-hidden">
-                    <div class="card-header">
+                <div class="card custom-card">
+                    <div class="card-header justify-content-between">
                         <div class="card-title">
-                            Top Donor Counties
+                            Donations by Payment Methods
+                        </div>
+                        <div>
+                            <button type="button" class="btn btn-primary-light">View All</button>
                         </div>
                     </div>
-                    <div class="card-body p-0">
-                        <div class="table-responsive">
-                            <table class="table text-nowrap">
-                                <thead>
-                                <tr>
-                                    <th scope="col">Country</th>
-                                    <th scope="col">Amount</th>
-                                    <th scope="col">Amount</th>
-                                    <th scope="col">Action</th>
-                                </tr>
-                                </thead>
-                                <tbody>
-                                <tr>
-                                    <th scope="row">
-                                        <div class="d-flex align-items-center">
-
-                                            <div>
-                                                            <span class="fw-semibold">
-                                                               Nairobi
-                                                            </span>
-                                            </div>
-                                        </div>
-                                    </th>
-                                    <td>USD.21000</td>
-                                    <td>KES.5555</td>
-                                    <td>
-                                        <button type="button" class="btn btn-danger-light btn-sm btn-border-top">View</button>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">
-                                        <div class="d-flex align-items-center">
-
-                                            <div>
-                                                            <span class="fw-semibold">
-                                                                Nakuru
-                                                            </span>
-                                            </div>
-                                        </div>
-                                    </th>
-                                    <td>USD.21000</td>
-                                    <td>KES.5555</td>
-                                    <td>
-                                        <button type="button" class="btn btn-danger-light btn-sm btn-border-top">View</button>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">
-                                        <div class="d-flex align-items-center">
-
-                                            <div>
-                                                            <span class="fw-semibold">
-                                                                Machakos
-                                                            </span>
-                                            </div>
-                                        </div>
-                                    </th>
-                                    <td>USD.21000</td>
-                                    <td>KES.5555</td>
-                                    <td>
-                                        <button type="button" class="btn btn-danger-light btn-sm btn-border-top">View</button>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">
-                                        <div class="d-flex align-items-center">
-
-                                            <div>
-                                                            <span class="fw-semibold">
-                                                              Kisumu
-                                                            </span>
-                                            </div>
-                                        </div>
-                                    </th>
-                                    <td>USD.21000</td>
-                                    <td>KES.5555</td>
-                                    <td>
-                                        <button type="button" class="btn btn-danger-light btn-sm btn-border-top">View</button>
-                                    </td>
-                                </tr>
-                                </tbody>
-                            </table>
-                        </div>
+                    <div class="card-body my-2 py-4">
+                        <div id="sessions"></div>
                     </div>
-                    <div class="card-footer border-top-0">
-                        <div class="d-flex flex-wrap align-items-center justify-content-between">
-                            <div>
-                                Showing 4 Entries <i class="bi bi-arrow-right ms-2 fw-semibold"></i>
+                    <div class="card-footer p-0">
+                        <div class="row row-cols-12 justify-content-center">
+                            <div class="col pe-0 text-center">
+                                <div class="p-sm-3 p-2 ">
+                                    <span class="text-muted fs-11">Mpesa</span>
+                                    <span class="d-block fs-16 fw-semibold">68.3%</span>
+                                </div>
                             </div>
-                            <div>
-                                <nav aria-label="Page navigation" class="pagination-style-4">
-                                    <ul class="pagination mb-0">
-                                        <li class="page-item disabled">
-                                            <a class="page-link" href="javascript:void(0);">
-                                                Prev
-                                            </a>
-                                        </li>
-                                        <li class="page-item active"><a class="page-link" href="javascript:void(0);">1</a></li>
-                                        <li class="page-item"><a class="page-link" href="javascript:void(0);">2</a></li>
-                                        <li class="page-item">
-                                            <a class="page-link text-primary" href="javascript:void(0);">
-                                                next
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </nav>
+                            <div class="col px-0 text-center">
+                                <div class="p-sm-3 p-2 ">
+                                    <span class="text-muted fs-11">Airtel Money</span>
+                                    <span class="d-block fs-16 fw-semibold">17.68%</span>
+                                </div>
+                            </div>
+                            <div class="col px-0 text-center">
+                                <div class="p-sm-3 p-2 ">
+                                    <span class="text-muted fs-11">Card Local</span>
+                                    <span class="d-block fs-16 fw-semibold">10.5%</span>
+                                </div>
+                            </div>
+                            <div class="col px-0 text-center">
+                                <div class="p-sm-3 p-2">
+                                    <span class="text-muted fs-11">Card International</span>
+                                    <span class="d-block fs-16 fw-semibold">5.16%</span>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+            <div class="col-xl-4">
+                <div class="col-xl-12">
+                    <div class="card custom-card">
+                        <div class="card-header">
+                            <div class="card-title">Top Donor Counties</div>
+                        </div>
+                        <div class="card-body">
+                            <div id="lines-map"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+{{--            <div class="col-xl-4">--}}
+{{--                <div class="card custom-card overflow-hidden">--}}
+{{--                    <div class="card-header">--}}
+{{--                        <div class="card-title">--}}
+{{--                            Top Donor Counties--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
+{{--                    <div class="card-body p-0">--}}
+{{--                        <div class="table-responsive">--}}
+{{--                            <table class="table text-nowrap">--}}
+{{--                                <thead>--}}
+{{--                                <tr>--}}
+{{--                                    <th scope="col">Country</th>--}}
+{{--                                    <th scope="col">Amount</th>--}}
+{{--                                    <th scope="col">Amount</th>--}}
+{{--                                    <th scope="col">Action</th>--}}
+{{--                                </tr>--}}
+{{--                                </thead>--}}
+{{--                                <tbody>--}}
+{{--                                <tr>--}}
+{{--                                    <th scope="row">--}}
+{{--                                        <div class="d-flex align-items-center">--}}
+
+{{--                                            <div>--}}
+{{--                                                            <span class="fw-semibold">--}}
+{{--                                                               Nairobi--}}
+{{--                                                            </span>--}}
+{{--                                            </div>--}}
+{{--                                        </div>--}}
+{{--                                    </th>--}}
+{{--                                    <td>USD.21000</td>--}}
+{{--                                    <td>KES.5555</td>--}}
+{{--                                    <td>--}}
+{{--                                        <button type="button" class="btn btn-danger-light btn-sm btn-border-top">View</button>--}}
+{{--                                    </td>--}}
+{{--                                </tr>--}}
+{{--                                <tr>--}}
+{{--                                    <th scope="row">--}}
+{{--                                        <div class="d-flex align-items-center">--}}
+
+{{--                                            <div>--}}
+{{--                                                            <span class="fw-semibold">--}}
+{{--                                                                Nakuru--}}
+{{--                                                            </span>--}}
+{{--                                            </div>--}}
+{{--                                        </div>--}}
+{{--                                    </th>--}}
+{{--                                    <td>USD.21000</td>--}}
+{{--                                    <td>KES.5555</td>--}}
+{{--                                    <td>--}}
+{{--                                        <button type="button" class="btn btn-danger-light btn-sm btn-border-top">View</button>--}}
+{{--                                    </td>--}}
+{{--                                </tr>--}}
+{{--                                <tr>--}}
+{{--                                    <th scope="row">--}}
+{{--                                        <div class="d-flex align-items-center">--}}
+
+{{--                                            <div>--}}
+{{--                                                            <span class="fw-semibold">--}}
+{{--                                                                Machakos--}}
+{{--                                                            </span>--}}
+{{--                                            </div>--}}
+{{--                                        </div>--}}
+{{--                                    </th>--}}
+{{--                                    <td>USD.21000</td>--}}
+{{--                                    <td>KES.5555</td>--}}
+{{--                                    <td>--}}
+{{--                                        <button type="button" class="btn btn-danger-light btn-sm btn-border-top">View</button>--}}
+{{--                                    </td>--}}
+{{--                                </tr>--}}
+{{--                                <tr>--}}
+{{--                                    <th scope="row">--}}
+{{--                                        <div class="d-flex align-items-center">--}}
+
+{{--                                            <div>--}}
+{{--                                                            <span class="fw-semibold">--}}
+{{--                                                              Kisumu--}}
+{{--                                                            </span>--}}
+{{--                                            </div>--}}
+{{--                                        </div>--}}
+{{--                                    </th>--}}
+{{--                                    <td>USD.21000</td>--}}
+{{--                                    <td>KES.5555</td>--}}
+{{--                                    <td>--}}
+{{--                                        <button type="button" class="btn btn-danger-light btn-sm btn-border-top">View</button>--}}
+{{--                                    </td>--}}
+{{--                                </tr>--}}
+{{--                                </tbody>--}}
+{{--                            </table>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
+{{--                    <div class="card-footer border-top-0">--}}
+{{--                        <div class="d-flex flex-wrap align-items-center justify-content-between">--}}
+{{--                            <div>--}}
+{{--                                Showing 4 Entries <i class="bi bi-arrow-right ms-2 fw-semibold"></i>--}}
+{{--                            </div>--}}
+{{--                            <div>--}}
+{{--                                <nav aria-label="Page navigation" class="pagination-style-4">--}}
+{{--                                    <ul class="pagination mb-0">--}}
+{{--                                        <li class="page-item disabled">--}}
+{{--                                            <a class="page-link" href="javascript:void(0);">--}}
+{{--                                                Prev--}}
+{{--                                            </a>--}}
+{{--                                        </li>--}}
+{{--                                        <li class="page-item active"><a class="page-link" href="javascript:void(0);">1</a></li>--}}
+{{--                                        <li class="page-item"><a class="page-link" href="javascript:void(0);">2</a></li>--}}
+{{--                                        <li class="page-item">--}}
+{{--                                            <a class="page-link text-primary" href="javascript:void(0);">--}}
+{{--                                                next--}}
+{{--                                            </a>--}}
+{{--                                        </li>--}}
+{{--                                    </ul>--}}
+{{--                                </nav>--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--            </div>--}}
 
         </div>
         <!-- End::row-2 -->
 
 
-            <!-- Start:: row-3 -->
-            <div class="row">
+        <!-- Start:: row-3 -->
+        <div class="row">
                 <div class="col-xl-12">
                     <div class="card custom-card">
                         <div class="card-header justify-content-between flex-wrap">
@@ -1050,7 +899,7 @@
                     </div>
                 </div>
             </div>
-            <!-- End:: row-3 -->
+        <!-- End:: row-3 -->
 
         </div>
     </div>

@@ -23,8 +23,35 @@ class CampaignsController extends Controller
     public function edit($id){
         $campaign = Campaign::findOrFail($id);
 
-        return view('sections.campaign.edit_campaign')->withCampaign($campaign);
+        return view('sections.campaign.edit_campaign', compact('campaign'));
 
+    }
+
+    public function update(Request $request){
+        $campaign = Campaign::find($request->id);
+        $campaign->update($request->all());
+        return redirect()->route('all_campaigns');
+
+    }
+
+    public function ViewCampaign($id){
+
+        $campaign = Campaign::find($id);
+
+        return view('sections.campaign.view_single_campaign',compact('campaign'));
+
+    }
+    public function CampaignPerformance($id){
+
+        $campaign = Campaign::find($id);
+
+        return view('sections.campaign.campaign_performance',compact('campaign'));
+
+    }
+
+    public function CreateCampaignModal(){
+
+        return view('sections.modal.add_campaign');
     }
 
 
