@@ -41,21 +41,24 @@ Route::get('/logs', [SettingsController::class, 'Logs'])->name('logs');
 
 //Route::get('/campaign/add', [SectionsController::class, 'AddCampaign'])->name('add_campaign');
 
-Route::get('/campaign/create', [CampaignsController::class, 'Create'])->name('create_campaign');
+Route::controller(CampaignsController::class)->group(function () {
 
-Route::get('/campaign/modal/create', [CampaignsController::class, 'CreateCampaignModal'])->name('create_campaign_modal');
+    Route::get('/campaign/create', 'Create')->name('create_campaign');
 
-Route::post('/campaign/save', [CampaignsController::class, 'Store'])->name('save_campaign');
+    Route::get('/campaign/modal/create', 'CreateCampaignModal')->name('create_campaign_modal');
 
-Route::get('/campaign/show', [CampaignsController::class, 'Show'])->name('all_campaigns');
+    Route::post('/campaign/save', 'Store')->name('save_campaign');
 
-Route::get('/campaign/view/{id}', [CampaignsController::class, 'ViewCampaign'])->name('show_single_campaign');
+    Route::get('/campaign/show', 'Show')->name('all_campaigns');
 
-Route::get('/campaign/edit/{id}', [CampaignsController::class, 'edit'])->name('edit_campaign');
+    Route::get('/campaign/view/{id}', 'ViewCampaign')->name('show_single_campaign');
 
-Route::post('/campaign/update/{id}', [CampaignsController::class, 'update'])->name('update_campaign');
+    Route::get('/campaign/edit/{id}', 'edit')->name('edit_campaign');
 
-Route::get('/campaign/performance/{id}', [CampaignsController::class, 'CampaignPerformance'])->name('single_campaign_performance');
+    Route::post('/campaign/update/{id}', 'update')->name('update_campaign');
+
+//    Route::get('/campaign/performance/{id}', 'CampaignPerformance')->name('single_campaign_performance');
+});
 
 //Route for Searching through data between two dates
 //Route::get('/', function () {

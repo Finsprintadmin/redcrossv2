@@ -14,7 +14,7 @@
                     <div class="ms-md-1 ms-0">
                         <nav>
                             <div class="btn-group">
-                                <button class="btn btn-info dropdown-toggle" type="button"
+                                <button class="btn btn-primary dropdown-toggle" type="button"
                                         id="dropdownMenuClickableInside" data-bs-toggle="dropdown"
                                         data-bs-auto-close="outside" aria-expanded="false">
                                     EXPORT
@@ -22,6 +22,7 @@
                                 <ul class="dropdown-menu" aria-labelledby="dropdownMenuClickableInside" >
                                     <li><a class="dropdown-item" href="javascript:void(0);">Pdf</a></li>
                                     <li><a class="dropdown-item" href="javascript:void(0);">Excel</a></li>
+                                    <li><a class="dropdown-item" href="javascript:void(0);">CSV</a></li>
 
                                 </ul>
                             </div>
@@ -46,15 +47,15 @@
                                     <div class="col-sm-2">
                                         <label class="visually-hidden"
                                                for="specificSizeInputName">Name</label>
-                                        <input type="text" class="form-control" id="specificSizeInputName"
+                                        <input type="text" class="form-control" name="q" id="specificSizeInputName"
                                                placeholder="Type Here">
                                     </div>
 
                                     <div class="col-sm-1">
                                         <label class="visually-hidden"
                                                for="specificSizeSelect">Status</label>
-                                        <select class="form-select" id="specificSizeSelect">
-                                            <option selected>Status...</option>
+                                        <select class="form-select" name="status" id="specificSizeSelect">
+                                            <option value="" selected>Status...</option>
                                             <option value="1">Paid</option>
                                             <option value="2">Pending</option>
                                             <option value="3">Failed</option>
@@ -137,8 +138,7 @@
                                         <td>
                                             <div class="hstack gap-2 fs-1">
                                                 <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-wave waves-effect waves-light btn-sm btn-success-light"><i class="fe fe-eye"></i></a>
-                                                <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-sm btn-info-light btn-wave waves-effect waves-light"><i class="ri-edit-line"></i></a>
-                                                <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-sm btn-danger-light btn-wave waves-effect waves-light"><i class="ri-delete-bin-line"></i></a>
+
                                             </div>
                                         </td>
                                     </tr>
@@ -151,8 +151,7 @@
                                         <td>
                                             <div class="hstack gap-2 fs-1">
                                                 <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-wave waves-effect waves-light btn-sm btn-success-light"><i class="fe fe-eye"></i></a>
-                                                <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-sm btn-info-light btn-wave waves-effect waves-light"><i class="ri-edit-line"></i></a>
-                                                <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-sm btn-danger-light btn-wave waves-effect waves-light"><i class="ri-delete-bin-line"></i></a>
+
                                             </div>
                                         </td>
                                     </tr>
@@ -165,8 +164,7 @@
                                         <td>
                                             <div class="hstack gap-2 fs-1">
                                                 <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-wave waves-effect waves-light btn-sm btn-success-light"><i class="fe fe-eye"></i></a>
-                                                <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-sm btn-info-light btn-wave waves-effect waves-light"><i class="ri-edit-line"></i></a>
-                                                <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-sm btn-danger-light btn-wave waves-effect waves-light"><i class="ri-delete-bin-line"></i></a>
+
                                             </div>
                                         </td>
                                     </tr>
@@ -179,8 +177,7 @@
                                         <td>
                                             <div class="hstack gap-2 fs-1">
                                                 <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-wave waves-effect waves-light btn-sm btn-success-light"><i class="fe fe-eye"></i></a>
-                                                <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-sm btn-info-light btn-wave waves-effect waves-light"><i class="ri-edit-line"></i></a>
-                                                <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-sm btn-danger-light btn-wave waves-effect waves-light"><i class="ri-delete-bin-line"></i></a>
+
                                             </div>
                                         </td>
                                     </tr>
@@ -193,8 +190,7 @@
                                         <td>
                                             <div class="hstack gap-2 fs-1">
                                                 <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-wave waves-effect waves-light btn-sm btn-success-light"><i class="fe fe-eye"></i></a>
-                                                <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-sm btn-info-light btn-wave waves-effect waves-light"><i class="ri-edit-line"></i></a>
-                                                <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-sm btn-danger-light btn-wave waves-effect waves-light"><i class="ri-delete-bin-line"></i></a>
+
                                             </div>
                                         </td>
                                     </tr>
@@ -207,8 +203,7 @@
                                         <td>
                                             <div class="hstack gap-2 fs-1">
                                                 <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-wave waves-effect waves-light btn-sm btn-success-light"><i class="fe fe-eye"></i></a>
-                                                <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-sm btn-info-light btn-wave waves-effect waves-light"><i class="ri-edit-line"></i></a>
-                                                <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-sm btn-danger-light btn-wave waves-effect waves-light"><i class="ri-delete-bin-line"></i></a>
+
                                             </div>
                                         </td>
                                     </tr>
@@ -221,8 +216,7 @@
                                         <td>
                                             <div class="hstack gap-2 fs-1">
                                                 <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-wave waves-effect waves-light btn-sm btn-success-light"><i class="fe fe-eye"></i></a>
-                                                <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-sm btn-info-light btn-wave waves-effect waves-light"><i class="ri-edit-line"></i></a>
-                                                <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-sm btn-danger-light btn-wave waves-effect waves-light"><i class="ri-delete-bin-line"></i></a>
+
                                             </div>
                                         </td>
                                     </tr>
@@ -235,8 +229,7 @@
                                         <td>
                                             <div class="hstack gap-2 fs-1">
                                                 <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-wave waves-effect waves-light btn-sm btn-success-light"><i class="fe fe-eye"></i></a>
-                                                <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-sm btn-info-light btn-wave waves-effect waves-light"><i class="ri-edit-line"></i></a>
-                                                <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-sm btn-danger-light btn-wave waves-effect waves-light"><i class="ri-delete-bin-line"></i></a>
+
                                             </div>
                                         </td>
                                     </tr>
@@ -249,8 +242,7 @@
                                         <td>
                                             <div class="hstack gap-2 fs-1">
                                                 <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-wave waves-effect waves-light btn-sm btn-success-light"><i class="fe fe-eye"></i></a>
-                                                <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-sm btn-info-light btn-wave waves-effect waves-light"><i class="ri-edit-line"></i></a>
-                                                <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-sm btn-danger-light btn-wave waves-effect waves-light"><i class="ri-delete-bin-line"></i></a>
+
                                             </div>
                                         </td>
                                     </tr>
@@ -263,8 +255,7 @@
                                         <td>
                                             <div class="hstack gap-2 fs-1">
                                                 <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-wave waves-effect waves-light btn-sm btn-success-light"><i class="fe fe-eye"></i></a>
-                                                <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-sm btn-info-light btn-wave waves-effect waves-light"><i class="ri-edit-line"></i></a>
-                                                <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-sm btn-danger-light btn-wave waves-effect waves-light"><i class="ri-delete-bin-line"></i></a>
+
                                             </div>
                                         </td>
                                     </tr>
@@ -277,8 +268,7 @@
                                         <td>
                                             <div class="hstack gap-2 fs-1">
                                                 <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-wave waves-effect waves-light btn-sm btn-success-light"><i class="fe fe-eye"></i></a>
-                                                <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-sm btn-info-light btn-wave waves-effect waves-light"><i class="ri-edit-line"></i></a>
-                                                <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-sm btn-danger-light btn-wave waves-effect waves-light"><i class="ri-delete-bin-line"></i></a>
+
                                             </div>
                                         </td>
                                     </tr>
@@ -291,8 +281,7 @@
                                         <td>
                                             <div class="hstack gap-2 fs-1">
                                                 <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-wave waves-effect waves-light btn-sm btn-success-light"><i class="fe fe-eye"></i></a>
-                                                <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-sm btn-info-light btn-wave waves-effect waves-light"><i class="ri-edit-line"></i></a>
-                                                <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-sm btn-danger-light btn-wave waves-effect waves-light"><i class="ri-delete-bin-line"></i></a>
+
                                             </div>
                                         </td>
                                     </tr>
@@ -305,8 +294,7 @@
                                         <td>
                                             <div class="hstack gap-2 fs-1">
                                                 <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-wave waves-effect waves-light btn-sm btn-success-light"><i class="fe fe-eye"></i></a>
-                                                <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-sm btn-info-light btn-wave waves-effect waves-light"><i class="ri-edit-line"></i></a>
-                                                <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-sm btn-danger-light btn-wave waves-effect waves-light"><i class="ri-delete-bin-line"></i></a>
+
                                             </div>
                                         </td>
                                     </tr>
@@ -319,8 +307,7 @@
                                         <td>
                                             <div class="hstack gap-2 fs-1">
                                                 <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-wave waves-effect waves-light btn-sm btn-success-light"><i class="fe fe-eye"></i></a>
-                                                <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-sm btn-info-light btn-wave waves-effect waves-light"><i class="ri-edit-line"></i></a>
-                                                <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-sm btn-danger-light btn-wave waves-effect waves-light"><i class="ri-delete-bin-line"></i></a>
+
                                             </div>
                                         </td>
                                     </tr>

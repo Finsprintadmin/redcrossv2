@@ -27,7 +27,10 @@
                             <button class="btn btn-light" type="button" id="button-addon2"><i class="ri-search-line text-muted"></i></button>
                         </div>
                     </div>
+
+                    @foreach($campaigns as $campaign)
                     <div>
+
                         <ul class="list-unstyled files-main-nav" id="files-main-nav">
                             <li class="active files-type">
                                 <a href="javascript:void(0)">
@@ -36,102 +39,17 @@
                                             <i class="ri-folder-2-line fs-16"></i>
                                         </div>
                                         <span class="flex-fill text-nowrap">
-                                                    Kilifi Floods
-                                                </span>
-{{--                                        <span class="badge bg-primary">322</span>--}}
-                                    </div>
-                                </a>
-                            </li>
-                            <li class="files-type">
-                                <a href="javascript:void(0)">
-                                    <div class="d-flex align-items-center">
-                                        <div class="me-2">
-                                            <i class="ri-folder-2-line fs-16"></i>
-                                        </div>
-                                        <span class="flex-fill text-nowrap">
-                                                    Where it Matters
-                                                </span>
-                                    </div>
-                                </a>
-                            </li>
-                            <li class="files-type">
-                                <a href="javascript:void(0)">
-                                    <div class="d-flex align-items-center">
-                                        <div class="me-2">
-                                            <i class="ri-folder-2-line fs-16"></i>
-                                        </div>
-                                        <span class="flex-fill text-nowrap">
-                                                    Kwale Drought
-                                                </span>
-                                    </div>
-                                </a>
-                            </li>
-                            <li class="files-type">
-                                <a href="javascript:void(0)">
-                                    <div class="d-flex align-items-center">
-                                        <div class="me-2">
-                                            <i class="ri-folder-2-line fs-16"></i>
-                                        </div>
-                                        <span class="flex-fill text-nowrap">
-                                                    Nairobi Demonstrations
-                                                </span>
-                                    </div>
-                                </a>
-                            </li>
-                            <li class="files-type">
-                                <a href="javascript:void(0)">
-                                    <div class="d-flex align-items-center">
-                                        <div class="me-2">
-                                            <i class="ri-folder-2-line fs-16"></i>
-                                        </div>
-                                        <span class="flex-fill text-nowrap">
-                                                    Blood Donation Drive
-                                                </span>
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="javascript:void(0)">
-                                    <div class="d-flex align-items-center">
-                                        <div class="me-2">
-                                            <i class="ri-folder-2-line fs-16"></i>
-                                        </div>
-                                        <span class="flex-fill text-nowrap">
-                                                    Medical Equipments Donations
-                                                </span>
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="javascript:void(0)">
-                                    <div class="d-flex align-items-center">
-                                        <div class="me-2">
-                                            <i class="ri-folder-2-line fs-16"></i>
-                                        </div>
-                                        <span class="flex-fill text-nowrap">
-                                                    Linda Mama
-                                                </span>
+
+                                                    {{$campaign,[name]}}
+                                        </span>
                                     </div>
                                 </a>
                             </li>
 
-
-
-{{--                            <li class="d-flex align-items-center justify-content-center">--}}
-{{--                                <div class="filemanager-upgrade-storage">--}}
-{{--                                            <span>--}}
-{{--                                                <img src="../assets/images/media/file-manager/2.png" alt="">--}}
-{{--                                            </span>--}}
-{{--                                    <div class="text-default">--}}
-{{--                                        <span class="fs-15 fw-semibold">Want to <span class="fw-bold text-success"><u>Buy</u></span> Storage?</span>--}}
-{{--                                    </div>--}}
-{{--                                    <div class="mt-3 d-grid">--}}
-{{--                                        <button class="btn btn-primary-gradient">Upgrade</button>--}}
-{{--                                    </div>--}}
-{{--                                </div>--}}
-{{--                            </li>--}}
                         </ul>
+
                     </div>
+                    @endforeach
                 </div>
                 <div class="file-manager-folders">
                     <div class="d-flex p-3 flex-wrap gap-2 align-items-center justify-content-between border-bottom">

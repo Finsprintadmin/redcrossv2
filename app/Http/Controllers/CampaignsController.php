@@ -4,6 +4,8 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\Campaign;
+use Illuminate\Support\Facades\DB;
+use Symfony\Component\Console\Helper\Table;
 
 class CampaignsController extends Controller
 {
@@ -29,19 +31,24 @@ class CampaignsController extends Controller
 
     public function update(Request $request){
         $campaign = Campaign::find($request->id);
+        //$campaign = Campaign::where('id', $request->id)->get();
         $campaign->update($request->all());
         return redirect()->route('all_campaigns');
 
     }
 
-    public function ViewCampaign($id){
+    public function ViewCampaign($id)
+    {
 
-        $campaign = Campaign::find($id);
-
-        return view('sections.campaign.view_single_campaign',compact('campaign'));
+        $campaigns = Campaign::find($id);
+        //$campaign_2 = Campaign::where('id', $id)->first();
+        //$campaign_3 = DB::table('campaigns')->where('id', $id)->first();
+        //dd($campaign_3);
+        return view('sections.campaign.view_single_campaign',compact('campaigns'));
 
     }
-    public function CampaignPerformance($id){
+    public function CampaignPerformance($id)
+    {
 
         $campaign = Campaign::find($id);
 
@@ -49,7 +56,8 @@ class CampaignsController extends Controller
 
     }
 
-    public function CreateCampaignModal(){
+    public function CreateCampaignModal()
+    {
 
         return view('sections.modal.add_campaign');
     }

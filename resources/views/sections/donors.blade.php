@@ -14,7 +14,7 @@
                     <div class="ms-md-1 ms-0">
                         <nav>
                             <div class="btn-group">
-                                <button class="btn btn-info dropdown-toggle" type="button"
+                                <button class="btn btn-primary dropdown-toggle" type="button"
                                         id="dropdownMenuClickableInside" data-bs-toggle="dropdown"
                                         data-bs-auto-close="outside" aria-expanded="false">
                                     EXPORT
@@ -22,6 +22,7 @@
                                 <ul class="dropdown-menu" aria-labelledby="dropdownMenuClickableInside">
                                     <li><a class="dropdown-item" href="javascript:void(0);">Pdf</a></li>
                                     <li><a class="dropdown-item" href="javascript:void(0);">Excel</a></li>
+                                    <li><a class="dropdown-item" href="javascript:void(0);">CSV</a></li>
 
                                 </ul>
                             </div>

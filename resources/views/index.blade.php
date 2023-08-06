@@ -278,14 +278,14 @@
                                         </tr>
                                         </thead>
                                         <tbody>
-{{--                                            @foreach ($campaigns as $campaign)--}}
+                                            @foreach ($campaigns as $campaign)
                                         <tr>
                                             <td class="text-center">
                                                             <span>
                                                                 <input class="form-check-input" type="checkbox" id="check1" value="" aria-label="...">
                                                             </span>
                                             </td>
-{{--                                            <td>{{$campaign->name}}</td>--}}
+                                            <td>{{$campaign->name}}</td>
 
                                             <td>
                                                 <span class="badge bg-dark">KES.1,000,000</span>
@@ -295,12 +295,12 @@
                                             </td>
                                             <td>
                                                 <div class="hstack gap-2 fs-15">
-{{--                                                    <a aria-label="anchor" href="{{route('show_single_campaign',$campaign->id)}}"  class="btn btn-icon btn-wave waves-effect waves-light btn-sm btn-success-light"><i class="fe fe-eye"></i></a>--}}
+                                                    <a aria-label="anchor" href="{{route('show_single_campaign',$campaign->id)}}"  class="btn btn-icon btn-wave waves-effect waves-light btn-sm btn-success-light"><i class="fe fe-eye"></i></a>
 
                                                 </div>
                                             </td>
                                         </tr>
-{{--                                            @endforeach--}}
+                                            @endforeach
 
                                         </tbody>
                                     </table>

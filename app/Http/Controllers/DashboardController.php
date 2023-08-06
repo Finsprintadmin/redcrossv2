@@ -2,13 +2,16 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Campaign;
 use Illuminate\Http\Request;
 
 class DashboardController extends Controller
 {
     public function Index(){
 
-        return view('index');
+        $campaigns = Campaign::all();
+
+        return view('index',compact('campaigns'));
 
     }
 }
