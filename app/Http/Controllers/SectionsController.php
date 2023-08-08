@@ -20,16 +20,23 @@ class SectionsController extends Controller
         // $transactions = Transaction::latest()->get();
         $transactions = Transaction::query();
         //dd(collect($request->all()));
-        if ($request->filled('q'))
-            $transactions = $transactions->where('donor_id', $request->q);
+        if ($request->filled ('q'))
+            $transactions = $transactions->where('campaign_id', $request->q);
         if ($request->filled('start_date'))
             $transactions = $transactions->whereDate('payment_date', '>=', $request->start_date);
+        if ($request->filled('end_date'))
+            $transactions = $transactions->whereDate('payment_date', '<=', $request->end_date);
+        if ($request->filled('status'))
+            $transactions = $transactions->where('status', $request->status);
+        if ($request->filled('currency_id'))
+            $transactions = $transactions->where('currency_id', $request->currency_id);
         $transactions = $transactions->latest();
 
         $transactions = $transactions->get();
         //dd($transactions);
         $filters = $request->all();
         //dd($transactions);
+
         return view('sections.transactions', compact('transactions', 'filters'));
 
     }

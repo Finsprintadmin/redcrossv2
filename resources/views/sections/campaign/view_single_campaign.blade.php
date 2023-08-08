@@ -28,7 +28,7 @@
                         </div>
                     </div>
 
-                    @foreach($campaigns as $campaign)
+                    @foreach($campaigns as $data)
                     <div>
 
                         <ul class="list-unstyled files-main-nav" id="files-main-nav">
@@ -38,10 +38,7 @@
                                         <div class="me-2">
                                             <i class="ri-folder-2-line fs-16"></i>
                                         </div>
-                                        <span class="flex-fill text-nowrap">
-
-                                                    {{$campaign,[name]}}
-                                        </span>
+                                        <span class="flex-fill text-nowrap"> {{$data -> name}} </span>
                                     </div>
                                 </a>
                             </li>
@@ -54,7 +51,7 @@
                 <div class="file-manager-folders">
                     <div class="d-flex p-3 flex-wrap gap-2 align-items-center justify-content-between border-bottom">
                         <div>
-                            <h6 class="fw-semibold mb-0">{{$campaign->name}}</h6>
+                            <h6 class="fw-semibold mb-0">{{$dan -> name}}</h6>
                         </div>
                         <div class="d-flex gap-2">
                             <button id="folders-close-btn" class="d-sm-none d-block btn btn-icon btn-sm btn-danger-light">

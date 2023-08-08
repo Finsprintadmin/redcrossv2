@@ -60,19 +60,6 @@ Route::controller(CampaignsController::class)->group(function () {
 //    Route::get('/campaign/performance/{id}', 'CampaignPerformance')->name('single_campaign_performance');
 });
 
-//Route for Searching through data between two dates
-//Route::get('/', function () {
-//    if (request()->start_date || request()->end_date) {
-//        $start_date = Carbon::parse(request()->start_date)->toDateTimeString();
-//        $end_date = Carbon::parse(request()->end_date)->toDateTimeString();
-//        $data = App\Models\Transaction::whereBetween('created_at',[$start_date,$end_date])->get();
-//    } else {
-//        $data = App\Models\Transaction::latest()->get();
-//    }
-//
-//    return view('sections.transactions', compact('data'));
-//});
-
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');

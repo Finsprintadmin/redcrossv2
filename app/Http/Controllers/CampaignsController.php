@@ -40,11 +40,13 @@ class CampaignsController extends Controller
     public function ViewCampaign($id)
     {
 
-        $campaigns = Campaign::find($id);
+        $dan = Campaign::find($id);
+        $campaigns = Campaign::all();
+        //dd($campaigns);
         //$campaign_2 = Campaign::where('id', $id)->first();
         //$campaign_3 = DB::table('campaigns')->where('id', $id)->first();
         //dd($campaign_3);
-        return view('sections.campaign.view_single_campaign',compact('campaigns'));
+        return view('sections.campaign.view_single_campaign',compact('dan','campaigns'));
 
     }
     public function CampaignPerformance($id)

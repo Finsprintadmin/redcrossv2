@@ -47,13 +47,12 @@
                                     <div class="col-sm-2">
                                         <label class="visually-hidden"
                                                for="specificSizeInputName">Name</label>
-                                        <input type="text" class="form-control" name="q"  value="{{$filters['q']}}" id="specificSizeInputName"
+                                        <input type="text" class="form-control" name="q"  value="{{$filters['q'] ?? ''}}" id="specificSizeInputName"
                                                placeholder="Type Here">
                                     </div>
 
                                     <div class="col-sm-1">
-                                        <label class="visually-hidden"
-                                               for="specificSizeSelect">Status</label>
+                                        <label class="visually-hidden" for="specificSizeSelect">Status</label>
                                         <select class="form-select" name="status" id="specificSizeSelect">
                                             <option value="" selected>Status...</option>
                                             <option value="1">Paid</option>
@@ -78,7 +77,7 @@
                                             <div class="form-group">
                                                 <div class="input-group">
                                                     <div class="input-group-text text-muted"> <i class="ri-calendar-line"></i> </div>
-                                                    <input type="date" class="form-control"  value="{{$filters['start_date']}}" name="start_date" id="humanfrienndlydate" placeholder="From">
+                                                    <input type="date" class="form-control"  value="{{$filters['start_date'] ?? ''}}" name="start_date" id="humanfrienndlydate" placeholder="From">
                                                 </div>
                                             </div>
                                         </div>
@@ -89,7 +88,7 @@
                                             <div class="form-group">
                                                 <div class="input-group">
                                                     <div class="input-group-text text-muted"> <i class="ri-calendar-line"></i> </div>
-                                                    <input type="date" class="form-control" name="end_date" id="humanfrienndlydate" placeholder="To">
+                                                    <input type="date" class="form-control" name="end_date" value="{{$filters['end_date'] ?? ''}}" id="humanfrienndlydate" placeholder="To">
                                                 </div>
                                             </div>
                                         </div>
@@ -116,7 +115,7 @@
 
                             <div class="card-body">
                                 <div class="table-responsive">
-                                    <table id="myDataTable" class="table text-nowrap table-bordered">
+                                    <table class="table text-nowrap table-bordered">
                                         <thead>
                                         <tr>
                                             <th scope="col">ID</th>
