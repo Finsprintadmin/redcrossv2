@@ -304,6 +304,7 @@
 
                                         </tbody>
                                     </table>
+
                                 </div>
                             </div>
                             <div class="tab-pane p-0 border-0" id="Complete">
@@ -323,14 +324,14 @@
                                         </tr>
                                         </thead>
                                         <tbody>
-{{--                                        @foreach ($campaigns as $campaign)--}}
+                                        @foreach ($campaigns as $campaign)
                                         <tr>
                                             <td class="text-center">
                                                             <span>
                                                                 <input class="form-check-input" type="checkbox" id="check1" value="" aria-label="...">
                                                             </span>
                                             </td>
-{{--                                            <td>{{$campaign->name}}</td>--}}
+                                            <td>{{$campaign->name}}</td>
 
                                             <td>
                                                 <span class="badge bg-dark">KES.2,000,000</span>
@@ -340,12 +341,12 @@
                                             </td>
                                             <td>
                                                 <div class="hstack gap-2 fs-15">
-{{--                                                    <a aria-label="anchor" href="{{route('show_single_campaign',$campaign->id)}}"  class="btn btn-icon btn-wave waves-effect waves-light btn-sm btn-success-light"><i class="fe fe-eye"></i></a>--}}
+                                                    <a aria-label="anchor" href="{{route('show_single_campaign',$campaign->id)}}"  class="btn btn-icon btn-wave waves-effect waves-light btn-sm btn-success-light"><i class="fe fe-eye"></i></a>
 
                                                 </div>
                                             </td>
                                         </tr>
-{{--                                        @endforeach--}}
+                                        @endforeach
 
                                         </tbody>
                                     </table>
@@ -359,24 +360,10 @@
                                 Showing 5 Entries <i class="bi bi-arrow-right ms-2 fw-semibold"></i>
                             </div>
                             <div>
-                                <nav aria-label="Page navigation" class="pagination-style-4">
-                                    <ul class="pagination mb-0">
-                                        <li class="page-item disabled">
-                                            <a class="page-link" href="javascript:void(0);">
-                                                Prev
-                                            </a>
-                                        </li>
-                                        <li class="page-item active"><a class="page-link" href="javascript:void(0);">1</a></li>
-                                        <li class="page-item"><a class="page-link" href="javascript:void(0);">2</a></li>
-                                        <li class="page-item">
-                                            <a class="page-link text-primary" href="javascript:void(0);">
-                                                next
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </nav>
+                                {{ $campaigns->links('vendor.pagination.custom') }}
                             </div>
                         </div>
+
                     </div>
                 </div>
             </div>

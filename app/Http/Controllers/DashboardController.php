@@ -9,7 +9,7 @@ class DashboardController extends Controller
 {
     public function Index(){
 
-        $campaigns = Campaign::all();
+        $campaigns = Campaign::paginate(5);
 
         return view('index',compact('campaigns'));
 

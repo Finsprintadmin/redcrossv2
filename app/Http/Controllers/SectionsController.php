@@ -30,18 +30,22 @@ class SectionsController extends Controller
             $transactions = $transactions->where('status', $request->status);
         if ($request->filled('currency_id'))
             $transactions = $transactions->where('currency_id', $request->currency_id);
+
         $transactions = $transactions->latest();
 
         $transactions = $transactions->get();
+
+        $paginateTransactions = Transaction::paginate(4);
         //dd($transactions);
         $filters = $request->all();
         //dd($transactions);
 
-        return view('sections.transactions', compact('transactions', 'filters'));
+        return view('sections.transactions', compact('transactions','paginateTransactions', 'filters'));
 
     }
 
     public function Donors()
+
     {
 
         return view('sections.donors');

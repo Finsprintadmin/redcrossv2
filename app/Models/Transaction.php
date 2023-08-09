@@ -12,4 +12,6 @@ class Transaction extends Model
     protected $table = 'transactions';
 
     protected $fillable = ['id','campaign_id','donor_id','currency_id','payment_method_id','pledge_id','payment_reference','amount','gateway','payment_date','status'];
+
 }
+
