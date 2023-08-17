@@ -37,9 +37,9 @@
                                             <div  class="mb-0 fw-semibold text-end">
                                                 Today's Donations=>
                                             </div>
-                                             <div>
-                                                 <span class="fs-14 fw-semibold text-success">200</span>
-                                             </div>
+{{--                                             <div>--}}
+{{--                                                 <span class="fs-14 fw-semibold text-success">200</span>--}}
+{{--                                             </div>--}}
                                         </div>
                                         <div class="ms-auto">
                                             <div id="crm-total-deals"></div>
@@ -72,9 +72,9 @@
                                             <div class="mb-0 fw-semibold">
                                                 This Week's Donations=>
                                             </div>
-                                            <div>
-                                                <span class="fs-14 fw-semibold text-success">3000</span>
-                                            </div>
+{{--                                            <div>--}}
+{{--                                                <span class="fs-14 fw-semibold text-success">3000</span>--}}
+{{--                                            </div>--}}
                                         </div>
                                         <div class="ms-auto">
                                             <div id="crm-conversion-ratio"></div>
@@ -106,9 +106,9 @@
                                             <div class="mb-0 fw-semibold">
                                                 This Month's Donations=>
                                             </div>
-                                            <div>
-                                                <span class="fs-14 fw-semibold text-success">40000</span>
-                                            </div>
+{{--                                            <div>--}}
+{{--                                                <span class="fs-14 fw-semibold text-success">40000</span>--}}
+{{--                                            </div>--}}
                                         </div>
                                         <div class="ms-auto">
                                              <div id="crm-total-revenue"></div>

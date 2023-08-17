@@ -147,15 +147,15 @@
 
     /* maps with lines */
     var markers = [
-        { name: 'Russia', coords: [61.5240, 105.3188] },
-        { name: 'Egypt', coords: [26.8206, 30.8025] },
-        { name: 'Greenland', coords: [71.7069, -42.6043], offsets: [2, 10] },
-        { name: 'Canada', coords: [56, -106], offsets: [-7, 12] },
+        { name: 'Nairobi', coords: [61.5240, 105.3188] },
+        { name: 'Nakuru', coords: [26.8206, 30.8025] },
+        { name: 'Isiolo', coords: [71.7069, -42.6043], offsets: [2, 10] },
+        { name: 'Machakos', coords: [56, -106], offsets: [-7, 12] },
     ]
 
     var lines = [
-        { from: 'Russia', to: 'Egypt', style: { stroke: '#abb0b7', strokeWidth: 1.5 } },
-        { from: 'Canada', to: 'Russia', style: { stroke: '#abb0b7', strokeWidth: 1.5 } },
+        { from: 'Nairobi', to: 'Nakuru', style: { stroke: '#abb0b7', strokeWidth: 1.5 } },
+        { from: 'Machakos', to: 'Nairobi', style: { stroke: '#abb0b7', strokeWidth: 1.5 } },
     ]
     new jsVectorMap({
         map: 'world_merc',

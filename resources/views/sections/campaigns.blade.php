@@ -28,7 +28,7 @@
                     <div class="col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-xm-12">
                         <div class="card custom-card overflow-hidden">
                             <div class="card-body p-0">
-                                <div class="contact-page-banner">
+                                <div class="py-5 px-3 bg-primary rounded-bottom">
                                     <div class="col-xxl-6 col-xl-6">
                                         <div class="row justify-content-center">
                                             <div class="col-xxl-9 col-xl-9 col-lg-10 col-md-8 col-sm-10 col-12">
