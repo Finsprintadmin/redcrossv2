@@ -53,7 +53,7 @@
                                         </div>
                                         <div class="ms-auto text-center">
                                             <p class="mb-1">KES</p>
-                                            <p class="fs-20 mb-0 fw-semibold lh-1 text-primary">KES 5,876.29</p>
+                                            <p class="fs-20 mb-0 fw-semibold lh-1 text-primary">KES {{$amount_kes}}</p>
                                         </div>
                                     </div>
                                 </div>
@@ -87,7 +87,7 @@
                                         </div>
                                         <div class="ms-auto text-center">
                                             <p class="mb-1">KES</p>
-                                            <p class="fs-20 mb-0 fw-semibold lh-1 text-primary">KES 45,876.29</p>
+                                            <p class="fs-20 mb-0 fw-semibold lh-1 text-primary">KES {{$amount_kes_week}}</p>
                                         </div>
                                     </div>
                                 </div>
@@ -527,32 +527,32 @@
                         </div>
                     </div>
                     <div class="card-body my-2 py-4">
-                        <div id="sessions"></div>
+                        <div id="donut-update"></div>
                     </div>
                     <div class="card-footer p-0">
                         <div class="row row-cols-12 justify-content-center">
                             <div class="col pe-0 text-center">
                                 <div class="p-sm-3 p-2 ">
                                     <span class="text-muted fs-11">Mpesa</span>
-                                    <span class="d-block fs-16 fw-semibold">68.3%</span>
+                                    <span class="d-block fs-16 fw-semibold">KES.25,000</span>
                                 </div>
                             </div>
                             <div class="col px-0 text-center">
                                 <div class="p-sm-3 p-2 ">
                                     <span class="text-muted fs-11">Airtel Money</span>
-                                    <span class="d-block fs-16 fw-semibold">17.68%</span>
+                                    <span class="d-block fs-16 fw-semibold">KES.10,000</span>
                                 </div>
                             </div>
                             <div class="col px-0 text-center">
                                 <div class="p-sm-3 p-2 ">
                                     <span class="text-muted fs-11">Card Local</span>
-                                    <span class="d-block fs-16 fw-semibold">10.5%</span>
+                                    <span class="d-block fs-16 fw-semibold">KES.5,000</span>
                                 </div>
                             </div>
                             <div class="col px-0 text-center">
                                 <div class="p-sm-3 p-2">
                                     <span class="text-muted fs-11">Card International</span>
-                                    <span class="d-block fs-16 fw-semibold">5.16%</span>
+                                    <span class="d-block fs-16 fw-semibold">USD.200</span>
                                 </div>
                             </div>
                         </div>
