@@ -38,9 +38,9 @@
 
 <div class="row authentication mx-0">
 
-    <div class="col-xxl-7 col-xl-7 col-lg-12">
+    <div class="col-xxl-5 col-xl-5 col-lg-12">
         <div class="row justify-content-center align-items-center h-100">
-            <div class="col-xxl-6 col-xl-7 col-lg-7 col-md-7 col-sm-8 col-12">
+            <div class="col-xxl-8 col-xl-7 col-lg-7 col-md-7 col-sm-8 col-12">
                 <div class="p-5">
                     <div class="mb-4">
                         <a href="{{url('/')}}">
@@ -91,7 +91,7 @@
             </div>
         </div>
     </div>
-    <div class="col-xxl-5 col-xl-5 col-lg-5 d-xl-block d-none px-0">
+    <div class="col-xxl-7 col-xl-7 col-lg-7 d-xl-block d-none px-0">
         <div class="authentication-cover">
             <div class="aunthentication-cover-content rounded">
                 <div class="swiper keyboard-control">

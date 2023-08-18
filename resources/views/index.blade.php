@@ -49,11 +49,11 @@
                                     <div class="d-flex align-items-end">
                                         <div>
                                             <p class="mb-1 text-center">USD</p>
-                                            <p class="fs-20 mb-0 fw-semibold lh-1 text-primary">$876.29</p>
+                                            <p class="fs-20 mb-0 fw-semibold lh-1 text-primary">$ {{$amount_usd}}</p>
                                         </div>
                                         <div class="ms-auto text-center">
                                             <p class="mb-1">KES</p>
-                                            <p class="fs-20 mb-0 fw-semibold lh-1 text-primary">KES {{$amount_kes}}</p>
+                                            <p class="fs-20 mb-0 fw-semibold lh-1 text-primary">KES. {{$amount_kes}}</p>
                                         </div>
                                     </div>
                                 </div>
@@ -83,7 +83,7 @@
                                     <div class="d-flex align-items-end">
                                         <div>
                                             <p class="mb-1 text-center">USD</p>
-                                            <p class="fs-20 mb-0 fw-semibold lh-1 text-primary">$3,876.29</p>
+                                            <p class="fs-20 mb-0 fw-semibold lh-1 text-primary">$ {{$amount_usd_week}}</p>
                                         </div>
                                         <div class="ms-auto text-center">
                                             <p class="mb-1">KES</p>
@@ -117,11 +117,11 @@
                                     <div class="d-flex align-items-end">
                                         <div>
                                             <p class="mb-1 text-center">USD</p>
-                                            <p class="fs-20 mb-0 fw-semibold lh-1 text-primary">$6,876.29</p>
+                                            <p class="fs-20 mb-0 fw-semibold lh-1 text-primary">$ {{$amount_usd_month}}</p>
                                         </div>
                                         <div class="ms-auto text-center">
                                             <p class="mb-1">KES</p>
-                                            <p class="fs-20 mb-0 fw-semibold lh-1 text-primary">KES 75,876.29</p>
+                                            <p class="fs-20 mb-0 fw-semibold lh-1 text-primary">KES. {{$amount_kes_month}}</p>
                                         </div>
                                     </div>
                                 </div>
