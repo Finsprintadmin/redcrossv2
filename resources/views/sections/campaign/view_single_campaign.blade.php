@@ -316,7 +316,7 @@
                                 </div>
                                 <!-- End::row-3 -->
                                 <div class="d-flex mb-3 align-items-center justify-content-between">
-                                    <p class="mb-0 fw-bold fs-14">Recent Transaction Under This Campaign</p>
+                                    <p class="mb-0 fw-bold fs-14">Recent Transactions Under This Campaign</p>
 
                                 </div>
 
@@ -327,10 +327,10 @@
                                             <table class="table text-nowrap table-hover">
                                                 <thead>
                                                 <tr>
-                                                    <th scope="col">File Name</th>
-                                                    <th scope="col">Category</th>
-                                                    <th scope="col">Size</th>
-                                                    <th scope="col">Date Modified</th>
+                                                    <th scope="col">Name of Donor</th>
+                                                    <th scope="col">Currency</th>
+                                                    <th scope="col">Amount</th>
+                                                    <th scope="col">Status</th>
                                                     <th scope="col">Action</th>
                                                 </tr>
                                                 </thead>
@@ -342,38 +342,16 @@
 
                                                             </div>
                                                             <div>
-                                                                VID-00292312-SPK823.mp4
+                                                                Mokaya Duncan
                                                             </div>
                                                         </div>
                                                     </th>
-                                                    <td>Videos</td>
-                                                    <td>87MB</td>
-                                                    <td>22,Nov 2022</td>
+                                                    <td class="text-primary">KES</td>
+                                                    <td>20000</td>
+                                                    <td class="text-success">Paid</td>
                                                     <td>
                                                         <div class="hstack gap-2 fs-15">
                                                             <a href="javascript:void(0);" class="btn btn-icon btn-sm btn-info-transparent rounded-pill"><i class="ri-eye-line"></i></a>
-                                                            <a href="javascript:void(0);" class="btn btn-icon btn-sm btn-danger-transparent rounded-pill"><i class="ri-delete-bin-line"></i></a>
-                                                        </div>
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <th scope="row">
-                                                        <div class="d-flex align-items-center">
-                                                            <div class="me-2">
-
-                                                            </div>
-                                                            <div>
-                                                                IMG-09123878-SPK734.jpeg
-                                                            </div>
-                                                        </div>
-                                                    </th>
-                                                    <td>Images</td>
-                                                    <td>1.35MB</td>
-                                                    <td>25,Nov 2022</td>
-                                                    <td>
-                                                        <div class="hstack gap-2 fs-15">
-                                                            <a href="javascript:void(0);" class="btn btn-icon btn-sm btn-info-transparent rounded-pill"><i class="ri-eye-line"></i></a>
-                                                            <a href="javascript:void(0);" class="btn btn-icon btn-sm btn-danger-transparent rounded-pill"><i class="ri-delete-bin-line"></i></a>
                                                         </div>
                                                     </td>
                                                 </tr>
@@ -384,17 +362,36 @@
 
                                                             </div>
                                                             <div>
-                                                                AMB-2012.zip
+                                                                Mokaya Duncan
                                                             </div>
                                                         </div>
                                                     </th>
-                                                    <td>Archives</td>
-                                                    <td>422KB</td>
-                                                    <td>23,Nov 2022</td>
+                                                    <td class="text-purple">USD</td>
+                                                    <td>20000</td>
+                                                    <td class="text-success">Paid</td>
                                                     <td>
                                                         <div class="hstack gap-2 fs-15">
                                                             <a href="javascript:void(0);" class="btn btn-icon btn-sm btn-info-transparent rounded-pill"><i class="ri-eye-line"></i></a>
-                                                            <a href="javascript:void(0);" class="btn btn-icon btn-sm btn-danger-transparent rounded-pill"><i class="ri-delete-bin-line"></i></a>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr class="table-active">
+                                                    <th scope="row">
+                                                        <div class="d-flex align-items-center">
+                                                            <div class="me-2">
+
+                                                            </div>
+                                                            <div>
+                                                                Mokaya Duncan
+                                                            </div>
+                                                        </div>
+                                                    </th>
+                                                    <td class="text-purple">USD</td>
+                                                    <td>20000</td>
+                                                    <td class="text-warning">Pending</td>
+                                                    <td>
+                                                        <div class="hstack gap-2 fs-15">
+                                                            <a href="javascript:void(0);" class="btn btn-icon btn-sm btn-info-transparent rounded-pill"><i class="ri-eye-line"></i></a>
                                                         </div>
                                                     </td>
                                                 </tr>
@@ -405,17 +402,16 @@
 
                                                             </div>
                                                             <div>
-                                                                AUD-1002-2012.mp3
+                                                                Mokaya Duncan
                                                             </div>
                                                         </div>
                                                     </th>
-                                                    <td>Archives</td>
-                                                    <td>422KB</td>
-                                                    <td>23,Nov 2022</td>
+                                                    <td class="text-primary">KES</td>
+                                                    <td>20000</td>
+                                                    <td class="text-success">Paid</td>
                                                     <td>
                                                         <div class="hstack gap-2 fs-15">
                                                             <a href="javascript:void(0);" class="btn btn-icon btn-sm btn-info-transparent rounded-pill"><i class="ri-eye-line"></i></a>
-                                                            <a href="javascript:void(0);" class="btn btn-icon btn-sm btn-danger-transparent rounded-pill"><i class="ri-delete-bin-line"></i></a>
                                                         </div>
                                                     </td>
                                                 </tr>
@@ -426,17 +422,16 @@
 
                                                             </div>
                                                             <div>
-                                                                Document-02.pdf
+                                                                Mokaya Duncan
                                                             </div>
                                                         </div>
                                                     </th>
-                                                    <td>Documents</td>
-                                                    <td>1.69MB</td>
-                                                    <td>2,Dec 2022</td>
+                                                    <td class="text-primary">KES</td>
+                                                    <td>20000</td>
+                                                    <td class="text-success">Paid</td>
                                                     <td>
                                                         <div class="hstack gap-2 fs-15">
                                                             <a href="javascript:void(0);" class="btn btn-icon btn-sm btn-info-transparent rounded-pill"><i class="ri-eye-line"></i></a>
-                                                            <a href="javascript:void(0);" class="btn btn-icon btn-sm btn-danger-transparent rounded-pill"><i class="ri-delete-bin-line"></i></a>
                                                         </div>
                                                     </td>
                                                 </tr>
