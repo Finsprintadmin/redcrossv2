@@ -469,7 +469,7 @@
                         <div class="card custom-card">
                             <div class="card-header justify-content-between">
                                 <div class="card-title">
-                                    Overall Donations
+                                    This Year's Overall Donations
                                 </div>
                             </div>
                             <div class="card-body my-2 py-4">
@@ -480,13 +480,13 @@
                                     <div class="col pe-0 text-center">
                                         <div class="p-sm-3 p-2 ">
                                             <span class="text-muted fs-11">KES</span>
-                                            <span class="d-block fs-16 fw-semibold">KES.25,000</span>
+                                            <span class="d-block fs-16 fw-semibold">KES.{{ $campaign_amount_kes_year}}</span>
                                         </div>
                                     </div>
                                     <div class="col px-0 text-center">
                                         <div class="p-sm-3 p-2 ">
                                             <span class="text-muted fs-11">USD</span>
-                                            <span class="d-block fs-16 fw-semibold">$ 10,000</span>
+                                            <span class="d-block fs-16 fw-semibold">$ {{ $campaign_amount_usd_year}}</span>
                                         </div>
                                     </div>
 
@@ -505,30 +505,26 @@
                                 <div class="progress progress-lg mb-4">
                                     <div class="progress-bar bg-success" role="progressbar" style="width: 52%" aria-valuenow="52" aria-valuemin="0" aria-valuemax="100">52%</div>
                                     <div class="progress-bar bg-primary" role="progressbar" style="width: 12%" aria-valuenow="12" aria-valuemin="0" aria-valuemax="100">12%</div>
-                                    <div class="progress-bar bg-secondary" role="progressbar" style="width: 16%" aria-valuenow="16" aria-valuemin="0" aria-valuemax="100">16%</div>
-                                    <div class="progress-bar bg-warning" role="progressbar" style="width: 12%" aria-valuenow="12" aria-valuemin="0" aria-valuemax="100">12%</div>
-                                    <div class="progress-bar bg-danger" role="progressbar" style="width: 8%" aria-valuenow="8" aria-valuemin="0" aria-valuemax="100">8%</div>
+                                    <div class="progress-bar bg-warning" role="progressbar" style="width: 16%" aria-valuenow="16" aria-valuemin="0" aria-valuemax="100">16%</div>
+                                    <div class="progress-bar bg-info" role="progressbar" style="width: 20%" aria-valuenow="12" aria-valuemin="0" aria-valuemax="100">20%</div>
+
                                 </div>
                                 <ul class="list-group">
                                     <li class="list-group-item">
                                         Mpesa
-                                        <span class="badge float-end bg-success-transparent">KES.301,982</span>
+                                        <span class="badge float-end bg-success-transparent">KES.{{$campaign_amount_mpesa}}</span>
                                     </li>
                                     <li class="list-group-item">
                                         Airtel Money
-                                        <span class="badge float-end bg-primary-transparent">KES.128,214</span>
-                                    </li>
-                                    <li class="list-group-item">
-                                        T-Kash
-                                        <span class="badge float-end bg-secondary-transparent">KES.45,262</span>
+                                        <span class="badge float-end bg-primary-transparent">KES.{{$campaign_amount_airtelMoney}}</span>
                                     </li>
                                     <li class="list-group-item">
                                         Card Local
-                                        <span class="badge float-end bg-warning-transparent">KES.32,395</span>
+                                        <span class="badge float-end bg-warning-transparent">KES.{{$campaign_amount_cardLocal}}</span>
                                     </li>
                                     <li class="list-group-item">
                                         Card International
-                                        <span class="badge float-end bg-danger-transparent">$8,879</span>
+                                        <span class="badge float-end bg-info-transparent">$ {{$campaign_amount_cardInternational}}</span>
                                     </li>
 
                                 </ul>

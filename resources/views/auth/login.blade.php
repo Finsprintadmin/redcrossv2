@@ -70,12 +70,12 @@
                                     <button class="btn btn-light" type="button" onclick="createpassword('signin-password',this)" name="password"><i class="ri-eye-off-line align-middle"></i></button>
                                 </div>
                                 <div class="mt-2">
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                                        <label class="form-check-label text-muted fw-normal" for="defaultCheck1">
-                                            Remember password ?
-                                        </label>
-                                    </div>
+{{--                                    <div class="form-check">--}}
+{{--                                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">--}}
+{{--                                        <label class="form-check-label text-muted fw-normal" for="defaultCheck1">--}}
+{{--                                            Remember password ?--}}
+{{--                                        </label>--}}
+{{--                                    </div>--}}
                                 </div>
                             </div>
                             <div class="col-xl-12 d-grid mt-2">
@@ -84,9 +84,9 @@
                         </div>
 
                     </form>
-                    <div class="text-center">
-                        <p class="fs-12 text-muted mt-4">You do not have an Account?<a href="{{route('register')}}" class="text-primary">Register</a></p>
-                    </div>
+{{--                    <div class="text-center">--}}
+{{--                        <p class="fs-12 text-muted mt-4">You do not have an Account?<a href="{{route('register')}}" class="text-primary">Register</a></p>--}}
+{{--                    </div>--}}
                 </div>
             </div>
         </div>

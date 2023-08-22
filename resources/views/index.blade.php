@@ -164,7 +164,7 @@
                                 <div class="card custom-card">
                                     <div class="card-header justify-content-between">
                                         <div class="card-title">
-                                            Overall Quartery Donations
+                                            Overall Quarterly Donations
                                         </div>
                                         <div id="crm-total-customers"></div>
                                         <div class="dropdown">
@@ -192,7 +192,7 @@
                                                 <div class="p-3 text-center border-end border-inline-end-dashed">
                                                     <span class="text-muted fs-12 mb-1 crm-lead-legend laptop d-inline-block">USD
                                                     </span>
-                                                    <div><span class="fs-16 fw-semibold">100,153</span>
+                                                    <div><span class="fs-16 fw-semibold">{{$amount_usd_quarterly}}</span>
                                                     </div>
                                                 </div>
                                             </div>
@@ -200,7 +200,7 @@
                                                 <div class="p-3 text-center">
                                                     <span class="text-muted fs-12 mb-1 crm-lead-legend tablet d-inline-block">KES
                                                     </span>
-                                                    <div><span class="fs-16 fw-semibold">5,679,000</span></div>
+                                                    <div><span class="fs-16 fw-semibold">{{$amount_kes_quarterly}}</span></div>
                                                 </div>
                                             </div>
                                         </div>
@@ -288,10 +288,10 @@
                                             <td>{{$campaign->name}}</td>
 
                                             <td>
-                                                <span class="badge bg-dark">KES.1,000,000</span>
+                                                <span class="badge bg-dark">KES.0</span>
                                             </td>
                                             <td>
-                                                <span class="badge bg-primary">KES.1,000,000</span>
+                                                <span class="badge bg-primary">$.0</span>
                                             </td>
                                             <td>
                                                 <div class="hstack gap-2 fs-15">
@@ -334,10 +334,10 @@
                                             <td>{{$campaign->name}}</td>
 
                                             <td>
-                                                <span class="badge bg-dark">KES.2,000,000</span>
+                                                <span class="badge bg-dark">KES.0</span>
                                             </td>
                                             <td>
-                                                <span class="badge bg-primary">KES.2,000,000</span>
+                                                <span class="badge bg-primary">$. 0</span>
                                             </td>
                                             <td>
                                                 <div class="hstack gap-2 fs-15">
@@ -522,9 +522,6 @@
                         <div class="card-title">
                             Donations by Payment Methods
                         </div>
-                        <div>
-                            <button type="button" class="btn btn-primary-light">View All</button>
-                        </div>
                     </div>
                     <div class="card-body my-2 py-4">
                         <div id="donut-update"></div>
@@ -534,25 +531,25 @@
                             <div class="col pe-0 text-center">
                                 <div class="p-sm-3 p-2 ">
                                     <span class="text-muted fs-11">Mpesa</span>
-                                    <span class="d-block fs-16 fw-semibold">KES.25,000</span>
+                                    <span class="d-block fs-16 fw-semibold">KES.{{$amount_overall_mpesa}}</span>
                                 </div>
                             </div>
                             <div class="col px-0 text-center">
                                 <div class="p-sm-3 p-2 ">
                                     <span class="text-muted fs-11">Airtel Money</span>
-                                    <span class="d-block fs-16 fw-semibold">KES.10,000</span>
+                                    <span class="d-block fs-16 fw-semibold">KES.{{$amount_overall_airtelMoney}}</span>
                                 </div>
                             </div>
                             <div class="col px-0 text-center">
                                 <div class="p-sm-3 p-2 ">
                                     <span class="text-muted fs-11">Card Local</span>
-                                    <span class="d-block fs-16 fw-semibold">KES.5,000</span>
+                                    <span class="d-block fs-16 fw-semibold">KES.{{$amount_overall_cardLocal}}</span>
                                 </div>
                             </div>
                             <div class="col px-0 text-center">
                                 <div class="p-sm-3 p-2">
                                     <span class="text-muted fs-11">Card International</span>
-                                    <span class="d-block fs-16 fw-semibold">USD.200</span>
+                                    <span class="d-block fs-16 fw-semibold">USD.{{$amount_overall_cardInternational}}</span>
                                 </div>
                             </div>
                         </div>
