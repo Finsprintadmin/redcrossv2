@@ -71,15 +71,18 @@
                                             <button type="button" class="btn-close" data-bs-dismiss="modal"
                                                     aria-label="Close"></button>
                                         </div>
+                                        <form method="post" action="{{route('save_campaign')}}">
+                                                @csrf
                                         <div class="modal-body px-4">
+
                                             <div class="row gy-2">
                                                 <div class="col-xl-12">
                                                     <label for="task-name" class="form-label">Name</label>
-                                                    <input type="text" class="form-control" id="task-name" placeholder="Campaign Name">
+                                                    <input type="text" class="form-control" name="name" placeholder="Campaign Name">
                                                 </div>
                                                 <div class="col-xl-12">
                                                     <label for="task-name" class="form-label">Description</label>
-                                                    <input type="text" class="form-control" id="task-name" placeholder="Campaign Description">
+                                                    <input type="text" class="form-control" id="task-name" name="description" placeholder="Campaign Description">
                                                 </div>
                                                 <div class="col-xl-6">
                                                     <label class="form-label">Donor Type</label>
@@ -100,6 +103,7 @@
                                                         <option value="Choice 1" selected>KES</option>
                                                         <option value="Choice 2">USD</option>
                                                     </select>
+
                                                 </div>
                                                 <div class="col-xl-4">
                                                     <label class="form-label">Amount Suggestions</label>
@@ -121,7 +125,7 @@
                                                     <div class="form-group">
                                                         <div class="input-group">
                                                             <div class="input-group-text text-muted"> <i class="ri-calendar-line"></i> </div>
-                                                            <input type="text" class="form-control" id="addignedDate" placeholder="Choose date and time">
+                                                            <input type="text" class="form-control" name="start_date" placeholder="Choose date and time">
                                                         </div>
                                                     </div>
                                                 </div>
@@ -130,22 +134,24 @@
                                                     <div class="form-group">
                                                         <div class="input-group">
                                                             <div class="input-group-text text-muted"> <i class="ri-calendar-line"></i> </div>
-                                                            <input type="text" class="form-control" id="targetDate" placeholder="Choose date and time">
+                                                            <input type="text" class="form-control" name="end_date" placeholder="Choose date and time">
                                                         </div>
                                                     </div>
                                                 </div>
                                                 <div class="col-xl-12">
                                                     <label for="task-name" class="form-label">Campaign Image</label>
-                                                    <input class="form-control" type="file" id="input-file">
+                                                    <input class="form-control" type="file" name="image" id="input-file">
                                                 </div>
 
                                             </div>
+
                                         </div>
                                         <div class="modal-footer">
                                             <button type="button" class="btn btn-light"
                                                     data-bs-dismiss="modal">Cancel</button>
                                             <button type="button" class="btn btn-primary">Create</button>
                                         </div>
+                                        </form>
                                     </div>
                                 </div>
                             </div>
@@ -173,7 +179,7 @@
 
                                                 </div>
                                                 <div class="d-flex align-items-center mb-0">
-                                                    <p class="mb-0 fs-20 fw-semibold">USD. 2,460</p>
+                                                    <p class="mb-0 fs-20 fw-semibold">USD. {{$campaign_amount_usd}} </p>
 
                                                 </div>
                                                 <div class="d-flex align-items-center">
@@ -187,7 +193,7 @@
                                                     </div>
                                                 </div>
                                                 <div class="d-flex align-items-center mb-0">
-                                                    <p class="mb-0 fs-20 fw-semibold">KES. 12,460</p>
+                                                    <p class="mb-0 fs-20 fw-semibold">KES. {{$campaign_amount_kes}} </p>
 
                                                 </div>
                                                 <div class="d-flex align-items-center">
@@ -217,7 +223,7 @@
 
                                                 </div>
                                                 <div class="d-flex align-items-center mb-0">
-                                                    <p class="mb-0 fs-20 fw-semibold">USD. 2,460</p>
+                                                    <p class="mb-0 fs-20 fw-semibold">USD. {{$campaign_amount_usd_week}} </p>
 
                                                 </div>
                                                 <div class="d-flex align-items-center">
@@ -231,7 +237,7 @@
                                                     </div>
                                                 </div>
                                                 <div class="d-flex align-items-center mb-0">
-                                                    <p class="mb-0 fs-20 fw-semibold">KES. 12,460</p>
+                                                    <p class="mb-0 fs-20 fw-semibold">KES. {{$campaign_amount_kes_week}} </p>
 
                                                 </div>
                                                 <div class="d-flex align-items-center">
@@ -261,7 +267,7 @@
 
                                                 </div>
                                                 <div class="d-flex align-items-center mb-0">
-                                                    <p class="mb-0 fs-20 fw-semibold">USD. 2,460</p>
+                                                    <p class="mb-0 fs-20 fw-semibold">USD. {{$campaign_amount_usd_month}}</p>
 
                                                 </div>
                                                 <div class="d-flex align-items-center">
@@ -275,7 +281,7 @@
                                                     </div>
                                                 </div>
                                                 <div class="d-flex align-items-center mb-0">
-                                                    <p class="mb-0 fs-20 fw-semibold">KES. 12,460</p>
+                                                    <p class="mb-0 fs-20 fw-semibold">KES. {{$campaign_amount_kes_month}} </p>
 
                                                 </div>
                                                 <div class="d-flex align-items-center">
@@ -459,45 +465,31 @@
                 </div>
                 <div class="selected-file-details">
 
-                    <div class="col-xxl-6 col-xl-6">
-                        <div class="card custom-card overflow-hidden">
+                    <div class="col-xxl-12 col-xl-12">
+                        <div class="card custom-card">
                             <div class="card-header justify-content-between">
-                                <div class="card-title">Overall Donations</div>
-                                <div class="dropdown">
-                                    <a href="javascript:void(0);" class="p-2 fs-12 text-muted"
-                                       data-bs-toggle="dropdown" aria-expanded="false">
-                                        View All<i class="ri-arrow-down-s-line align-middle ms-1 d-inline-block"></i>
-                                    </a>
-                                    <ul class="dropdown-menu" role="menu">
-                                        <li><a class="dropdown-item" href="javascript:void(0);">Today</a></li>
-                                        <li><a class="dropdown-item" href="javascript:void(0);">This Week</a>
-                                        </li>
-                                        <li><a class="dropdown-item" href="javascript:void(0);">Last Week</a>
-                                        </li>
-                                    </ul>
+                                <div class="card-title">
+                                    Overall Donations
                                 </div>
                             </div>
-                            <div class="card-body p-0">
-                                <div class="p-3"></div>
-                                <div class="row row-cols-12 border-top border-block-start-dashed">
-                                    <div class="col">
-                                        <div class="p-3 border-end border-inline-end-dashed">
-                                            <div class="text-muted fs-12 text-center mb-1">USD
-                                            </div>
-                                            <div class="d-flex justify-content-center align-items-center"> <span
-                                                    class="me-3 fs-26 fw-semibold">100,234</span>
-                                            </div>
+                            <div class="card-body my-2 py-4">
+                                <div id="donut-update"></div>
+                            </div>
+                            <div class="card-footer p-0">
+                                <div class="row row-cols-12 justify-content-center">
+                                    <div class="col pe-0 text-center">
+                                        <div class="p-sm-3 p-2 ">
+                                            <span class="text-muted fs-11">KES</span>
+                                            <span class="d-block fs-16 fw-semibold">KES.25,000</span>
                                         </div>
                                     </div>
-                                    <div class="col">
-                                        <div class="p-3">
-                                            <div class="text-muted fs-12 text-center mb-1">KES
-                                            </div>
-                                            <div class="d-flex justify-content-center align-items-center">
-                                                <span class="me-3 fs-26 fw-semibold">1,800,754</span>
-                                            </div>
+                                    <div class="col px-0 text-center">
+                                        <div class="p-sm-3 p-2 ">
+                                            <span class="text-muted fs-11">USD</span>
+                                            <span class="d-block fs-16 fw-semibold">$ 10,000</span>
                                         </div>
                                     </div>
+
                                 </div>
                             </div>
                         </div>
@@ -538,6 +530,7 @@
                                         Card International
                                         <span class="badge float-end bg-danger-transparent">$8,879</span>
                                     </li>
+
                                 </ul>
                             </div>
                         </div>

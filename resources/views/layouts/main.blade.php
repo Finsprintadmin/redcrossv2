@@ -50,6 +50,17 @@
 
     <link rel="stylesheet" href="{{url('//cdn.datatables.net/1.13.5/css/jquery.dataTables.min.css')}}">
 
+    <link rel="stylesheet" href="{{asset('assets/libs/quill/quill.snow.css')}}">
+    <link rel="stylesheet" href="{{asset('assets/libs/quill/quill.bubble.css')}}">
+
+    <!-- Filepond CSS -->
+    <link rel="stylesheet" href="{{asset('assets/libs/filepond/filepond.min.css')}}">
+    <link rel="stylesheet" href="{{asset('assets/libs/filepond-plugin-image-preview/filepond-plugin-image-preview.min.css')}}">
+    <link rel="stylesheet" href="{{asset('assets/libs/filepond-plugin-image-edit/filepond-plugin-image-edit.min.css')}}">
+
+    <!-- Date & Time Picker CSS -->
+    <link rel="stylesheet" href="{{asset('assets/libs/flatpickr/flatpickr.min.css')}}">
+
 </head>
 
 <body>
@@ -603,8 +614,25 @@
 
 <!-- Date & Time Picker JS -->
 <script src="{{asset('assets/libs/flatpickr/flatpickr.min.js')}}"></script>
+
 <script src="{{asset('assets/js/date&time_pickers.js')}}"></script>
 <script src="{{url('//cdn.datatables.net/1.13.5/js/jquery.dataTables.min.js')}}"></script>
+
+    <!-- Quill Editor JS -->
+    <script src="{{asset('assets/libs/quill/quill.min.js')}}"></script>
+
+    <!-- Filepond JS -->
+    <script src="{{asset('assets/libs/filepond/filepond.min.js')}}"></script>
+    <script src="{{asset('assets/libs/filepond-plugin-image-preview/filepond-plugin-image-preview.min.js')}}"></script>
+    <script src="{{asset('assets/libs/filepond-plugin-image-exif-orientation/filepond-plugin-image-exif-orientation.min.js')}}"></script>
+    <script src="{{asset('assets/libs/filepond-plugin-file-validate-size/filepond-plugin-file-validate-size.min.js')}}"></script>
+    <script src="{{asset('assets/libs/filepond-plugin-file-encode/filepond-plugin-file-encode.min.js')}}"></script>
+    <script src="{{asset('assets/libs/filepond-plugin-image-edit/filepond-plugin-image-edit.min.js')}}"></script>
+    <script src="{{asset('assets/libs/filepond-plugin-file-validate-type/filepond-plugin-file-validate-type.min.js')}}"></script>
+    <script src="{{asset('assets/libs/filepond-plugin-file-validate-type/filepond-plugin-file-validate-type.min.js')}}"></script>
+    <script src="{{asset('assets/libs/filepond-plugin-image-crop/filepond-plugin-image-crop.min.js')}}"></script>
+    <script src="{{asset('assets/libs/filepond-plugin-image-resize/filepond-plugin-image-resize.min.js')}}"></script>
+    <script src="{{asset('assets/libs/filepond-plugin-image-transform/filepond-plugin-image-transform.min.js')}}"></script>
 
 <!-- Datatables Cdn -->
 <script src="https://cdn.datatables.net/1.12.1/js/jquery.dataTables.min.js"></script>
@@ -632,6 +660,9 @@
 
 <!-- Show Password JS -->
 <script src="{{asset('assets/js/show-password.js')}}"></script>
+
+<!-- Internal Create Blog JS -->
+    <script src="{{asset('assets/js/blog-create.js')}}"></script>
 
 </body>
 

@@ -13,8 +13,8 @@
                     <h1 class="page-title fw-semibold fs-18 mb-0">Campaigns</h1>
                     <div class="ms-md-1 ms-0">
                         <nav>
-                            <a class="btn-group">
-                                <a href="{{route('create_campaign')}}" <button type="button" class="btn btn-primary btn-sm btn-wave">Add Campaign</button></a>
+                            <div class="btn-group">
+                                <a href="{{route('create_campaign')}}"> <button type="button" class="btn btn-primary btn-sm btn-wave">Add Campaign</button></a>
 
                             </div>
                         </nav>
