@@ -97,28 +97,28 @@
                                                     <label class="form-label">Target Amount</label>
                                                     <input type="text" class="form-control" name= "target_amount" placeholder="Enter the Target Amount">
                                                 </div>
-                                                <div class="col-xl-4">
+                                                <div class="col-xl-6">
                                                     <label class="form-label">Currency</label>
-                                                    <select class="form-control" name="currency" id="choices-multiple-remove-button" multiple>
+                                                    <select class="form-control blog-tags" name="currency" multiple>
                                                         <option value="Choice 1" selected>KES</option>
                                                         <option value="Choice 2">USD</option>
                                                     </select>
 
                                                 </div>
-                                                <div class="col-xl-4">
+                                                <div class="col-xl-6">
                                                     <label class="form-label">Amount Suggestions</label>
-                                                    <select class="form-control" name="amount_suggestions_usd" id="choices-multiple-remove-button" multiple>
+                                                    <select class="form-control blog-tags2" name="amount_suggestions_usd" multiple>
                                                         <option value="Choice 1" selected>$100</option>
                                                         <option value="Choice 2">$50</option>
                                                     </select>
                                                 </div>
-                                                <div class="col-xl-4">
-                                                    <label class="form-label">Amount Suggestions</label>
-                                                    <select class="form-control" name="amount_suggestions_kes" id="choices-multiple-remove-button" multiple>
-                                                        <option value="Choice 1" selected>KES.100</option>
-                                                        <option value="Choice 2">KES.500</option>
-                                                    </select>
-                                                </div>
+{{--                                                <div class="col-xl-6">--}}
+{{--                                                    <label class="form-label">Amount Suggestions</label>--}}
+{{--                                                    <select class="form-control" name="amount_suggestions_kes" id="blog-tags" multiple>--}}
+{{--                                                        <option value="Choice 1" selected>KES.100</option>--}}
+{{--                                                        <option value="Choice 2">KES.500</option>--}}
+{{--                                                    </select>--}}
+{{--                                                </div>--}}
 
                                                 <div class="col-xl-6">
                                                     <label class="form-label">Start Date</label>
@@ -147,7 +147,7 @@
 
                                         </div>
                                         <div class="modal-footer">
-                                            <button type="submit" class="btn btn-light"
+                                            <button type="button" class="btn btn-light"
                                                     data-bs-dismiss="modal">Cancel</button>
                                             <button type="submit" class="btn btn-primary">Create</button>
                                         </div>

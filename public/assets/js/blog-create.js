@@ -27,7 +27,7 @@
     // for blog images
     const MultipleElement = document.querySelector('.blog-images');
     FilePond.create(MultipleElement,);
-    
+
     // for publish date picker
     flatpickr("#publish-date", {});
 
@@ -40,7 +40,15 @@
 
     // for blog tags
     const multipleCancelButton1 = new Choices(
-        '#blog-tags',
+        '.blog-tags',
+        {
+            allowHTML: true,
+            removeItemButton: true,
+        }
+    );
+
+    const multipleCancelButton2 = new Choices(
+        '.blog-tags2',
         {
             allowHTML: true,
             removeItemButton: true,

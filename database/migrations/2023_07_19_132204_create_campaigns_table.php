@@ -15,13 +15,13 @@ return new class extends Migration
             $table->id();
             $table->string('campaign_name');
             $table->string('description')->nullable();
-            $table->string('donor_type')->default('1');
+            $table->string('donor_type')->default('private');
             $table->string('target_amount')->nullable();
-            $table->string('currency')->nullable();
+            $table->integer('currency')->nullable();
             $table->date('start_date')->nullable();
             $table->date('end_date')->nullable();
-            $table->boolean('status')->default(1);
-            $table->binary('image')->nullable();
+            $table->boolean('status')->default('true');
+            $table->string('image')->nullable();
             $table->timestamps();
         });
     }
