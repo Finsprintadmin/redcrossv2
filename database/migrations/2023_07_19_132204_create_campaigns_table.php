@@ -13,10 +13,15 @@ return new class extends Migration
     {
         Schema::create('campaigns', function (Blueprint $table) {
             $table->id();
-            $table->string('name');
+            $table->string('campaign_name')->default('KRC');
             $table->string('description')->nullable();
-            $table->date('start_date');
-            $table->date('end_date');
+            $table->boolean('donor_type')->default(1);
+            $table->string('target_amount')->nullable();
+            $table->boolean('currency')->default(1);
+            $table->boolean('amount_suggestions_usd')->default(1);
+            $table->boolean('amount_suggestions_kes')->default(1);
+            $table->date('start_date')->nullable();
+            $table->date('end_date')->nullable();
             $table->boolean('status')->default(1);
             $table->binary('image')->nullable();
             $table->timestamps();

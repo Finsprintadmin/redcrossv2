@@ -78,15 +78,15 @@
                                             <div class="row gy-2">
                                                 <div class="col-xl-12">
                                                     <label for="task-name" class="form-label">Name</label>
-                                                    <input type="text" class="form-control" name="name" placeholder="Campaign Name">
+                                                    <input type="text" class="form-control" name="campaign_name" placeholder="Campaign Name">
                                                 </div>
                                                 <div class="col-xl-12">
                                                     <label for="task-name" class="form-label">Description</label>
-                                                    <input type="text" class="form-control" id="task-name" name="description" placeholder="Campaign Description">
+                                                    <input type="text" class="form-control" name="description" placeholder="Campaign Description">
                                                 </div>
                                                 <div class="col-xl-6">
                                                     <label class="form-label">Donor Type</label>
-                                                    <select class="form-control" data-trigger name="choices-single-default" id="choices-single-default">
+                                                    <select class="form-control" data-trigger name="donor_type" id="choices-single-default">
                                                         <option value="">Select</option>
                                                         <option value="Critical">Individual</option>
                                                         <option value="High">Organisation</option>
@@ -95,11 +95,11 @@
                                                 </div>
                                                 <div class="col-xl-6">
                                                     <label class="form-label">Target Amount</label>
-                                                    <input type="text" class="form-control" id="task-name" placeholder="Enter the Target Amount">
+                                                    <input type="text" class="form-control" name= "target_amount" placeholder="Enter the Target Amount">
                                                 </div>
                                                 <div class="col-xl-4">
                                                     <label class="form-label">Currency</label>
-                                                    <select class="form-control" name="choices-multiple-remove-button" id="choices-multiple-remove-button" multiple>
+                                                    <select class="form-control" name="currency" id="choices-multiple-remove-button" multiple>
                                                         <option value="Choice 1" selected>KES</option>
                                                         <option value="Choice 2">USD</option>
                                                     </select>
@@ -107,14 +107,14 @@
                                                 </div>
                                                 <div class="col-xl-4">
                                                     <label class="form-label">Amount Suggestions</label>
-                                                    <select class="form-control" name="choices-multiple-remove-button" id="choices-multiple-remove-button" multiple>
+                                                    <select class="form-control" name="amount_suggestions_usd" id="choices-multiple-remove-button" multiple>
                                                         <option value="Choice 1" selected>$100</option>
                                                         <option value="Choice 2">$50</option>
                                                     </select>
                                                 </div>
                                                 <div class="col-xl-4">
                                                     <label class="form-label">Amount Suggestions</label>
-                                                    <select class="form-control" name="choices-multiple-remove-button" id="choices-multiple-remove-button" multiple>
+                                                    <select class="form-control" name="amount_suggestions_kes" id="choices-multiple-remove-button" multiple>
                                                         <option value="Choice 1" selected>KES.100</option>
                                                         <option value="Choice 2">KES.500</option>
                                                     </select>
@@ -147,9 +147,9 @@
 
                                         </div>
                                         <div class="modal-footer">
-                                            <button type="button" class="btn btn-light"
+                                            <button type="submit" class="btn btn-light"
                                                     data-bs-dismiss="modal">Cancel</button>
-                                            <button type="button" class="btn btn-primary">Create</button>
+                                            <button type="submit" class="btn btn-primary">Create</button>
                                         </div>
                                         </form>
                                     </div>

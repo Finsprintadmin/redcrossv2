@@ -34,7 +34,7 @@
                                             <div class="col-xxl-9 col-xl-9 col-lg-10 col-md-8 col-sm-10 col-12">
                                                 <div class="p-3 text-start mb-4">
                                                     <h6 class="fw-semibold text-fixed-white pb-4">
-                                                        <span class="about-heading-white">{{$campaign -> name}}</span>
+                                                        <span class="about-heading-white">{{$campaign -> campaign_name}}</span>
                                                     </h6>
 
                                                     <p class="fs-16 mb-5 text-fixed-white op-7">

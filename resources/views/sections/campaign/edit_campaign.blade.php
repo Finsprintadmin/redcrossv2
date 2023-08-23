@@ -19,7 +19,7 @@
                                 @csrf
                                 <div class="col-md-12">
                                     <label class="form-label">Name</label>
-                                    <input type="text" class="form-control" name="name" value="{{$campaign['name']}}">
+                                    <input type="text" class="form-control" name="campaign_name" value="{{$campaign['campaign_name']}}">
                                 </div>
 
                                 <div class="col-12">

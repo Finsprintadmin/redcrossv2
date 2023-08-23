@@ -19,13 +19,12 @@
                         @csrf
                         <div class="col-md-12">
                             <label class="form-label">Name</label>
-                            <input type="text" class="form-control" name="name" placeholder="Campaign Name"
-                                   aria-label="First name">
+                            <input type="text" class="form-control" name="campaign_name" placeholder="Campaign Name">
                         </div>
 
                         <div class="col-12">
                             <label for="inputAddress" class="form-label">Description</label>
-                            <input type="text" class="form-control" name="description" id="inputAddress"
+                            <input type="text" class="form-control" name="description" 
                                    placeholder="Description">
                         </div>
 
