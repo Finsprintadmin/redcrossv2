@@ -20,7 +20,7 @@ return new class extends Migration
             $table->integer('currency')->nullable();
             $table->date('start_date')->nullable();
             $table->date('end_date')->nullable();
-            $table->boolean('status')->default('true');
+            $table->boolean('status')->default(1);
             $table->string('image')->nullable();
             $table->timestamps();
         });
