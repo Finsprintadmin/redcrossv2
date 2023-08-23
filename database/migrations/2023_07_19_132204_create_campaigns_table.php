@@ -17,7 +17,7 @@ return new class extends Migration
             $table->string('description')->nullable();
             $table->string('donor_type')->default('private');
             $table->string('target_amount')->nullable();
-            $table->integer('currency')->nullable();
+            $table->string('currency')->default('1');
             $table->date('start_date')->nullable();
             $table->date('end_date')->nullable();
             $table->boolean('status')->default(1);
