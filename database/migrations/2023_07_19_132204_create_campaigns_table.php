@@ -15,9 +15,9 @@ return new class extends Migration
             $table->id();
             $table->string('campaign_name');
             $table->string('description')->nullable();
-            $table->boolean('donor_type')->default(1);
+            $table->string('donor_type')->default('1');
             $table->string('target_amount')->nullable();
-            $table->boolean('currency')->default(1);
+            $table->string('currency')->nullable();
             $table->date('start_date')->nullable();
             $table->date('end_date')->nullable();
             $table->boolean('status')->default(1);
