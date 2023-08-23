@@ -11,5 +11,5 @@ class Campaign extends Model
 
     protected $table = 'campaigns';
 
-    protected $fillable = ['name','description','start_date','end_date','status','image'];
+    protected $fillable = ['campaign_name','description','donor_type','target_amount','currency','start_date','end_date','status','image'];
 }
