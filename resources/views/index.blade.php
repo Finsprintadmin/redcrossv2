@@ -285,7 +285,7 @@
                                                                 <input class="form-check-input" type="checkbox" id="check1" value="" aria-label="...">
                                                             </span>
                                             </td>
-                                            <td>{{$campaign->name}}</td>
+                                            <td>{{$campaign->campaign_name}}</td>
 
                                             <td>
                                                 <span class="badge bg-dark">KES.0</span>
