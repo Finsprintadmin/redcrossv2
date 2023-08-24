@@ -112,13 +112,6 @@
                                                         <option value="Choice 2">$50</option>
                                                     </select>
                                                 </div>
-{{--                                                <div class="col-xl-6">--}}
-{{--                                                    <label class="form-label">Amount Suggestions</label>--}}
-{{--                                                    <select class="form-control" name="amount_suggestions_kes" id="blog-tags" multiple>--}}
-{{--                                                        <option value="Choice 1" selected>KES.100</option>--}}
-{{--                                                        <option value="Choice 2">KES.500</option>--}}
-{{--                                                    </select>--}}
-{{--                                                </div>--}}
 
                                                 <div class="col-xl-6">
                                                     <label class="form-label">Start Date</label>

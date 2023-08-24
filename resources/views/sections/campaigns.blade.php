@@ -14,7 +14,96 @@
                     <div class="ms-md-1 ms-0">
                         <nav>
                             <div class="btn-group">
-                                <a href="{{route('create_campaign')}}"> <button type="button" class="btn btn-primary btn-sm btn-wave">Add Campaign</button></a>
+                                
+                                <button type="button" class="btn btn-primary btn-sm btn-wave" data-bs-toggle="modal" data-bs-target="#create-folder">Add Campaign</button>
+                                
+                                <div class="modal fade" id="create-folder" tabindex="-1"
+                                 aria-labelledby="create-folder" data-bs-keyboard="false"
+                                 aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h6 class="modal-title" id="mail-ComposeLabel">Create Campaign</h6>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                    aria-label="Close"></button>
+                                        </div>
+                                        <form method="post" action="{{route('save_campaign')}}">
+                                                @csrf
+                                        <div class="modal-body px-4">
+
+                                            <div class="row gy-2">
+                                                <div class="col-xl-12">
+                                                    <label for="task-name" class="form-label">Name</label>
+                                                    <input type="text" class="form-control" name="campaign_name" placeholder="Campaign Name">
+                                                </div>
+                                                <div class="col-xl-12">
+                                                    <label for="task-name" class="form-label">Description</label>
+                                                    <input type="text" class="form-control" name="description" placeholder="Campaign Description">
+                                                </div>
+                                                <div class="col-xl-6">
+                                                    <label class="form-label">Donor Type</label>
+                                                    <select class="form-control" data-trigger name="donor_type" id="choices-single-default">
+                                                        <option value="">Select</option>
+                                                        <option value="Critical">Individual</option>
+                                                        <option value="High">Organisation</option>
+
+                                                    </select>
+                                                </div>
+                                                <div class="col-xl-6">
+                                                    <label class="form-label">Target Amount</label>
+                                                    <input type="text" class="form-control" name= "target_amount" placeholder="Enter the Target Amount">
+                                                </div>
+                                                <div class="col-xl-6">
+                                                    <label class="form-label">Currency</label>
+                                                    <select class="form-control blog-tags" name="currency" multiple>
+                                                        <option value="Choice 1" selected>KES</option>
+                                                        <option value="Choice 2">USD</option>
+                                                    </select>
+
+                                                </div>
+                                                <div class="col-xl-6">
+                                                    <label class="form-label">Amount Suggestions</label>
+                                                    <select class="form-control blog-tags2" name="amount_suggestions_usd" multiple>
+                                                        <option value="Choice 1" selected>$100</option>
+                                                        <option value="Choice 2">$50</option>
+                                                    </select>
+                                                </div>
+
+                                                <div class="col-xl-6">
+                                                    <label class="form-label">Start Date</label>
+                                                    <div class="form-group">
+                                                        <div class="input-group">
+                                                            <div class="input-group-text text-muted"> <i class="ri-calendar-line"></i> </div>
+                                                            <input type="text" class="form-control" name="start_date" placeholder="Choose date and time">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-xl-6">
+                                                    <label class="form-label">End Date</label>
+                                                    <div class="form-group">
+                                                        <div class="input-group">
+                                                            <div class="input-group-text text-muted"> <i class="ri-calendar-line"></i> </div>
+                                                            <input type="text" class="form-control" name="end_date" placeholder="Choose date and time">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-xl-12">
+                                                    <label for="task-name" class="form-label">Campaign Image</label>
+                                                    <input class="form-control" type="file" name="image" id="input-file">
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-light"
+                                                    data-bs-dismiss="modal">Cancel</button>
+                                            <button type="submit" class="btn btn-primary">Create</button>
+                                        </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
 
                             </div>
                         </nav>
