@@ -118,7 +118,7 @@
                                                     <div class="form-group">
                                                         <div class="input-group">
                                                             <div class="input-group-text text-muted"> <i class="ri-calendar-line"></i> </div>
-                                                            <input type="text" class="form-control" name="start_date" placeholder="Choose date and time">
+                                                            <input type="text" class="form-control" name="start_date" id="humanfrienndlydate" placeholder="From">
                                                         </div>
                                                     </div>
                                                 </div>
@@ -127,7 +127,7 @@
                                                     <div class="form-group">
                                                         <div class="input-group">
                                                             <div class="input-group-text text-muted"> <i class="ri-calendar-line"></i> </div>
-                                                            <input type="text" class="form-control" name="end_date" placeholder="Choose date and time">
+                                                            <input type="text" class="form-control" name="end_date" id="humanfrienndlydate" placeholder="To">
                                                         </div>
                                                     </div>
                                                 </div>

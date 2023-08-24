@@ -14,9 +14,9 @@
                     <div class="ms-md-1 ms-0">
                         <nav>
                             <div class="btn-group">
-                                
+
                                 <button type="button" class="btn btn-primary btn-sm btn-wave" data-bs-toggle="modal" data-bs-target="#create-folder">Add Campaign</button>
-                                
+
                                 <div class="modal fade" id="create-folder" tabindex="-1"
                                  aria-labelledby="create-folder" data-bs-keyboard="false"
                                  aria-hidden="true">
@@ -74,7 +74,7 @@
                                                     <div class="form-group">
                                                         <div class="input-group">
                                                             <div class="input-group-text text-muted"> <i class="ri-calendar-line"></i> </div>
-                                                            <input type="text" class="form-control" name="start_date" placeholder="Choose date and time">
+                                                            <input type="text" class="form-control" name="start_date" id="humanfrienndlydate" placeholder="From">
                                                         </div>
                                                     </div>
                                                 </div>
@@ -83,7 +83,7 @@
                                                     <div class="form-group">
                                                         <div class="input-group">
                                                             <div class="input-group-text text-muted"> <i class="ri-calendar-line"></i> </div>
-                                                            <input type="text" class="form-control" name="end_date" placeholder="Choose date and time">
+                                                            <input type="text" class="form-control" name="end_date" id="humanfrienndlydate" placeholder="To">
                                                         </div>
                                                     </div>
                                                 </div>
@@ -148,8 +148,8 @@
                                         <h6 class="fw-semibold text-fixed-white pb-4">
                                             <span class="text-dark fs-15 fw-semibold mb-2">Total Donations</span>
                                         </h6>
-                                        <span class="badge bg-outline-danger custom-badge fs-15 me-5 m-2"><i class="ti ti-flame me-1"></i>KES. 100000</span>
-                                        <span class="badge bg-outline-dark custom-badge fs-15 me-5 m-2"><i class="ti ti-flame me-1"></i>USD. 100000</span>
+                                        <span class="badge bg-outline-danger custom-badge fs-15 me-5 m-2"><i class="ti ti-flame me-1"></i>KES.0</span>
+                                        <span class="badge bg-outline-dark custom-badge fs-15 me-5 m-2"><i class="ti ti-flame me-1"></i>USD.0</span>
                                     </div>
 
                                 </div>

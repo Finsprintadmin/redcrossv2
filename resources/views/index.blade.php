@@ -311,7 +311,7 @@
                                                         <div class="form-group">
                                                             <div class="input-group">
                                                                 <div class="input-group-text text-muted"> <i class="ri-calendar-line"></i> </div>
-                                                                <input type="text" class="form-control" name="start_date" placeholder="Choose date and time">
+                                                                <input type="text" class="form-control" name="start_date" id="humanfrienndlydate" placeholder="From">
                                                             </div>
                                                         </div>
                                                     </div>
@@ -320,7 +320,7 @@
                                                         <div class="form-group">
                                                             <div class="input-group">
                                                                 <div class="input-group-text text-muted"> <i class="ri-calendar-line"></i> </div>
-                                                                <input type="text" class="form-control" name="end_date" placeholder="Choose date and time">
+                                                                <input type="text" class="form-control" name="end_date" id="humanfrienndlydate" placeholder="To">
                                                             </div>
                                                         </div>
                                                     </div>
@@ -484,17 +484,13 @@
                                     <div class="d-flex align-items-center justify-content-between">
                                         <div>
                                             <div class="text-muted fs-12 d-flex align-items-center">Currency :
-                                                <span class="fw-semibold text-success fs-15 mb-0 ms-1">USD</span>
+                                                <span class="fw-semibold text-success fs-15 mb-0 ms-1">KES</span>
                                             </div>
                                         </div>
                                         <div class="d-flex align-items-center">
-                                            <div class="me-2 lh-1">
-                                                        <span class="avatar avatar-rounded bg-light p-1 avatar-xs">
-                                                            $
-                                                        </span>
-                                            </div>
+
                                             <div>
-                                                <span class="fw-semibold">10000</span>
+                                                <span class="fw-semibold">{{$amount_campaign_kes_minute}}</span>
                                             </div>
                                         </div>
                                     </div>
@@ -524,57 +520,12 @@
                                     <div class="d-flex align-items-center justify-content-between">
                                         <div>
                                             <div class="text-muted fs-12 d-flex align-items-center">Currency :
-                                                <span class="fw-semibold text-info fs-15 mb-0 ms-1">KES</span>
+                                                <span class="fw-semibold text-info fs-15 mb-0 ms-1">USD</span>
                                             </div>
                                         </div>
                                         <div class="d-flex align-items-center">
-                                            <div class="me-2 lh-1">
-                                                        <span class="avatar avatar-rounded bg-light p-1 avatar-xs">
-                                                            KES
-                                                        </span>
-                                            </div>
                                             <div>
-                                                <span class="fw-semibold">50000</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="card custom-card">
-                                <div class="card-body">
-                                    <div class="row g-2">
-                                        <div class="col-6">
-                                            <img src="{{asset('assets/images/nft-images/10.png')}}" alt="" class="nft-featuredcollect-image">
-                                        </div>
-                                        <div class="col-6">
-                                            <img src="{{asset('assets/images/nft-images/15.png')}}" alt="" class="nft-featuredcollect-image">
-                                        </div>
-                                        <div class="col-6">
-                                            <img src="{{asset('assets/images/nft-images/17.png')}}" alt="" class="nft-featuredcollect-image">
-                                        </div>
-                                        <div class="col-6">
-                                            <img src="{{asset('assets/images/nft-images/16.png')}}" alt="" class="nft-featuredcollect-image">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="card-footer">
-                                    <div class="d-flex align-items-center justify-content-between">
-                                        <div>
-                                            <div class="text-muted fs-12 d-flex align-items-center">Currency :
-                                                <span class="fw-semibold text-success fs-15 mb-0 ms-1">USD</span>
-                                            </div>
-                                        </div>
-                                        <div class="d-flex align-items-center">
-                                            <div class="me-2 lh-1">
-                                                        <span class="avatar avatar-rounded bg-light p-1 avatar-xs">
-                                                            $
-                                                        </span>
-                                            </div>
-                                            <div>
-                                                <span class="fw-semibold">6000</span>
+                                                <span class="fw-semibold">{{$amount_campaign_usd_minute}}</span>
                                             </div>
                                         </div>
                                     </div>

@@ -27,6 +27,17 @@ class CampaignsController extends Controller
     }
     public function Show(){
         $campaigns = Campaign::all();
+
+//        $dan = Campaign::find($id);
+//
+//        $date = Carbon::now();
+//        $date_century = $date->startOfCentury()->toDateString();
+//
+//        $campaign_amount_kes_overall = Transaction::where('campaign_id', $dan)->where('status', 1)->where('currency_id', 1)->whereDate('created_at', '>=', $date_century)->sum('amount');
+//        $campaign_amount_usd_overall = Transaction::where('campaign_id', $dan)->where('status', 1)->where('currency_id', 2)->whereDate('created_at', '>=', $date_century)->sum('amount');
+
+
+
         return view('sections.campaigns',compact('campaigns'));
     }
     public function edit($id){
@@ -57,12 +68,14 @@ class CampaignsController extends Controller
         $date_month = $date->startOfMonth()->toDateString();
         $date_year = $date->startOfYear()->toDateString();
 
+
         $campaign_amount_kes_week = Transaction::where('campaign_id', $dan)->where('status', 1)->where('currency_id', 1)->whereDate('created_at', '>=', $date_string)->sum('amount');
         $campaign_amount_usd_week = Transaction::where('campaign_id', $dan)->where('status', 1)->where('currency_id', 2)->whereDate('created_at', '>=', $date_string)->sum('amount');
         $campaign_amount_kes_month = Transaction::where('campaign_id', $dan)->where('status', 1)->where('currency_id', 1)->whereDate('created_at', '>=', $date_month)->sum('amount');
         $campaign_amount_usd_month = Transaction::where('campaign_id', $dan)->where('status', 1)->where('currency_id', 2)->whereDate('created_at', '>=', $date_month)->sum('amount');
         $campaign_amount_kes_year = Transaction::where('campaign_id', $dan)->where('status', 1)->where('currency_id', 1)->whereDate('created_at', '>=', $date_year)->sum('amount');
         $campaign_amount_usd_year = Transaction::where('campaign_id', $dan)->where('status', 1)->where('currency_id', 2)->whereDate('created_at', '>=', $date_year)->sum('amount');
+
 
         $campaign_amount_mpesa = Transaction::where('campaign_id', $dan)->where('status', 1)->where('currency_id', 1)->where('payment_method_id', 1)->whereDate('created_at','>=', $date_year)->sum('amount');
         $campaign_amount_airtelMoney = Transaction::where('campaign_id', $dan)->where('status', 1)->where('currency_id', 1)->where('payment_method_id', 2)->whereDate('created_at','>=', $date_year)->sum('amount');
