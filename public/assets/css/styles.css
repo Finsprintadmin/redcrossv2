@@ -2,13 +2,13 @@
 [Master Stylesheet]
 
 Project                            :   YNEX - HTML5 Bootstrap Admin Template
-Create Date                        :   
-Author & Copyright Ownership       :   Spruko Technologies Private Limited 
+Create Date                        :
+Author & Copyright Ownership       :   Spruko Technologies Private Limited
 Author URL                         :   https://themeforest.net/user/spruko
 Support	                           :   https://support.spruko.com/
 License Details                    :   https://spruko.com/licenses-details
 ------------------------------------------------------------------*/
-/* Table Of Content 
+/* Table Of Content
 variables
 switcher
 accordion
@@ -564,7 +564,7 @@ typography
 /* Menu Colors Styles*/
 [data-menu-styles=light] {
   --menu-bg: #fff;
-  --menu-prime-color: #536485;
+  --menu-prime-color: #cb0909;
   --menu-border-color: #f3f3f3;
 }
 [data-menu-styles=light][data-nav-layout=vertical] .app-sidebar .main-sidebar-header .header-logo .desktop-logo {
@@ -576,7 +576,7 @@ typography
   display: none;
 }
 [data-menu-styles=light] .side-menu__label1 a {
-  color: #222528;
+  color: #cb0909;
   font-weight: 600;
 }
 [data-menu-styles=light] .side-menu__label1 {
@@ -595,7 +595,7 @@ typography
 
 [data-menu-styles=dark] {
   --menu-bg: var(--custom-white);
-  --menu-prime-color: #8f9bb3;
+  --menu-prime-color: #cb0909;
   --menu-border-color: rgba(255, 255, 255, 0.1);
 }
 [data-menu-styles=dark][data-nav-layout=vertical] .app-sidebar .main-sidebar-header .header-logo .desktop-dark {
