@@ -10,7 +10,7 @@
                     <div class="card custom-card">
                         <div class="card-header justify-content-between">
                             <div class="card-title">
-                                Create Campaign
+                                Edit Campaign
                             </div>
 
                         </div>
