@@ -49,6 +49,8 @@ Route::controller(CampaignsController::class)->group(function () {
 
     Route::post('/campaign/save', 'Store')->name('save_campaign');
 
+    Route::post('/campaign/modal/save', 'StoreModal')->name('save_campaign_modal');
+
     Route::get('/campaign/show', 'Show')->name('all_campaigns');
 
     Route::get('/campaign/view/{id}', 'ViewCampaign')->name('show_single_campaign');

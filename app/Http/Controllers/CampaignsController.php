@@ -20,6 +20,11 @@ class CampaignsController extends Controller
         $campaign->save();
         return redirect()->route('all_campaigns');
     }
+    public function StoreModal(Request $request){
+        $campaign = new Campaign($request->all());
+        $campaign->save();
+        return redirect()->route('home');
+    }
     public function Show(){
         $campaigns = Campaign::all();
         return view('sections.campaigns',compact('campaigns'));
