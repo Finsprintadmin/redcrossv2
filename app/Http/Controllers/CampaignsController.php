@@ -26,7 +26,18 @@ class CampaignsController extends Controller
         return redirect()->route('home');
     }
     public function Show(){
-        $campaigns = Campaign::all();
+       // $campaigns = Campaign::all();
+        //$campaigns = Campaign::with('transactions')->get();
+        $campaigns = Campaign::get();
+        foreach ($campaigns as $campaign){
+            $campaign['total_kes'] = Transaction::where('campaign_id', $campaign->id)->where('currency_id', 1)->sum('amount');
+            $campaign['total_usd'] = Transaction::where('campaign_id', $campaign->id)->where('currency_id', 2)->sum('amount');
+           // $campaign['haha'] = 'Evans';
+        }
+      //  return $campaigns;
+
+       // return $campaigns;
+        //dd($campaigns);
 
 //        $dan = Campaign::find($id);
 //

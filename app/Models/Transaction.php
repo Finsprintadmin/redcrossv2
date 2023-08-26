@@ -13,5 +13,9 @@ class Transaction extends Model
 
     protected $fillable = ['id','campaign_id','donor_id','currency_id','payment_method_id','pledge_id','payment_reference','amount','gateway','payment_date','status'];
 
+    public function campaign(){
+        return $this->belongsTo(Campaign::class, 'id', 'campaign_id');
+    }
+
 }
 

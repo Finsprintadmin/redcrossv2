@@ -12,4 +12,8 @@ class Campaign extends Model
     protected $table = 'campaigns';
 
     protected $fillable = ['campaign_name','description','donor_type','target_amount','currency','start_date','end_date','status','image'];
+
+    public function transactions(){
+        return $this->hasMany(Transaction::class, 'campaign_id', 'id');
+    }
 }

@@ -38,7 +38,11 @@
                                         <div class="me-2">
                                             <i class="ri-folder-2-line fs-16"></i>
                                         </div>
-                                        <span class="flex-fill text-nowrap"> {{$data -> campaign_name}} </span>
+                                        <span class="flex-fill text-nowrap">
+                                            <a href="{{route('show_single_campaign',$data->id)}}">
+                                            {{$data -> campaign_name}}
+                                        </a>
+                                        </span>
                                     </div>
                                 </a>
                             </li>

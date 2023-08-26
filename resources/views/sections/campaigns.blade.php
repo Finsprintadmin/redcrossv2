@@ -148,8 +148,8 @@
                                         <h6 class="fw-semibold text-fixed-white pb-4">
                                             <span class="text-dark fs-15 fw-semibold mb-2">Total Donations</span>
                                         </h6>
-                                        <span class="badge bg-outline-danger custom-badge fs-15 me-5 m-2"><i class="ti ti-flame me-1"></i>KES.0</span>
-                                        <span class="badge bg-outline-dark custom-badge fs-15 me-5 m-2"><i class="ti ti-flame me-1"></i>USD.0</span>
+                                        <span class="badge bg-outline-danger custom-badge fs-15 me-5 m-2"><i class="ti ti-flame me-1"></i>KES. {{$campaign->total_kes}}</span>
+                                        <span class="badge bg-outline-dark custom-badge fs-15 me-5 m-2"><i class="ti ti-flame me-1"></i>USD.{{$campaign->total_usd}}</span>
                                     </div>
 
                                 </div>
