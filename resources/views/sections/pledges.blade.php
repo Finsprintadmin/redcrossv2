@@ -110,213 +110,210 @@
                 <!-- End:: row-5 -->
 
                 <!-- Start:: row-4 -->
-                <div class="row">
-                    <div class="col-xl-12">
-                        <div class="card custom-card">
-                            <div class="card-header">
-                                <div class="card-title">Pledges</div>
-                            </div>
-                            <div class="card-body">
-                                <table id="file-export" class="table table-bordered text-nowrap" style="width:100%">
-                                    <thead>
-                                    <tr>
-                                        <th scope="col">Donor ID</th>
-                                        <th scope="col">Campaign ID</th>
-                                        <th scope="col">Frequency</th>
-                                        <th scope="col">Amount</th>
-                                        <th scope="col">Created At</th>
-                                        <th scope="col">Action</th>
-                                    </tr>
-                                    </thead>
-                                    <tbody>
-                                    <tr>
-                                        <td>DG54546Q</td>
-                                        <td>CP495985</td>
-                                        <td>Weekly</td>
-                                        <td>KES. 2800</td>
-                                        <td>2011-04-25</td>
-                                        <td>
-                                            <div class="hstack gap-2 fs-1">
-                                                <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-wave waves-effect waves-light btn-sm btn-success-light"><i class="fe fe-eye"></i></a>
+{{--                <div class="row">--}}
+{{--                    <div class="col-xl-12">--}}
+{{--                        <div class="card custom-card">--}}
+{{--                            <div class="card-body">--}}
+{{--                                <table id="file-export" class="table table-bordered text-nowrap" style="width:100%">--}}
+{{--                                    <thead>--}}
+{{--                                    <tr>--}}
+{{--                                        <th scope="col">Donor ID</th>--}}
+{{--                                        <th scope="col">Campaign ID</th>--}}
+{{--                                        <th scope="col">Frequency</th>--}}
+{{--                                        <th scope="col">Amount</th>--}}
+{{--                                        <th scope="col">Created At</th>--}}
+{{--                                        <th scope="col">Action</th>--}}
+{{--                                    </tr>--}}
+{{--                                    </thead>--}}
+{{--                                    <tbody>--}}
+{{--                                    <tr>--}}
+{{--                                        <td>DG54546Q</td>--}}
+{{--                                        <td>CP495985</td>--}}
+{{--                                        <td>Weekly</td>--}}
+{{--                                        <td>KES. 2800</td>--}}
+{{--                                        <td>2011-04-25</td>--}}
+{{--                                        <td>--}}
+{{--                                            <div class="hstack gap-2 fs-1">--}}
+{{--                                                <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-wave waves-effect waves-light btn-sm btn-success-light"><i class="fe fe-eye"></i></a>--}}
 
-                                            </div>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>DG57046Q</td>
-                                        <td>CP498785</td>
-                                        <td>Monthly</td>
-                                        <td>$ 2800</td>
-                                        <td>2015-04-25</td>
-                                        <td>
-                                            <div class="hstack gap-2 fs-1">
-                                                <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-wave waves-effect waves-light btn-sm btn-success-light"><i class="fe fe-eye"></i></a>
+{{--                                            </div>--}}
+{{--                                        </td>--}}
+{{--                                    </tr>--}}
+{{--                                    <tr>--}}
+{{--                                        <td>DG57046Q</td>--}}
+{{--                                        <td>CP498785</td>--}}
+{{--                                        <td>Monthly</td>--}}
+{{--                                        <td>$ 2800</td>--}}
+{{--                                        <td>2015-04-25</td>--}}
+{{--                                        <td>--}}
+{{--                                            <div class="hstack gap-2 fs-1">--}}
+{{--                                                <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-wave waves-effect waves-light btn-sm btn-success-light"><i class="fe fe-eye"></i></a>--}}
 
-                                            </div>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>DG54577Q</td>
-                                        <td>CP466985</td>
-                                        <td>Daily</td>
-                                        <td>KES. 4000</td>
-                                        <td>2021-04-29</td>
-                                        <td>
-                                            <div class="hstack gap-2 fs-1">
-                                                <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-wave waves-effect waves-light btn-sm btn-success-light"><i class="fe fe-eye"></i></a>
+{{--                                            </div>--}}
+{{--                                        </td>--}}
+{{--                                    </tr>--}}
+{{--                                    <tr>--}}
+{{--                                        <td>DG54577Q</td>--}}
+{{--                                        <td>CP466985</td>--}}
+{{--                                        <td>Daily</td>--}}
+{{--                                        <td>KES. 4000</td>--}}
+{{--                                        <td>2021-04-29</td>--}}
+{{--                                        <td>--}}
+{{--                                            <div class="hstack gap-2 fs-1">--}}
+{{--                                                <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-wave waves-effect waves-light btn-sm btn-success-light"><i class="fe fe-eye"></i></a>--}}
 
-                                            </div>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>DG54546Q</td>
-                                        <td>CP495985</td>
-                                        <td>Monthly</td>
-                                        <td>USD. 2850</td>
-                                        <td>2018-04-25</td>
-                                        <td>
-                                            <div class="hstack gap-2 fs-1">
-                                                <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-wave waves-effect waves-light btn-sm btn-success-light"><i class="fe fe-eye"></i></a>
+{{--                                            </div>--}}
+{{--                                        </td>--}}
+{{--                                    </tr>--}}
+{{--                                    <tr>--}}
+{{--                                        <td>DG54546Q</td>--}}
+{{--                                        <td>CP495985</td>--}}
+{{--                                        <td>Monthly</td>--}}
+{{--                                        <td>USD. 2850</td>--}}
+{{--                                        <td>2018-04-25</td>--}}
+{{--                                        <td>--}}
+{{--                                            <div class="hstack gap-2 fs-1">--}}
+{{--                                                <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-wave waves-effect waves-light btn-sm btn-success-light"><i class="fe fe-eye"></i></a>--}}
 
-                                            </div>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>DG54546Q</td>
-                                        <td>CP495985</td>
-                                        <td>Daily</td>
-                                        <td>USD. 7800</td>
-                                        <td>2011-04-25</td>
-                                        <td>
-                                            <div class="hstack gap-2 fs-1">
-                                                <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-wave waves-effect waves-light btn-sm btn-success-light"><i class="fe fe-eye"></i></a>
+{{--                                            </div>--}}
+{{--                                        </td>--}}
+{{--                                    </tr>--}}
+{{--                                    <tr>--}}
+{{--                                        <td>DG54546Q</td>--}}
+{{--                                        <td>CP495985</td>--}}
+{{--                                        <td>Daily</td>--}}
+{{--                                        <td>USD. 7800</td>--}}
+{{--                                        <td>2011-04-25</td>--}}
+{{--                                        <td>--}}
+{{--                                            <div class="hstack gap-2 fs-1">--}}
+{{--                                                <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-wave waves-effect waves-light btn-sm btn-success-light"><i class="fe fe-eye"></i></a>--}}
 
-                                            </div>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>DG54546Q</td>
-                                        <td>CP495985</td>
-                                        <td>Yearly</td>
-                                        <td>KES.48840</td>
-                                        <td>2011-04-25</td>
-                                        <td>
-                                            <div class="hstack gap-2 fs-1">
-                                                <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-wave waves-effect waves-light btn-sm btn-success-light"><i class="fe fe-eye"></i></a>
+{{--                                            </div>--}}
+{{--                                        </td>--}}
+{{--                                    </tr>--}}
+{{--                                    <tr>--}}
+{{--                                        <td>DG54546Q</td>--}}
+{{--                                        <td>CP495985</td>--}}
+{{--                                        <td>Yearly</td>--}}
+{{--                                        <td>KES.48840</td>--}}
+{{--                                        <td>2011-04-25</td>--}}
+{{--                                        <td>--}}
+{{--                                            <div class="hstack gap-2 fs-1">--}}
+{{--                                                <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-wave waves-effect waves-light btn-sm btn-success-light"><i class="fe fe-eye"></i></a>--}}
 
-                                            </div>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>DG54546Q</td>
-                                        <td>CP495985</td>
-                                        <td>Weekly</td>
-                                        <td>KES. 2800</td>
-                                        <td>2011-04-25</td>
-                                        <td>
-                                            <div class="hstack gap-2 fs-1">
-                                                <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-wave waves-effect waves-light btn-sm btn-success-light"><i class="fe fe-eye"></i></a>
+{{--                                            </div>--}}
+{{--                                        </td>--}}
+{{--                                    </tr>--}}
+{{--                                    <tr>--}}
+{{--                                        <td>DG54546Q</td>--}}
+{{--                                        <td>CP495985</td>--}}
+{{--                                        <td>Weekly</td>--}}
+{{--                                        <td>KES. 2800</td>--}}
+{{--                                        <td>2011-04-25</td>--}}
+{{--                                        <td>--}}
+{{--                                            <div class="hstack gap-2 fs-1">--}}
+{{--                                                <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-wave waves-effect waves-light btn-sm btn-success-light"><i class="fe fe-eye"></i></a>--}}
 
-                                            </div>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>DG54546Q</td>
-                                        <td>CP495985</td>
-                                        <td>Weekly</td>
-                                        <td>KES. 2800</td>
-                                        <td>2011-04-25</td>
-                                        <td>
-                                            <div class="hstack gap-2 fs-1">
-                                                <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-wave waves-effect waves-light btn-sm btn-success-light"><i class="fe fe-eye"></i></a>
+{{--                                            </div>--}}
+{{--                                        </td>--}}
+{{--                                    </tr>--}}
+{{--                                    <tr>--}}
+{{--                                        <td>DG54546Q</td>--}}
+{{--                                        <td>CP495985</td>--}}
+{{--                                        <td>Weekly</td>--}}
+{{--                                        <td>KES. 2800</td>--}}
+{{--                                        <td>2011-04-25</td>--}}
+{{--                                        <td>--}}
+{{--                                            <div class="hstack gap-2 fs-1">--}}
+{{--                                                <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-wave waves-effect waves-light btn-sm btn-success-light"><i class="fe fe-eye"></i></a>--}}
 
-                                            </div>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>DG54546Q</td>
-                                        <td>CP495985</td>
-                                        <td>Weekly</td>
-                                        <td>KES. 2800</td>
-                                        <td>2011-04-25</td>
-                                        <td>
-                                            <div class="hstack gap-2 fs-1">
-                                                <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-wave waves-effect waves-light btn-sm btn-success-light"><i class="fe fe-eye"></i></a>
+{{--                                            </div>--}}
+{{--                                        </td>--}}
+{{--                                    </tr>--}}
+{{--                                    <tr>--}}
+{{--                                        <td>DG54546Q</td>--}}
+{{--                                        <td>CP495985</td>--}}
+{{--                                        <td>Weekly</td>--}}
+{{--                                        <td>KES. 2800</td>--}}
+{{--                                        <td>2011-04-25</td>--}}
+{{--                                        <td>--}}
+{{--                                            <div class="hstack gap-2 fs-1">--}}
+{{--                                                <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-wave waves-effect waves-light btn-sm btn-success-light"><i class="fe fe-eye"></i></a>--}}
 
-                                            </div>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>DG54546Q</td>
-                                        <td>CP495985</td>
-                                        <td>Weekly</td>
-                                        <td>KES. 2800</td>
-                                        <td>2011-04-25</td>
-                                        <td>
-                                            <div class="hstack gap-2 fs-1">
-                                                <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-wave waves-effect waves-light btn-sm btn-success-light"><i class="fe fe-eye"></i></a>
+{{--                                            </div>--}}
+{{--                                        </td>--}}
+{{--                                    </tr>--}}
+{{--                                    <tr>--}}
+{{--                                        <td>DG54546Q</td>--}}
+{{--                                        <td>CP495985</td>--}}
+{{--                                        <td>Weekly</td>--}}
+{{--                                        <td>KES. 2800</td>--}}
+{{--                                        <td>2011-04-25</td>--}}
+{{--                                        <td>--}}
+{{--                                            <div class="hstack gap-2 fs-1">--}}
+{{--                                                <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-wave waves-effect waves-light btn-sm btn-success-light"><i class="fe fe-eye"></i></a>--}}
 
-                                            </div>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>DG54546Q</td>
-                                        <td>CP495985</td>
-                                        <td>Weekly</td>
-                                        <td>KES. 2800</td>
-                                        <td>2011-04-25</td>
-                                        <td>
-                                            <div class="hstack gap-2 fs-1">
-                                                <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-wave waves-effect waves-light btn-sm btn-success-light"><i class="fe fe-eye"></i></a>
+{{--                                            </div>--}}
+{{--                                        </td>--}}
+{{--                                    </tr>--}}
+{{--                                    <tr>--}}
+{{--                                        <td>DG54546Q</td>--}}
+{{--                                        <td>CP495985</td>--}}
+{{--                                        <td>Weekly</td>--}}
+{{--                                        <td>KES. 2800</td>--}}
+{{--                                        <td>2011-04-25</td>--}}
+{{--                                        <td>--}}
+{{--                                            <div class="hstack gap-2 fs-1">--}}
+{{--                                                <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-wave waves-effect waves-light btn-sm btn-success-light"><i class="fe fe-eye"></i></a>--}}
 
-                                            </div>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>DG54546Q</td>
-                                        <td>CP495985</td>
-                                        <td>Weekly</td>
-                                        <td>KES. 2800</td>
-                                        <td>2011-04-25</td>
-                                        <td>
-                                            <div class="hstack gap-2 fs-1">
-                                                <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-wave waves-effect waves-light btn-sm btn-success-light"><i class="fe fe-eye"></i></a>
+{{--                                            </div>--}}
+{{--                                        </td>--}}
+{{--                                    </tr>--}}
+{{--                                    <tr>--}}
+{{--                                        <td>DG54546Q</td>--}}
+{{--                                        <td>CP495985</td>--}}
+{{--                                        <td>Weekly</td>--}}
+{{--                                        <td>KES. 2800</td>--}}
+{{--                                        <td>2011-04-25</td>--}}
+{{--                                        <td>--}}
+{{--                                            <div class="hstack gap-2 fs-1">--}}
+{{--                                                <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-wave waves-effect waves-light btn-sm btn-success-light"><i class="fe fe-eye"></i></a>--}}
 
-                                            </div>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>DG54546Q</td>
-                                        <td>CP495985</td>
-                                        <td>Weekly</td>
-                                        <td>KES. 2800</td>
-                                        <td>2011-04-25</td>
-                                        <td>
-                                            <div class="hstack gap-2 fs-1">
-                                                <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-wave waves-effect waves-light btn-sm btn-success-light"><i class="fe fe-eye"></i></a>
+{{--                                            </div>--}}
+{{--                                        </td>--}}
+{{--                                    </tr>--}}
+{{--                                    <tr>--}}
+{{--                                        <td>DG54546Q</td>--}}
+{{--                                        <td>CP495985</td>--}}
+{{--                                        <td>Weekly</td>--}}
+{{--                                        <td>KES. 2800</td>--}}
+{{--                                        <td>2011-04-25</td>--}}
+{{--                                        <td>--}}
+{{--                                            <div class="hstack gap-2 fs-1">--}}
+{{--                                                <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-wave waves-effect waves-light btn-sm btn-success-light"><i class="fe fe-eye"></i></a>--}}
 
-                                            </div>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>DG54546Q</td>
-                                        <td>CP495985</td>
-                                        <td>Weekly</td>
-                                        <td>KES. 2800</td>
-                                        <td>2011-04-25</td>
-                                        <td>
-                                            <div class="hstack gap-2 fs-1">
-                                                <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-wave waves-effect waves-light btn-sm btn-success-light"><i class="fe fe-eye"></i></a>
+{{--                                            </div>--}}
+{{--                                        </td>--}}
+{{--                                    </tr>--}}
+{{--                                    <tr>--}}
+{{--                                        <td>DG54546Q</td>--}}
+{{--                                        <td>CP495985</td>--}}
+{{--                                        <td>Weekly</td>--}}
+{{--                                        <td>KES. 2800</td>--}}
+{{--                                        <td>2011-04-25</td>--}}
+{{--                                        <td>--}}
+{{--                                            <div class="hstack gap-2 fs-1">--}}
+{{--                                                <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-wave waves-effect waves-light btn-sm btn-success-light"><i class="fe fe-eye"></i></a>--}}
 
-                                            </div>
-                                        </td>
-                                    </tr>
-                                    </tbody>
-                                </table>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+{{--                                            </div>--}}
+{{--                                        </td>--}}
+{{--                                    </tr>--}}
+{{--                                    </tbody>--}}
+{{--                                </table>--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
                 <!-- End:: row-4 -->
 
 

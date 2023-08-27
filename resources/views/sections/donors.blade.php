@@ -53,23 +53,23 @@
 
                                     <div class="col-sm-1">
                                         <label class="visually-hidden"
-                                               for="specificSizeSelect">Status</label>
+                                               for="specificSizeSelect">By Country</label>
                                         <select class="form-select" id="specificSizeSelect">
-                                            <option selected>Status...</option>
-                                            <option value="1">Paid</option>
-                                            <option value="2">Pending</option>
-                                            <option value="3">Failed</option>
+                                            <option selected>Country...</option>
+                                            <option value="1">Kenya</option>
+                                            <option value="2">Tanzania</option>
+                                            <option value="2">USA</option>
                                         </select>
                                     </div>
 
                                     <div class="col-sm-1">
                                         <label class="visually-hidden"
-                                               for="specificSizeSelect">Currency</label>
+                                               for="specificSizeSelect">By County</label>
                                         <select class="form-select" id="specificSizeSelect">
-                                            <option selected>Currency...</option>
-                                            <option value="1">ALL</option>
-                                            <option value="2">KES</option>
-                                            <option value="3">USD</option>
+                                            <option selected>County...</option>
+                                            <option value="1">Nairobi</option>
+                                            <option value="2">Nakuru</option>
+                                            <option value="3">Machakos</option>
                                         </select>
                                     </div>
 
@@ -113,30 +113,11 @@
                 <div class="row">
                     <div class="col-xl-12">
                         <div class="card custom-card">
-                            <div class="card-header justify-content-between">
-                                <div class="card-title">
-                                    Donors
-                                </div>
-                                <div class="d-flex flex-wrap">
-                                    <div class="me-3 my-1">
-                                        <input class="form-control form-control-sm" type="text" placeholder="Search Here" aria-label=".form-control-sm example">
-                                    </div>
-                                    <div class="dropdown m-1">
-                                        <a href="javascript:void(0);" class="btn btn-primary btn-sm btn-wave waves-effect waves-light" data-bs-toggle="dropdown" aria-expanded="false">
-                                            Sort By<i class="ri-arrow-down-s-line align-middle ms-1 d-inline-block"></i>
-                                        </a>
-                                        <ul class="dropdown-menu" role="menu">
-                                            <li><a class="dropdown-item" href="javascript:void(0);">Local</a></li>
-                                            <li><a class="dropdown-item" href="javascript:void(0);">International</a></li>
 
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
                             <div class="card-body">
                                 <div class="table-responsive">
                                     <table class="table text-nowrap table-bordered">
-                                        <thead>
+                                        <thead class="bg-primary-transparent">
                                         <tr>
                                             <th scope="col">ID.</th>
                                             <th scope="col">Name</th>
@@ -183,8 +164,6 @@
                                             <td>
                                                 <div class="hstack gap-2 fs-1">
                                                     <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-wave waves-effect waves-light btn-sm btn-success-light"><i class="fe fe-eye"></i></a>
-                                                    <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-sm btn-info-light btn-wave waves-effect waves-light"><i class="ri-edit-line"></i></a>
-                                                    <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-sm btn-danger-light btn-wave waves-effect waves-light"><i class="ri-delete-bin-line"></i></a>
                                                 </div>
                                             </td>
                                         </tr>
@@ -220,8 +199,6 @@
                                             <td>
                                                 <div class="hstack gap-2 fs-1">
                                                     <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-wave waves-effect waves-light btn-sm btn-success-light"><i class="fe fe-eye"></i></a>
-                                                    <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-sm btn-info-light btn-wave waves-effect waves-light"><i class="ri-edit-line"></i></a>
-                                                    <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-sm btn-danger-light btn-wave waves-effect waves-light"><i class="ri-delete-bin-line"></i></a>
                                                 </div>
                                             </td>
                                         </tr>
@@ -257,8 +234,6 @@
                                             <td>
                                                 <div class="hstack gap-2 fs-1">
                                                     <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-wave waves-effect waves-light btn-sm btn-success-light"><i class="fe fe-eye"></i></a>
-                                                    <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-sm btn-info-light btn-wave waves-effect waves-light"><i class="ri-edit-line"></i></a>
-                                                    <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-sm btn-danger-light btn-wave waves-effect waves-light"><i class="ri-delete-bin-line"></i></a>
                                                 </div>
                                             </td>
                                         </tr>
@@ -294,8 +269,6 @@
                                             <td>
                                                 <div class="hstack gap-2 fs-1">
                                                     <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-wave waves-effect waves-light btn-sm btn-success-light"><i class="fe fe-eye"></i></a>
-                                                    <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-sm btn-info-light btn-wave waves-effect waves-light"><i class="ri-edit-line"></i></a>
-                                                    <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-sm btn-danger-light btn-wave waves-effect waves-light"><i class="ri-delete-bin-line"></i></a>
                                                 </div>
                                             </td>
                                         </tr>

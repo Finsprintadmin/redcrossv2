@@ -23,7 +23,7 @@
 
     /* multiple radialbar chart */
     var options = {
-        series: [44, 55, 67, 83],
+        series: [10, 15, 20, 30],
         chart: {
             height: 300,
             type: 'radialBar',
@@ -42,7 +42,7 @@
                         label: 'Total',
                         formatter: function (w) {
                             // By default this function returns the average of all series. The below is just an example to show the use of custom formatter function
-                            return 200000
+                            return 0
                         }
                     }
                 }

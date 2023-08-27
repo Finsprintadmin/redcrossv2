@@ -741,7 +741,7 @@
                         <div class="card-body">
                             <div class="table-responsive">
                                 <table class="table table-hover text-nowrap table-bordered">
-                                    <thead>
+                                    <thead class="bg-primary-transparent">
                                     <tr>
                                         <th scope="col">S.No</th>
                                         <th scope="col">Name</th>
@@ -772,7 +772,7 @@
                                             KES.324.01
                                         </td>
                                         <td>
-                                            <span class="badge bg-outline-primary">Card</span>
+                                            <span class="bg-primary-transparent">Card</span>
                                         </td>
 
                                         <td>
@@ -799,7 +799,7 @@
                                             $149,316
                                         </td>
                                         <td>
-                                            <span class="badge bg-outline-success">Mpesa</span>
+                                            <span class="bg-success-transparent">Mpesa</span>
                                         </td>
                                         <td>
                                             <span class="badge rounded-pill bg-outline-warning">Pending</span>
@@ -825,7 +825,7 @@
                                             KES.480,799
                                         </td>
                                         <td>
-                                            <span class="badge bg-outline-success">Mpesa</span>
+                                            <span class="bg-success-transparent">Mpesa</span>
                                         </td>
                                         <td>
                                             <span class="badge rounded-pill bg-outline-danger">Failed</span>
@@ -851,7 +851,7 @@
                                             $17,791,969,465
                                         </td>
                                         <td>
-                                            <span class="badge bg-outline-primary">Card</span>
+                                            <span class="bg-primary-transparent">Card</span>
                                         </td>
                                         <td>
                                             <span class="badge rounded-pill bg-outline-warning">Pending</span>
@@ -877,7 +877,7 @@
                                             $471,800,600
                                         </td>
                                         <td>
-                                            <span class="badge bg-outline-primary">Card</span>
+                                            <span class="bg-primary-transparent">Card</span>
                                         </td>
                                         <td>
                                             <span class="badge rounded-pill bg-outline-success">Paid</span>
@@ -903,7 +903,7 @@
                                             KES.453,601
                                         </td>
                                         <td>
-                                            <span class="badge bg-outline-success">Mpesa</span>
+                                            <span class="bg-success-transparent">Mpesa</span>
                                         </td>
                                         <td>
                                             <span class="badge rounded-pill bg-outline-danger">Failed</span>

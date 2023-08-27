@@ -116,7 +116,7 @@
                             <div class="card-body">
                                 <div class="table-responsive">
                                     <table class="table text-nowrap table-bordered">
-                                        <thead>
+                                        <thead class="bg-primary-transparent">
                                         <tr>
                                             <th scope="col">ID</th>
                                             <th scope="col">campaign_id</th>
@@ -160,7 +160,7 @@
                                     <div class="card-footer border-top-0">
                                         <div class="d-flex flex-wrap align-items-center justify-content-between">
                                             <div>
-                                                Showing 5 Entries <i class="bi bi-arrow-right ms-2 fw-semibold"></i>
+                                                Showing 10 Entries <i class="bi bi-arrow-right ms-2 fw-semibold"></i>
                                             </div>
                                             <div>
                                                 {{ $paginateTransactions->links('vendor.pagination.custom') }}

@@ -79,7 +79,7 @@
 
                 <!-- Start::slide -->
 
-                    <a href="{{route('users')}}" class="side-menu__item">
+                    <a href="javascript:void(0);" class="side-menu__item">
                         <i class="bx bx-grid-alt side-menu__icon"></i>
                         <span class="side-menu__label">Users</span>
                         <i class="fe fe-chevron-right side-menu__angle"></i>
@@ -89,7 +89,7 @@
 
                 <!-- Start::slide -->
 
-                    <a href="{{route('roles')}}" class="side-menu__item">
+                    <a href="javascript:void(0);" class="side-menu__item">
                         <i class="bx bx-layer side-menu__icon"></i>
                         <span class="side-menu__label">Roles</span>
                         <i class="fe fe-chevron-right side-menu__angle"></i>
@@ -99,7 +99,7 @@
 
                 <!-- Start::slide -->
 
-                <a href="{{route('logs')}}" class="side-menu__item">
+                <a href="javascript:void(0);" class="side-menu__item">
                     <i class="bx bx-layer side-menu__icon"></i>
                     <span class="side-menu__label">Logs</span>
                     <i class="fe fe-chevron-right side-menu__angle"></i>
