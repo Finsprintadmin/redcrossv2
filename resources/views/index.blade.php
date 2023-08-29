@@ -579,13 +579,13 @@
                             </div>
                             <div class="col px-0 text-center">
                                 <div class="p-sm-3 p-2 ">
-                                    <span class="text-muted fs-11">Card Local</span>
+                                    <span class="text-muted fs-11">Card</span>
                                     <span class="d-block fs-16 fw-semibold">KES.{{$amount_overall_cardLocal}}</span>
                                 </div>
                             </div>
                             <div class="col px-0 text-center">
                                 <div class="p-sm-3 p-2">
-                                    <span class="text-muted fs-11">Card International</span>
+                                    <span class="text-muted fs-11">Card</span>
                                     <span class="d-block fs-16 fw-semibold">USD.{{$amount_overall_cardInternational}}</span>
                                 </div>
                             </div>

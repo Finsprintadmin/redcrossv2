@@ -22,6 +22,13 @@ class SettingsController extends Controller
 
     }
 
+    public function CreateUser(Request $request){
+        $user = new User($request->all());
+        $user->save();
+        return redirect()->route('users');
+
+    }
+
     public function Signin(){
         return view('auth.sign_in');
 

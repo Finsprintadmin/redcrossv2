@@ -72,10 +72,24 @@
                                 <label for="name" class="form-label text-default">Name</label>
                                 <input type="text" class="form-control form-control-lg" name="name" placeholder="Name">
                             </div>
-
+                            <div class="col-xl-12 mt-0">
+                                <label for="name" class="form-label text-default">Phone No</label>
+                                <input type="text" class="form-control form-control-lg" name="phone_no" placeholder="Phone No">
+                            </div>
                             <div class="col-xl-12">
                                 <label for="email" class="form-label text-default">Email</label>
                                 <input type="text" class="form-control form-control-lg" name="email" placeholder="Email">
+                            </div>
+                            <div class="col-xl-12">
+                                <label class="form-label">Role</label>
+                                <select class="form-control" data-trigger name="role" id="choices-single-default">
+                                    <option value="">Select</option>
+                                    <option value="Critical">Admin</option>
+                                    <option value="Critical">Finance</option>
+                                    <option value="High">Human Resource</option>
+                                    <option value="Critical">Partner</option>
+
+                                </select>
                             </div>
                             <div class="col-xl-12">
                                 <label for="signup-password" class="form-label text-default">Password</label>

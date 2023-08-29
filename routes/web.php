@@ -37,6 +37,8 @@ Route::get('/roles', [SettingsController::class, 'Roles'])->name('roles');
 
 Route::get('/users', [SettingsController::class, 'Users'])->name('users');
 
+Route::post('/user/create', [SettingsController::class, 'CreateUser'])->name('create_user');
+
 Route::get('/logs', [SettingsController::class, 'Logs'])->name('logs');
 
 //Route::get('/campaign/add', [SectionsController::class, 'AddCampaign'])->name('add_campaign');

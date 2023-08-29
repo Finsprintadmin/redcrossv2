@@ -20,8 +20,10 @@ class User extends Authenticatable
      */
     protected $fillable = [
         'name',
+        'phone_no',
         'email',
         'password',
+        'password_confirmation',
     ];
 
     /**
@@ -31,6 +33,7 @@ class User extends Authenticatable
      */
     protected $hidden = [
         'password',
+        'password_confirmation',
         'remember_token',
     ];
 
@@ -42,6 +45,7 @@ class User extends Authenticatable
     protected $casts = [
         'email_verified_at' => 'datetime',
         'password' => 'hashed',
+        'password_confirmation' => 'hashed',
     ];
 
     use HasFactory;
