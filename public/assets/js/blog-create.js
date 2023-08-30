@@ -55,4 +55,20 @@
         }
     );
 
+    const multipleCancelButton3 = new Choices(
+        '.blog-tags3',
+        {
+            allowHTML: true,
+            removeItemButton: true,
+        }
+    );
+
+    const multipleCancelButton4 = new Choices(
+        '.blog-tags4',
+        {
+            allowHTML: true,
+            removeItemButton: true,
+        }
+    );
+
 })();

@@ -15,11 +15,11 @@
 
                         </div>
                         <div class="card-body">
-                            <form class="row g-3 mt-0" method="POST" action="{{route('update_campaign',$campaign->id)}}">
+                            <form class="row g-3 mt-0" method="POST" action="{{route('update_campaign', $campaign->id)}}">
                                 @csrf
                                 <div class="col-md-12">
                                     <label class="form-label">Name</label>
-                                    <input type="text" class="form-control" name="campaign_name" value="{{$campaign['campaign_name']}}">
+                                    <input type="text" class="form-control" name="campaign_name" value="{{$campaign->campaign_name}}">
                                 </div>
 
                                 <div class="col-12">
