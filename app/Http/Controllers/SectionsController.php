@@ -31,11 +31,12 @@ class SectionsController extends Controller
         if ($request->filled('currency_id'))
             $transactions = $transactions->where('currency_id', $request->currency_id);
 
-        $transactions = $transactions->latest();
+        $transactions = $transactions->with('currency')->latest();
 
         $transactions = $transactions->get();
 
         $paginateTransactions = Transaction::paginate(4);
+       // return $transactions;
         //dd($transactions);
         $filters = $request->all();
         //dd($transactions);

@@ -84,6 +84,10 @@
                         </div>
 
                     </form>
+
+                    <div class="text-center">
+                        <p class="fs-12 text-muted mt-4">Sign up For an Account <a href="{{ route('register') }}" class="text-primary">Create Account</a></p>
+                    </div>
                 </div>
             </div>
         </div>

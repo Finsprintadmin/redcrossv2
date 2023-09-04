@@ -138,14 +138,14 @@
                                                 <td>{{$transaction->id}}</td>
                                                 <td>{{$transaction->campaign_id}}</td>
                                                 <td>{{$transaction->donor_id}}</td>
-                                                <td>{{$transaction->currency_id}}</td>
+                                                <td>{{$transaction->currency->currency}}</td>
                                                 <td>{{$transaction->payment_method_id }}</td>
                                                 <td>{{$transaction->pledge_id}}</td>
                                                 <td>{{$transaction->payment_reference }}</td>
                                                 <td>{{$transaction->amount}}</td>
                                                 <td>{{$transaction->gateway}}</td>
                                                 <td>{{$transaction->payment_date}}</td>
-                                                <td>{{$transaction->status}}</td>
+                                                <td>{{$transaction->decoded_status}}</td>
                                                 <td>
                                                     <div class="hstack gap-2 fs-15">
                                                         <a aria-label="anchor"  class="btn btn-icon btn-wave waves-effect waves-light btn-sm btn-success-light"><i class="fe fe-eye"></i></a>

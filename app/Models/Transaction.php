@@ -17,5 +17,20 @@ class Transaction extends Model
         return $this->belongsTo(Campaign::class, 'id', 'campaign_id');
     }
 
+    public function currency(){
+        return $this->belongsTo(Currency::class);
+    }
+
+    public function getDecodedStatusAttribute(){
+        if ($this->status == 1)
+            return "success";
+        elseif ($this->status == 2)
+            return 'Pending';
+
+        return 'unknown';
+    }
+
+    protected $appends = ['decoded_status'];
+
 }
 
