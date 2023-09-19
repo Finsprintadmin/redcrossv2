@@ -60,6 +60,13 @@ class SectionsController extends Controller
 
     }
 
+    public function CampaignsPage()
+    {
+
+        return view('sections.campaigns_page');
+
+    }
+
     public function AddCampaign()
     {
 

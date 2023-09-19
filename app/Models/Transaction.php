@@ -25,7 +25,7 @@ class Transaction extends Model
         if ($this->status == 1)
             return "success";
         elseif ($this->status == 2)
-            return 'Pending';
+            return "Pending";
 
         return 'unknown';
     }

@@ -33,6 +33,8 @@ Route::get('/donors', [SectionsController::class, 'Donors'])->name('donors');
 
 Route::get('/campaigns', [SectionsController::class, 'Campaigns'])->name('campaigns');
 
+Route::get('/campaigns-page', [SectionsController::class, 'CampaignsPage'])->name('campaigns-page');
+
 Route::get('/roles', [SettingsController::class, 'Roles'])->name('roles');
 
 Route::get('/users', [SettingsController::class, 'Users'])->name('users');
